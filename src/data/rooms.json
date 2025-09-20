@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Deluxe Room",
+        "slug": "deluxe-room",
+        "price": 3500,
+        "img": "https://picsum.photos/id/1018/600/400",
+        "description": "Spacious room with king-size bed, balcony view, and complimentary breakfast.",
+        "amenities": [
+            "Free WiFi",
+            "Breakfast",
+            "Air Conditioning",
+            "TV"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Suite Room",
+        "slug": "suite-room",
+        "price": 5500,
+        "img": "https://picsum.photos/id/1015/600/400",
+        "description": "Luxury suite with living area, Jacuzzi, and premium room service.",
+        "amenities": [
+            "Jacuzzi",
+            "Mini Bar",
+            "Free WiFi",
+            "24x7 Service"
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "bookingId": "BKG001",
+        "customer": {
+            "name": "Ashish Kaintura",
+            "email": "ashish@example.com",
+            "phone": "9876543210"
+        },
+        "room": "Deluxe Room",
+        "checkIn": "2025-09-21",
+        "checkOut": "2025-09-23",
+        "guests": 2,
+        "amount": 7000,
+        "paymentStatus": "Success",
+        "razorpayId": "pay_29QQoUBi66xm2f"
+    }
+]
