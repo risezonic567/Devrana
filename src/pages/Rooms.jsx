@@ -11,7 +11,7 @@ export default function Rooms() {
                     <RoomCard key={room.id} room={room} />
                 ))}
             </div>
-            <BookingForm />
+            {/* <BookingForm /> */}
         </div>
       
     );

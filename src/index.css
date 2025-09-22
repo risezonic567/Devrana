@@ -5,11 +5,12 @@
 * {
   margin: 0px;
   padding: 0px;
-  border: none;
-  outline: none;
+  /* border: none;
+  outline: none; */
   font-size: 100%;
   line-height: inherit;
 }
-:root {
+/* :root {
   --theme-color: #C77A63;
-}
+} */
+
