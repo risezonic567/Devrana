@@ -1,0 +1,26 @@
+import React from 'react'
+import Herosection from '../components/Herosection'
+import AboutSection from '../components/AboutSection'
+import SpecialOffers from '../components/SpecialOffers'
+import RoomsSlider from '../components/RoomsSlider'
+import Amenities from '../components/Amenities'
+import FunFacts from '../components/FunFacts'
+import OffersSection from '../components/OffersSection'
+import VideoSection from '../components/VideoSection'
+import Testimonials from '../components/Testimonials'
+
+export default function Home() {
+  return (
+    <div>
+      <Herosection  />
+      <AboutSection/>
+      <SpecialOffers/>
+      <RoomsSlider/>
+      <Amenities/>
+      <FunFacts/>
+      <OffersSection/>
+      <VideoSection/>
+      <Testimonials/>
+    </div>
+  )
+}

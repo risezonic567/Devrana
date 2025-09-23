@@ -4,17 +4,25 @@ import RoomDetail from "./pages/RoomDetail";
 import PaymentSuccess from "./pages/PaymentSuccess";
 import BookingSuccess from "./pages/BookingSuccess";
 import AdminBookings from "./pages/AdminBookings";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <BrowserRouter>
+    <Navbar/>
       <Routes>
-        <Route path="/" element={<Rooms />} />
+        {/* <Route path="/" element={<Rooms />} /> */}
         {/* <Route path="/rooms/:slug" element={<RoomDetail />} />
         <Route path="/payment-success" element={<PaymentSuccess />} /> */}
         <Route path="/rooms/:id" element={<RoomDetail />} />
         <Route path="/booking-success/:bookingId" element={<BookingSuccess />} />
         <Route path="/admin/bookings" element={<AdminBookings />} />
+        
+        <Route path="/" element={<Home />} />
+        <Route path="/rooms" element={<Rooms />} />
+        <Route path="/rooms/:slug" element={<RoomDetail />} />
+        <Route path="/payment-success" element={<PaymentSuccess />} />
       </Routes>
     </BrowserRouter>
   );

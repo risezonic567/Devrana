@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Link } from "react-router-dom";
 import rooms from "../data/rooms.json";
 import { motion } from "framer-motion";
@@ -45,6 +46,7 @@ export default function Rooms() {
                     ))}
                 </div>
             </div>
+            {/* <BookingForm /> */}
         </div>
     );
 }
