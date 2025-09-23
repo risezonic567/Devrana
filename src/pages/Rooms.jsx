@@ -1,18 +1,50 @@
+import { Link } from "react-router-dom";
 import rooms from "../data/rooms.json";
-import RoomCard from "../components/RoomCard";
-import BookingForm from "../components/BookingForm";
+import { motion } from "framer-motion";
 
 export default function Rooms() {
     return (
-        <div className="max-w-6xl mx-auto p-6">
-            <h1 className="text-3xl font-bold mb-6">Our Rooms</h1>
-            <div className="grid md:grid-cols-2 gap-6">
-                {rooms.map((room) => (
-                    <RoomCard key={room.id} room={room} />
-                ))}
+        <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-12">
+            <div className="max-w-6xl mx-auto px-6">
+                <h1 className="text-3xl md:text-4xl font-bold text-center mb-10 text-gray-800">
+                    Explore Our Luxury Rooms
+                </h1>
+
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {rooms.map((room, index) => (
+                        <motion.div
+                            key={room.id}
+                            initial={{ opacity: 0, y: 50 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ delay: index * 0.1 }}
+                            className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transform hover:-translate-y-1 transition-all"
+                        >
+                            <img
+                                src={room.img}
+                                alt={room.name}
+                                className="w-full h-56 object-cover"
+                            />
+                            <div className="p-5">
+                                <h2 className="text-xl font-semibold text-gray-900">
+                                    {room.name}
+                                </h2>
+                                <p className="text-gray-600 mt-2 line-clamp-2">
+                                    {room.description}
+                                </p>
+                                <p className="text-lg font-bold text-blue-700 mt-3">
+                                    ₹{room.price}/night
+                                </p>
+                                <Link
+                                    to={`/rooms/${room.id}`}
+                                    className="inline-block mt-4 bg-gradient-to-r from-blue-600 to-blue-800 text-white px-5 py-2 rounded-lg hover:opacity-90 transition"
+                                >
+                                    View Details
+                                </Link>
+                            </div>
+                        </motion.div>
+                    ))}
+                </div>
             </div>
-            <BookingForm />
         </div>
-      
     );
 }
