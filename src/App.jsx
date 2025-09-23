@@ -6,6 +6,8 @@ import BookingSuccess from "./pages/BookingSuccess";
 import AdminBookings from "./pages/AdminBookings";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home";
+import Footer from "./components/Footer";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -20,10 +22,12 @@ function App() {
         <Route path="/admin/bookings" element={<AdminBookings />} />
         
         <Route path="/" element={<Home />} />
+        <Route path="/about-us" element={<About />} />
         <Route path="/rooms" element={<Rooms />} />
         <Route path="/rooms/:slug" element={<RoomDetail />} />
         <Route path="/payment-success" element={<PaymentSuccess />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }

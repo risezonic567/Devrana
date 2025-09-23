@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-
+import img1 from "../images/home/Untitled-3.jpg"
+import img2 from "../images/home/Untitled-2.jpg"
 export default function AboutSection() {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -32,17 +33,17 @@ export default function AboutSection() {
             <div className="flex-1 relative flex justify-center items-center">
                 {/* Image 1 */}
                 <img
-                    src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3"
+                    src={img1}
                     alt="Hotel view"
-                    className="rounded-lg shadow-lg w-72 lg:w-80 h-[440px] object-cover"
+                    className="rounded-lg shadow-lg w-72 lg:w-[340px] h-[420px] object-cover"
                 />
 
-                {/* Image 2 overlay */}
                 <img
-                    src="https://i.postimg.cc/hjVsfPrT/220-by-300.jpg"
+                    src={img2}
                     alt="Traveler"
-                    className="absolute -bottom-10 -right-10 rounded-lg shadow-lg w-40 sm:w-48 lg:w-56 object-cover"
+                    className="absolute sm:-bottom-24 -bottom-14 sm:-right-24 -right-14 rounded-lg shadow-lg w-40 sm:w-[220px] lg:w-[220px] h-[300px] object-cover"
                 />
+
 
                 {/* Play Button */}
                 <button

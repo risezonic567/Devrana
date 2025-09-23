@@ -1,5 +1,5 @@
 import React from "react";
-import homevideo from "../video/DEVRANA HOME PAGE VIDEO.mp4"
+import homevideo from "../video/Home Page.mp4"
 export default function Herosection() {
     const styles = {
         hero: {

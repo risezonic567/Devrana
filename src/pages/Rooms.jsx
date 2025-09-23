@@ -32,12 +32,12 @@ export default function Rooms() {
                                 <p className="text-gray-600 mt-2 line-clamp-2">
                                     {room.description}
                                 </p>
-                                <p className="text-lg font-bold text-blue-700 mt-3">
+                                <p className="text-lg font-bold text-primary mt-3">
                                     ₹{room.price}/night
                                 </p>
                                 <Link
                                     to={`/rooms/${room.id}`}
-                                    className="inline-block mt-4 bg-gradient-to-r from-blue-600 to-blue-800 text-white px-5 py-2 rounded-lg hover:opacity-90 transition"
+                                    className="inline-block mt-4 bg-gradient-to-r from-Secondary to-Secondary text-white px-5 py-2 rounded-lg hover:opacity-90 transition"
                                 >
                                     View Details
                                 </Link>

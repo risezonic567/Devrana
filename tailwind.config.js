@@ -4,19 +4,19 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        heading: ['"Playfair Display"', 'serif'],
+        serif: ['Cormorant', 'serif'],
         body: ['Lato', 'sans-serif'],
       },
-    
+
       colors: {
         primary: {
           DEFAULT: '#A12C28', 
         },
         Secondary: {
-          DEFAULT: '#EF7F1A',
+          DEFAULT: '#C6765C',
         },
         Lightcolor: {
-          DEFAULT: "#ffa726", // Fixed with '#'
+          DEFAULT: "#EF7F1A",
         },
       }
     },

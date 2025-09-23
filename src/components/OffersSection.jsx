@@ -1,5 +1,6 @@
 import React from "react";
-
+import Img from "../images/home/630-by-420.jpg-new.jpg"
+import Img1 from "../images/home/810-by-500.jpg"
 export default function OffersSection() {
     return (
         <section className="py-16">
@@ -14,9 +15,9 @@ export default function OffersSection() {
                             className="absolute top-0 left-0 w-32 h-32"
                         />
                         <img
-                            src="https://html.tonatheme.com/2022/royalking/assets/images/resource/feature-image-4.jpg"
+                            src={Img}
                             alt="Finest Resort"
-                            className="rounded-lg shadow-lg transform transition duration-500 hover:scale-105 w-full"
+                            className="rounded-lg shadow-lg transform transition duration-500 hover:scale-105 sm:w-[630px] sm:h-[420px]"
                         />
                     </div>
 
@@ -49,9 +50,9 @@ export default function OffersSection() {
                             className="absolute top-0 right-0 w-32 h-32"
                         />
                         <img
-                            src="https://html.tonatheme.com/2022/royalking/assets/images/resource/feature-image-5.jpg"
+                            src={Img1}
                             alt="Versatile Venues"
-                            className="rounded-lg shadow-lg transform transition duration-500 hover:scale-105 w-full"
+                            className="rounded-lg shadow-lg transform transition duration-500 hover:scale-105 sm:w-[810px] sm:h-[500px]"
                         />
                     </div>
 

@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 const offers = [
     {
         id: 1,
-        title: "Couple Special Packages",
+        title: "Escape to the Village—Weekend Getaway Offer",
         description:
             "Reconnect with nature and culture at Devrana, a peaceful village resort near Delhi NCR. Enjoy a 2-night stay with traditional meals, folk performances, and countryside vibes.",
-        img: "https://i.postimg.cc/zGPNqPfS/Whats-App-Image-2025-09-19-at-5-41-42-PM.jpg",
+        img: "https://i.postimg.cc/26bhxcPy/330-by-220.jpg",
         discount: "15% OFF",
     },
     {
@@ -15,7 +15,7 @@ const offers = [
         title: "Complimentary Breakfast with Every Stay",
         description:
             "Start your morning with a freshly made traditional Indian breakfast featuring local flavors and farm-fresh ingredients. Available on all room and cottage bookings.",
-        img: "http://127.0.0.1:5500/assets/images/home/image%202%20%20330by%20220.jpg",
+        img: "https://i.postimg.cc/3RspfjTB/330-by-220-jpg-image-2.jpg",
         discount: "15% OFF",
     },
     {
@@ -23,11 +23,11 @@ const offers = [
         title: "Destination Wedding Special Book Early & Save",
         description:
             "Plan your destination wedding near Delhi with Devrana. Get early bird benefits, including free décor consultation and special packages.",
-        img: "http://127.0.0.1:5500/assets/images/home/image1%20%20330by%20220.jpg",
+        img: "https://i.postimg.cc/PqF1YsV0/330-by-220-jpg-image-3.jpg",
         discount: "15% OFF",
     },
 ];
-
+// https://postimg.cc/gallery/5vKhbDB/49751f4c for delete 
 export default function SpecialOffers() {
     return (
         <section className="bg-[#faf6f2] py-16"
@@ -45,7 +45,7 @@ export default function SpecialOffers() {
                 {offers.map((offer, index) => (
                     <motion.div
                         key={offer.id}
-                        className="bg-white shadow-lg rounded-lg overflow-hidden relative cursor-pointer w-[330px] "
+                        className="bg-white shadow-lg rounded-lg overflow-hidden relative cursor-pointer w-[330px]  "
                         initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true, amount: 0.2 }}
@@ -55,7 +55,7 @@ export default function SpecialOffers() {
                         <img
                             src={offer.img}
                             alt={offer.title}
-                            className="w-full h-56 object-cover"
+                            className="w-full h-[220px] object-cover"
                         />
 
                         {/* Badge */}

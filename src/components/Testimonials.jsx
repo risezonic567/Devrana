@@ -18,7 +18,7 @@ const testimonials = [
         name: "Amit Sharma",
         designation: "Guest",
         rating: 5,
-        image: "https://via.placeholder.com/100",
+        image: "https://html.tonatheme.com/2022/royalking/assets/images/resource/testimonial-2.jpg",
         text: "Devrana Resort exceeded all my expectations. The stay was luxurious, and the service was impeccable!",
     },
     {
@@ -26,7 +26,7 @@ const testimonials = [
         name: "Neha Singh",
         designation: "Visitor",
         rating: 4,
-        image: "https://via.placeholder.com/100",
+        image: "https://html.tonatheme.com/2022/royalking/assets/images/resource/testimonial-2.jpg",
         text: "A perfect blend of comfort and culture. Highly recommend for family vacations or weddings.",
     },
     {
@@ -34,7 +34,7 @@ const testimonials = [
         name: "Rohan Verma",
         designation: "Traveler",
         rating: 5,
-        image: "https://via.placeholder.com/100",
+        image: "https://html.tonatheme.com/2022/royalking/assets/images/resource/testimonial-1.jpg",
         text: "Absolutely loved the experience! From rooms to dining, everything was top-notch.",
     },
 ];

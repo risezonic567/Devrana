@@ -8,6 +8,8 @@ import FunFacts from '../components/FunFacts'
 import OffersSection from '../components/OffersSection'
 import VideoSection from '../components/VideoSection'
 import Testimonials from '../components/Testimonials'
+import ReservationForm from '../components/ReservationForm'
+import BlogSection from '../components/sections/BlogSection'
 
 export default function Home() {
   return (
@@ -21,6 +23,8 @@ export default function Home() {
       <OffersSection/>
       <VideoSection/>
       <Testimonials/>
+      <ReservationForm/>
+      <BlogSection/>
     </div>
   )
 }

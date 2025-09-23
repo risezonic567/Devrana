@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Top 5 Reasons to Stay at Devrana Hotel",
+        "excerpt": "Discover why Devrana is the perfect getaway with luxury rooms, fine dining, and cultural experiences...",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3",
+        "date": "2025-09-15"
+    },
+    {
+        "id": 2,
+        "title": "Exploring Local Cuisine Near Devrana",
+        "excerpt": "From street food to fine dining, explore the culinary delights around Delhi NCR when you stay with us...",
+        "image": "https://images.unsplash.com/photo-1529692236671-f1d3f38a56f3?ixlib=rb-4.0.3",
+        "date": "2025-09-05"
+    },
+    {
+        "id": 3,
+        "title": "A Guide to Relaxation: Spa & Wellness at Devrana",
+        "excerpt": "Unwind and rejuvenate with our exclusive spa treatments designed to refresh your body and soul...",
+        "image": "https://images.unsplash.com/photo-1600959907703-1257d9b1d1ac?ixlib=rb-4.0.3",
+        "date": "2025-08-28"
+    }
+]
