@@ -11,14 +11,7 @@ const rooms = [
         description: "A luxurious room with modern amenities.",
         img: "https://i.postimg.cc/R0h50KH4/1.jpg",
     },
-    {
-        id: 2,
-        title: "Cottage Room",
-        price: "$65.0",
-        stars: 4,
-        description: "Cozy cottage experience with nature view.",
-        img: "https://i.postimg.cc/hv9NY0Hb/2.jpg",
-    },
+    
     {
         id: 3,
         title: "Deluxe Room",
@@ -34,6 +27,14 @@ const rooms = [
         stars: 5,
         description: "Top-notch suite with royal comfort.",
         img: "https://html.tonatheme.com/2022/royalking/assets/images/resource/room-4.jpg",
+    },
+    {
+        id: 2,
+        title: "Cottage Room",
+        price: "$65.0",
+        stars: 4,
+        description: "Cozy cottage experience with nature view.",
+        img: "https://i.postimg.cc/hv9NY0Hb/2.jpg",
     },
 ];
 

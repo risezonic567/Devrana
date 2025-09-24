@@ -28,8 +28,10 @@ export default function Footer() {
                 <div>
                     <h3 className="text-lg font-semibold text-white mb-4">Contact Us</h3>
                     <ul className="space-y-3 text-gray-400">
-                        <li>📍 Near Delhi NCR, India</li>
-                        <li>📞 +91 98765 43210</li>
+                        <li>📍 Devrana, Delhi-Haridwar Highway, Mansurpur, Muzaffarnagar
+                        </li>
+                        <li>📞 For Franchise: +91 78270 02538</li>
+                        <li>📞 +91 78270 02538</li>
                         <li>✉️ info@devrana.com</li>
                     </ul>
                 </div>

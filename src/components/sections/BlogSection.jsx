@@ -6,13 +6,13 @@ export default function BlogSection() {
         <section className="py-16 bg-gray-50">
             <div className="max-w-6xl mx-auto px-6 text-center">
                 <p className="uppercase text-sm tracking-widest text-primary font-semibold">
-                    Get More Update For
+                    Get More Update 
                 </p>
                 <h2 className="text-4xl font-serif font-bold text-gray-900 mt-2">
-                    Latest News & Updates
+                    Latest News & Info
                 </h2>
                 <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-                    Stay informed with the latest insights, travel tips, and stories from
+                    Stay Connected with the latest insights, travel tips, and stories from
                     Devrana Hotel.
                 </p>
 

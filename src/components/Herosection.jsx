@@ -1,5 +1,6 @@
 import React from "react";
 import homevideo from "../video/Home Page.mp4"
+import { NavLink } from "react-router-dom";
 export default function Herosection() {
     const styles = {
         hero: {
@@ -80,15 +81,15 @@ export default function Herosection() {
                 preload="auto"
             />
             <div style={styles.overlay} className="font-serif">
-                <h1 style={styles.title}>Welcome to Devrana Hotel</h1>
-                <p style={styles.subtitle}>Comfort. Luxury. Unforgettable stays.</p>
-                <button className="bg-primary"
+                <h1 style={styles.title}> Devrana: Traditional heritage village resort near Delhi</h1>
+                {/* <p style={styles.subtitle}>Comfort. Luxury. Unforgettable stays.</p> */}
+              <NavLink to="/rooms"  >  <button className="bg-primary"
                     style={styles.button}
                     onClick={handleBookNow}
                     aria-label="Book now"
                 >
                     Book Now
-                </button>
+                </button></NavLink>
             </div>
         </section>
     );

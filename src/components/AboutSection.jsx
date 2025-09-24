@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import img1 from "../images/home/Untitled-3.jpg"
-import img2 from "../images/home/Untitled-2.jpg"
+import img1 from "../images/home/Untitled-1.jpg-new.jpg"
+import img2 from "../images/home/Untitled-2.jpg-new.jpg"
 import video from "../video/Home Page.mp4"
+import { NavLink } from "react-router-dom";
 export default function AboutSection() {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -25,9 +26,10 @@ export default function AboutSection() {
                     and folk art and serves as a great destination for weekend getaways, cultural retreats, or
                     simply for people wanting a real connection to the roots of India.
                 </p>
-                <button className="mt-8 bg-primary hover:bg-Secondary text-white px-6 py-3 font-medium transition">
+              <NavLink to="/about-us" >  <button className="mt-8 bg-primary hover:bg-Secondary text-white px-6 py-3 font-medium transition">
                     Discover More
                 </button>
+                </NavLink>
             </div>
 
             {/* Right Content */}
@@ -117,6 +119,7 @@ export default function AboutSection() {
                                     autoPlay
                                     loop
                                     muted
+                                    controls
                                     // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen
                                 ></video>

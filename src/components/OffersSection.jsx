@@ -1,6 +1,6 @@
 import React from "react";
 import Img from "../images/home/630-by-420.jpg-new.jpg"
-import Img1 from "../images/home/810-by-500.jpg"
+import Img1 from "../images/home/810-by-500-Recovered.jpg-2.jpg"
 export default function OffersSection() {
     return (
         <section className="py-16">
@@ -70,10 +70,10 @@ export default function OffersSection() {
                             Surrounded by nature and traditional architecture, each venue blends cultural charm with
                             modern convenience.
                         </p>
-                        <ul className="list-disc list-inside text-gray-700 mb-6 space-y-2">
+                        {/* <ul className="list-disc list-inside text-gray-700 mb-6 space-y-2">
                             <li>Powerful Admin Panel</li>
                             <li>Multi-Language Support</li>
-                        </ul>
+                        </ul> */}
                         <a
                             href="#book"
                             className="inline-block bg-primary  hover:bg-Secondary text-white font-semibold py-3 px-6  shadow-md transition"

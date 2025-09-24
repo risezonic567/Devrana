@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import img1 from "../../images/home/Untitled-3.jpg"
-import img2 from "../../images/home/Untitled-2.jpg"
+import img1 from "../../images/home/Untitled-1.jpg-new.jpg"
+import img2 from "../../images/home/Untitled-2.jpg-new.jpg"
 import video from "../../video/Home Page.mp4"
 export default function AboutSection() {
     const [isOpen, setIsOpen] = useState(false); // for video modal

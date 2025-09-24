@@ -8,7 +8,7 @@ export default function AdminBookings() {
     }
 
     return (
-        <div className="p-6 max-w-5xl mx-auto">
+        <div className="p-6 max-w-5xl mx-auto pt-64">
             <h1 className="text-2xl font-bold mb-6">All Bookings</h1>
             <table className="w-full border-collapse border border-gray-300">
                 <thead className="bg-gray-100">

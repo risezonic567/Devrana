@@ -20,12 +20,12 @@
 //         },
 //     };
 
-import { saveBooking } from "./storage";
+
 
 //     const rzp = new window.Razorpay(options);
 //     rzp.open();
 // };
-
+import { saveBooking } from "./storage";
 export function openRazorpay(amount, formData, room, onSuccess) {
     const options = {
         key: "rzp_test_EkjufYBy2zEkGi", // replace with your Razorpay test key
@@ -33,7 +33,7 @@ export function openRazorpay(amount, formData, room, onSuccess) {
         currency: "INR",
         name: "Devrana Hotel",
         description: "Room Booking Payment",
-        image: "/logo.png",
+        image: "https://i.postimg.cc/X7r2sfB2/DR-LOGO.png",
         handler: function (response) {
             const newBooking = {
                 bookingId: `BKG${Date.now()}`,
@@ -57,7 +57,7 @@ export function openRazorpay(amount, formData, room, onSuccess) {
             email: formData.email,
             contact: formData.phone,
         },
-        theme: { color: "#3399cc" },
+        theme: { color: "#A12C28" },
     };
 
     const rzp = new window.Razorpay(options);

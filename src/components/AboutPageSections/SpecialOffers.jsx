@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 const offers = [
     {
         id: 1,
-        title: "Escape to the Village Weekend Getaway Offer",
+        title: "Escape to the Village—Weekend Getaway Offer",
         description:
             "Reconnect with nature and culture at Devrana, a peaceful village resort near Delhi NCR. Enjoy a 2-night stay with traditional meals, folk performances, and countryside vibes.",
-        img: "https://i.postimg.cc/L4bfsvtC/330-by-220-jpg-3-1.jpg",
+        img: "https://i.postimg.cc/FsXrx2vP/Escape-to-the-Village-Weekend-Getaway.jpg",
         discount: "15% OFF",
     },
     {
@@ -15,7 +15,8 @@ const offers = [
         title: "Complimentary Breakfast with Every Stay",
         description:
             "Start your morning with a freshly made traditional Indian breakfast featuring local flavors and farm-fresh ingredients. Available on all room and cottage bookings.",
-        img: "https://i.postimg.cc/7L9JrNPN/330-by-220-jpg-01-1.jpg",
+        // img: "https://i.postimg.cc/3RspfjTB/330-by-220-jpg-image-2.jpg",
+        img: "https://i.postimg.cc/bvwNtkPp/Complimentary-Breakfast-with-Every.jpg",
         discount: "15% OFF",
     },
     {
@@ -23,7 +24,7 @@ const offers = [
         title: "Destination Wedding Special Book Early & Save",
         description:
             "Plan your destination wedding near Delhi with Devrana. Get early bird benefits, including free décor consultation and special packages.",
-        img: "https://i.postimg.cc/KYx3WWbz/330-by-220-jpg-02-1.jpg",
+        img: "https://i.postimg.cc/8Pd1XtPT/Destination-Wedding-Special-Book-Early-amp-Save.jpg",
         discount: "15% OFF",
     },
 ];

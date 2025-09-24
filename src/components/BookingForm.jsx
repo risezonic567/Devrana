@@ -82,8 +82,8 @@ export default function BookingForm({ selectedRoom }) {
                 />
             </div>
             <button
-                onClick={handlePayment}
-                className="w-full mt-5 bg-gradient-to-r from-blue-600 to-blue-800 text-white py-3 rounded-lg font-semibold hover:opacity-90 transition"
+                // onClick={handlePayment}
+                className="w-full mt-5 bg-primary text-white py-3 rounded-lg font-semibold hover:opacity-90 transition"
             >
                 Pay ₹{selectedRoom.price}
             </button>

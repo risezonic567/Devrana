@@ -37,20 +37,19 @@ const Navbar = () => {
 
   const dropdowns = {
     pilot: [
-      { name: "Menu", path: "/cpl-ground-classes" },
+
       { name: "Gallery", path: "/atpl-ground-classes" },
-      { name: "Amenities", path: "/atpl-oral-viva" },
       {
         name: "Events",
         path: "/rtr-radio-telephony-restricted",
       },
       { name: "Packages(Offers)", path: "/cadet-pilot-program" },
-     
+
     ],
     // cabin: [
     //   { name: "R", path: "/job-oriented-cc-training" },
     // ],
-   
+
   };
 
   const renderDropdown = (key) => (
@@ -69,45 +68,46 @@ const Navbar = () => {
     <div className="fixed top-0 left-0 right-0 z-50 flex flex-col items-center w-full font-sans">
       {/* Top Bar */}
       {!scrolling && (
-        <div className="text-white text-sm w-full md:flex hidden justify-center py-2  bg-[#EF7F1A]">
+        <div className="text-white text-sm w-full md:flex hidden justify-center py-2  bg-primary">
           <div className="w-full max-w-[1320px] flex justify-between items-center px-6 flex-wrap gap-2">
-            <span>For Party Booking: +91-7060-301-700</span>
+            <span>Devrana, Delhi-Haridwar Highway, Mansurpur, Muzaffarnagar
+            </span>
             <div className="flex items-center gap-4">
               {/* <span>Phone: Devrana, Delhi-Haridwar Highway, Mansurpur, Muzaffarnagar</span> */}
               <div className="flex gap-3 text-white text-base">
                 <Link
-                  to="https://www.facebook.com/starallianceaviationacademy/"
-                  className="w-8 h-8 bg-blue-600 rounded-full flex items-center p-0 justify-center"
+                  to="https://www.facebook.com/"
+                  className="w-8 h-8 bg-white rounded-full flex items-center p-0 justify-center text-primary"
                 >
                   <FaFacebookF />
                 </Link>
                 <Link
-                  to="https://x.com/staralliance_in"
-                  className="w-8 h-8 bg-blue-400 rounded-full flex items-center p-0 justify-center"
+                  to="https://x.com/"
+                  className="w-8 h-8 bg-white rounded-full flex items-center p-0 justify-center text-primary"
                 >
                   <FaTwitter />
                 </Link>
                 <Link
-                  to="https://www.linkedin.com/company/starallianceaviationacademy/"
-                  className="w-8 h-8 bg-blue-700 rounded-full flex items-center p-0 justify-center"
+                  to="https://www.linkedin.com/company/"
+                  className="w-8 h-8 bg-white rounded-full flex items-center p-0 justify-center text-primary"
                 >
                   <FaLinkedinIn />
                 </Link>
                 <Link
-                  to="https://www.instagram.com/starallianceaviation/?hl=en"
-                  className="w-8 h-8 bg-pink-700 rounded-full flex items-center p-0 justify-center"
+                  to="https://www.instagram.com/"
+                  className="w-8 h-8 bg-white rounded-full flex items-center p-0 justify-center text-primary"
                 >
                   <FaInstagram />
                 </Link>
                 <Link
-                  to="https://in.pinterest.com/starallianceaviationacademy/"
-                  className="w-8 h-8 bg-red-700 rounded-full flex items-center p-0 justify-center"
+                  to="https://in.pinterest.com/"
+                  className="w-8 h-8 bg-white rounded-full flex items-center p-0 justify-center text-primary"
                 >
                   <FaPinterestP />
                 </Link>
                 <Link
                   to="https://www.youtube.com/@starallianceaviationacademy"
-                  className="w-8 h-8 bg-red-700 rounded-full flex items-center p-0 justify-center"
+                  className="w-8 h-8 bg-white rounded-full flex items-center p-0 justify-center text-primary"
                 >
                   <FaYoutube />
                 </Link>
@@ -119,9 +119,8 @@ const Navbar = () => {
 
       {/* Desktop Navbar */}
       <div
-        className={`hidden md:flex ${
-          scrolling ? "w-full" : "w-full"
-        }  justify-center bg-white  text-[#00163d] shadow transition-all duration-300 uppercase`}
+        className={`hidden md:flex ${scrolling ? "w-full" : "w-full"
+          }  justify-center bg-white  text-[#00163d] shadow transition-all duration-300 uppercase`}
       >
         <nav className="flex items-center justify-between w-full max-w-[1320px] px-4 py-2 relative">
           <Link to="/">
@@ -153,7 +152,9 @@ const Navbar = () => {
               </NavLink>
               {activeDropdown === "pilot" && renderDropdown("pilot")}
             </li>
-
+            <NavLink to="/blog">
+              <li className="hover:text-Secondary">Restaurant</li>
+            </NavLink>
             <li
               className="relative group"
               onMouseEnter={() => setActiveDropdown("cabin")}
@@ -161,17 +162,11 @@ const Navbar = () => {
             >
               <NavLink to="/rooms">
                 <div className="flex items-center gap-1 cursor-pointer hover:text-Secondary">
-                 Rooms 
+                  Rooms
                 </div>
               </NavLink>
               {/* {activeDropdown === "cabin" && renderDropdown("cabin")} */}
             </li>
-
-           
-
-            <NavLink to="/blog">
-              <li className="hover:text-Secondary">Blog</li>
-            </NavLink>
             <NavLink to="/blog">
               <li className="hover:text-Secondary">Contact</li>
             </NavLink>
@@ -179,6 +174,7 @@ const Navbar = () => {
           <button className="bg-primary  text-white text-sm uppercase font-semibold px-4 py-2 rounded hover:bg-Secondary transition">
             <Link to="/contact-us"> Book Your Stay </Link>
           </button>
+        
         </nav>
       </div>
 
