@@ -41,7 +41,7 @@ import { useParams } from "react-router-dom";
 import rooms from "../data/rooms.json";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-
+import Img from "../images/rooms/Banner.jpg"
 export default function RoomDetails() {
     const { id } = useParams();
     const room = rooms.find((r) => r.id === parseInt(id));
@@ -52,9 +52,9 @@ export default function RoomDetails() {
     return (
         <div className="relative">
             {/* Hero Banner */}
-            <div className="relative h-[60vh]">
+            <div className="relative h-[60vh] mt-32">
                 <img
-                    src={room.image}
+                    src={Img}
                     alt={room.name}
                     className="w-full h-full object-cover rounded-b-3xl"
                 />
@@ -66,6 +66,9 @@ export default function RoomDetails() {
 
             {/* Room Content */}
             <div className="max-w-5xl mx-auto px-6 py-12 space-y-10">
+                <div>
+                    <img src={room.img} alt="" />
+                </div>
                 <section>
                     <h2 className="text-2xl font-semibold mb-3">Overview</h2>
                     <p className="text-gray-700 leading-relaxed">{room.description}</p>
@@ -86,14 +89,14 @@ export default function RoomDetails() {
                 </section>
 
                 {/* Floating Book Now Button */}
-                <div className="fixed bottom-6 right-6">
+                {/* <div className="fixed bottom-6 right-6">
                     <button
                         onClick={() => setShowBooking(true)}
                         className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-full shadow-lg hover:scale-105 transition"
                     >
                         Book Now
                     </button>
-                </div>
+                </div> */}
             </div>
 
             {/* Booking Modal */}

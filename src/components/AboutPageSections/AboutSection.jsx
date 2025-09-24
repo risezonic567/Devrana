@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import img1 from "../../images/home/Untitled-3.jpg"
 import img2 from "../../images/home/Untitled-2.jpg"
+import video from "../../video/Home Page.mp4"
 export default function AboutSection() {
     const [isOpen, setIsOpen] = useState(false); // for video modal
     const [showMore, setShowMore] = useState(false); // for text toggle
@@ -116,14 +117,17 @@ export default function AboutSection() {
 
                             {/* Responsive Video */}
                             <div className="aspect-video">
-                                <iframe
+                                <video
                                     className="w-full h-full rounded-lg"
-                                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                                    src={video}
                                     title="Exclusive Video"
                                     frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    autoPlay
+                                    loop
+                                    muted
+                                    // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen
-                                ></iframe>
+                                ></video>
                             </div>
                         </motion.div>
                     </motion.div>

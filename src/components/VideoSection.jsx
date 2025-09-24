@@ -8,7 +8,8 @@ export default function PremiumVideoSection() {
 
 
     return (
-        <section className="relative h-screen flex items-center justify-center overflow-hidden">
+        <div className="flex justify-center" >
+        <section className="relative sm:h-[700px] w-[1600px] flex items-center justify-center overflow-hidden">
             {/* Background Image with Overlay */}
             <motion.div
                 initial={{ scale: 1.1 }}
@@ -17,7 +18,7 @@ export default function PremiumVideoSection() {
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
                     backgroundImage:
-                        "url('https://devrana.in/wp-content/uploads/2025/04/banner-1.png')",
+                        "url('https://i.postimg.cc/L6ZS1k76/Whats-App-Image-2025-09-23-at-4-06-21-PM.jpg')",
                 }}
             >
                 <div className="absolute inset-0 bg-black bg-opacity-50"></div>
@@ -72,5 +73,6 @@ export default function PremiumVideoSection() {
                 </div>
             )}
         </section>
+        </div>
     );
 }

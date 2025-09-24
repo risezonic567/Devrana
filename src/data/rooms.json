@@ -4,7 +4,7 @@
         "name": "Deluxe Room",
         "slug": "deluxe-room",
         "price": 3500,
-        "img": "https://picsum.photos/id/1018/600/400",
+        "img": "https://i.postimg.cc/qMqcBGJ1/Duluex-Room.jpg",
         "description": "Spacious room with king-size bed, balcony view, and complimentary breakfast.",
         "amenities": [
             "Free WiFi",
@@ -15,10 +15,10 @@
     },
     {
         "id": 2,
-        "name": "Suite Room",
-        "slug": "suite-room",
+        "name": "Cotage",
+        "slug": "cotage",
         "price": 5500,
-        "img": "https://picsum.photos/id/1015/600/400",
+        "img": "https://i.postimg.cc/DyNrSbmn/Cotage.jpg",
         "description": "Luxury suite with living area, Jacuzzi, and premium room service.",
         "amenities": [
             "Jacuzzi",
@@ -26,5 +26,33 @@
             "Free WiFi",
             "24x7 Service"
         ]
-    }
+    },
+    {
+        "id": 3,
+        "name": "Luxury Room",
+        "slug": "luxury-room",
+        "price": 5500,
+        "img": "https://i.postimg.cc/P58mYr8Z/Luxury-Room.jpg",
+        "description": "Luxury suite with living area, Jacuzzi, and premium room service.",
+        "amenities": [
+            "Jacuzzi",
+            "Mini Bar",
+            "Free WiFi",
+            "24x7 Service"
+        ]
+    },
+        {
+            "id": 4,
+            "name": "Room",
+            "slug": "room",
+            "price": 3500,
+            "img": "https://i.postimg.cc/DfBdKNTW/Room.jpg",
+            "description": "Spacious room with king-size bed, balcony view, and complimentary breakfast.",
+            "amenities": [
+                "Free WiFi",
+                "Breakfast",
+                "Air Conditioning",
+                "TV"
+            ]
+        }
 ]

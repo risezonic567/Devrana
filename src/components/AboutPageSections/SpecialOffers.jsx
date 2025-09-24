@@ -7,7 +7,7 @@ const offers = [
         title: "Escape to the Village Weekend Getaway Offer",
         description:
             "Reconnect with nature and culture at Devrana, a peaceful village resort near Delhi NCR. Enjoy a 2-night stay with traditional meals, folk performances, and countryside vibes.",
-        img: "https://i.postimg.cc/26bhxcPy/330-by-220.jpg",
+        img: "https://i.postimg.cc/L4bfsvtC/330-by-220-jpg-3-1.jpg",
         discount: "15% OFF",
     },
     {
@@ -15,7 +15,7 @@ const offers = [
         title: "Complimentary Breakfast with Every Stay",
         description:
             "Start your morning with a freshly made traditional Indian breakfast featuring local flavors and farm-fresh ingredients. Available on all room and cottage bookings.",
-        img: "https://i.postimg.cc/3RspfjTB/330-by-220-jpg-image-2.jpg",
+        img: "https://i.postimg.cc/7L9JrNPN/330-by-220-jpg-01-1.jpg",
         discount: "15% OFF",
     },
     {
@@ -23,14 +23,14 @@ const offers = [
         title: "Destination Wedding Special Book Early & Save",
         description:
             "Plan your destination wedding near Delhi with Devrana. Get early bird benefits, including free décor consultation and special packages.",
-        img: "https://i.postimg.cc/PqF1YsV0/330-by-220-jpg-image-3.jpg",
+        img: "https://i.postimg.cc/KYx3WWbz/330-by-220-jpg-02-1.jpg",
         discount: "15% OFF",
     },
 ];
 
 export default function SpecialOffers() {
     return (
-        <section className="bg-[#faf6f2] py-24 sm:h-screen"
+        <section className="bg-[#faf6f2] py-24 sm:h-[570px]"
         style={{backgroundImage:"url('http://127.0.0.1:5500/assets/images/shape/pattern-2.png')"}}>
            
 
@@ -38,7 +38,7 @@ export default function SpecialOffers() {
                 {offers.map((offer, index) => (
                     <motion.div
                         key={offer.id}
-                        className="  bg-white shadow-lg rounded-lg  relative cursor-pointer w-[330px] pb-20 "
+                        className="  bg-white shadow-lg rounded-lg  relative cursor-pointer w-[330px] h-[220px] pb-20 "
                         initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true, amount: 0.2 }}

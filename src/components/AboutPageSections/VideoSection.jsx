@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaPlay } from "react-icons/fa";
 import { motion } from "framer-motion";
 import video from "../../video/DEVRANA HOME PAGE VIDEO.mp4"
+import BG from "../../images/about/Thumbnail.jpg"
 export default function PremiumVideoSection() {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -9,7 +10,7 @@ export default function PremiumVideoSection() {
 
     return (
         <div className="max-w-6xl mx-auto p-9" >
-        <section className="relative h-[450px] flex items-center justify-center overflow-hidden ">
+        <section className="relative h-[700px] flex items-center justify-center overflow-hidden ">
             {/* Background Image with Overlay */}
             <motion.div
                 initial={{ scale: 1.1 }}
@@ -18,9 +19,10 @@ export default function PremiumVideoSection() {
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
                     backgroundImage:
-                        "url('https://devrana.in/wp-content/uploads/2025/04/banner-1.png')",
+                        "url('https://i.postimg.cc/9QKqBBX8/Thumbnail.jpg')",
                 }}
             >
+                    {/* https://postimg.cc/delete/r7XtZPgq/b5e06346 */}
                 <div className="absolute inset-0 bg-black bg-opacity-50"></div>
             </motion.div>
 
