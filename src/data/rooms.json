@@ -18,7 +18,7 @@
         "name": "Cotage",
         "slug": "cotage",
         "price": 5500,
-        "img": "https://i.postimg.cc/DyNrSbmn/Cotage.jpg",
+        "img": "/cotage 1.jpg",
         "description": "Luxury suite with living area, Jacuzzi, and premium room service.",
         "amenities": [
             "Jacuzzi",
@@ -40,19 +40,6 @@
             "Free WiFi",
             "24x7 Service"
         ]
-    },
-        {
-            "id": 4,
-            "name": "Room",
-            "slug": "room",
-            "price": 3500,
-            "img": "https://i.postimg.cc/DfBdKNTW/Room.jpg",
-            "description": "Spacious room with king-size bed, balcony view, and complimentary breakfast.",
-            "amenities": [
-                "Free WiFi",
-                "Breakfast",
-                "Air Conditioning",
-                "TV"
-            ]
-        }
+    }
+       
 ]
