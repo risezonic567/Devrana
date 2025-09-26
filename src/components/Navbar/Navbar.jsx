@@ -139,7 +139,7 @@ const Navbar = () => {
               <li className="hover:text-Secondary">About Us</li>
             </NavLink>
 
-            <li
+            {/* <li
               className="relative group"
               onMouseEnter={() => setActiveDropdown("pilot")}
               onMouseLeave={() => setActiveDropdown(null)}
@@ -151,8 +151,9 @@ const Navbar = () => {
                 </div>{" "}
               </NavLink>
               {activeDropdown === "pilot" && renderDropdown("pilot")}
-            </li>
-            <NavLink to="/blog">
+            </li> */}
+
+            <NavLink to="/restaurant">
               <li className="hover:text-Secondary">Restaurant</li>
             </NavLink>
             <li
@@ -162,11 +163,14 @@ const Navbar = () => {
             >
               <NavLink to="/rooms">
                 <div className="flex items-center gap-1 cursor-pointer hover:text-Secondary">
-                  Rooms
+                  Rooms & Cottages
                 </div>
               </NavLink>
               {/* {activeDropdown === "cabin" && renderDropdown("cabin")} */}
             </li>
+            <NavLink to="/blog">
+              <li className="hover:text-Secondary">Events And Pakages</li>
+            </NavLink>
             <NavLink to="/blog">
               <li className="hover:text-Secondary">Contact</li>
             </NavLink>
@@ -174,7 +178,7 @@ const Navbar = () => {
           <button className="bg-primary  text-white text-sm uppercase font-semibold px-4 py-2 rounded hover:bg-Secondary transition">
             <Link to="/contact-us"> Book Your Stay </Link>
           </button>
-        
+
         </nav>
       </div>
 
@@ -216,100 +220,29 @@ const Navbar = () => {
                 </li>
               </NavLink>
 
-              {/* Pilot Training */}
-              <li>
-                <button className="flex w-full justify-between items-center px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
-                  <NavLink to="/pilot-training">
-                    <span>Pilot Training</span>{" "}
-                  </NavLink>
-                  {openDropdown === "pilot" ? (
-                    <FaChevronUp
-                      onClick={() => toggleDropdown("pilot")}
-                      size={14}
-                    />
-                  ) : (
-                    <FaChevronDown
-                      onClick={() => toggleDropdown("pilot")}
-                      size={14}
-                    />
-                  )}
-                </button>
-                {openDropdown === "pilot" && (
-                  <ul className="ml-4 mt-2 space-y-2 border-l-2 border-indigo-200 pl-3">
-                    {dropdowns.pilot.map((item) => (
-                      <NavLink key={item.name} to={item.path}>
-                        <li className="px-2 py-1 rounded hover:bg-indigo-50 hover:text-indigo-700">
-                          {item.name}
-                        </li>
-                      </NavLink>
-                    ))}
-                  </ul>
-                )}
-              </li>
+              <NavLink to="/about-us">
+                <li className="px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
+                  Restaurant
+                </li>
+              </NavLink>
 
-              {/* Cabin Crew */}
-              <li>
-                <button className="flex w-full justify-between items-center px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
-                  <NavLink to="/cabin-crew-training">
-                    {" "}
-                    <span>Cabin Crew Training</span>{" "}
-                  </NavLink>
-                  {openDropdown === "cabin" ? (
-                    <FaChevronUp
-                      onClick={() => toggleDropdown("cabin")}
-                      size={14}
-                    />
-                  ) : (
-                    <FaChevronDown
-                      onClick={() => toggleDropdown("cabin")}
-                      size={14}
-                    />
-                  )}
-                </button>
-                {openDropdown === "cabin" && (
-                  <ul className="ml-4 mt-2 space-y-2 border-l-2 border-indigo-200 pl-3">
-                    {dropdowns.cabin.map((item) => (
-                      <NavLink key={item.name} to={item.path}>
-                        <li className="px-2 py-1 rounded hover:bg-indigo-50 hover:text-indigo-700">
-                          {item.name}
-                        </li>
-                      </NavLink>
-                    ))}
-                  </ul>
-                )}
-              </li>
+              <NavLink to="/about-us">
+                <li className="px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
+                  Rooms & Cottages
+                </li>
+              </NavLink>
 
-              {/* Services */}
-              <li>
-                <button className="flex w-full justify-between items-center px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
-                  <NavLink to="/services-expertise">
-                    {" "}
-                    <span>Services & Expertise</span>{" "}
-                  </NavLink>
-                  {openDropdown === "services" ? (
-                    <FaChevronUp
-                      onClick={() => toggleDropdown("services")}
-                      size={14}
-                    />
-                  ) : (
-                    <FaChevronDown
-                      onClick={() => toggleDropdown("services")}
-                      size={14}
-                    />
-                  )}
-                </button>
-                {openDropdown === "services" && (
-                  <ul className="ml-4 mt-2 space-y-2 border-l-2 border-indigo-200 pl-3">
-                    {dropdowns.services.map((item) => (
-                      <NavLink key={item.name} to={item.path}>
-                        <li className="px-2 py-1 rounded hover:bg-indigo-50 hover:text-indigo-700">
-                          {item.name}
-                        </li>
-                      </NavLink>
-                    ))}
-                  </ul>
-                )}
-              </li>
+              <NavLink to="/about-us">
+                <li className="px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
+                  Event And Pakages
+                </li>
+              </NavLink>
+
+              <NavLink to="/about-us">
+                <li className="px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
+                  Gallery
+                </li>
+              </NavLink>
 
               {/* Contact */}
               <NavLink to="/contact-us">
@@ -321,7 +254,7 @@ const Navbar = () => {
 
             {/* CTA Button */}
             <button className="mt-6 w-full bg-white text-primary font-semibold px-4 py-3 rounded-lg shadow hover:bg-gray-200 transition">
-              Make Appointment
+              Book Your Stay
             </button>
           </div>
         )}

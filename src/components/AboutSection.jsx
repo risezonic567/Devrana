@@ -1,83 +1,103 @@
+/* eslint-disable no-unused-vars */
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import img1 from "../images/home/Untitled-1.jpg-new.jpg"
-import img2 from "../images/home/Untitled-2.jpg-new.jpg"
-import video from "../video/Home Page.mp4"
 import { NavLink } from "react-router-dom";
+import img1 from "../images/home/home1.jpg"
+import img2 from "../images/home/home2.jpg"
+import video from "../video/Home Page.mp4"
+
+
+
 export default function AboutSection() {
     const [isOpen, setIsOpen] = useState(false);
 
+    // Placeholder classes for premium look
+    const textPrimary = "text-[#385d53]"; // Deep Forest Green
+    const bgPrimary = "bg-[#385d53]";
+    const hoverBgPrimary = "hover:bg-[#4a7368]";
+    const borderPrimary = "border-[#385d53]";
+    const textSecondary = "text-[#b5946c]"; // Muted Gold/Tan
+    const ringSecondary = "ring-[#b5946c]";
+
     return (
-        <section className="relative bg-white py-16 px-6 lg:px-20 flex flex-col lg:flex-row items-center gap-12 max-w-7xl mx-auto">
+        // Increased padding, sophisticated background, and a subtle drop shadow on the section
+        <section className="relative bg-white py-24 px-6 lg:px-20 flex flex-col lg:flex-row items-stretch gap-16 max-w-8xl mx-auto ">
             {/* Left Content */}
-            <div className="flex-1 text-center lg:text-left">
-                <p className="uppercase tracking-widest text-sm text-Secondary font-semibold">
-                    About Devrana
+            <div className="flex-1 text-center lg:text-left pt-6 lg:pt-0">
+                <p className={`uppercase tracking-[0.3em] text-xs ${textSecondary} font-medium`}>
+                    The Retreat
                 </p>
-                <h2 className="text-3xl lg:text-4xl font-serif font-semibold text-gray-900 mt-2 leading-snug ">
-                    A Village <br /> <span className="py-4"> Themed Retreat in the Heart </span> <br /> of Western UP
+                {/* Elevated Typography with a modern serif (assuming 'font-serif' is configured) */}
+                <h2 className={`text-5xl lg:text-6xl font-serif font-light text-gray-900 mt-4 leading-tight`}>
+                    A Village Theme<br />
+                    <span className={`inline-block border-b-2 border-primary pb-1`}>Retreat in the Heart</span><br />
+                    of Western UP
                 </h2>
-                <p className="mt-6 text-gray-600 leading-relaxed">
-                    Devrana is a village-themed resort located in the tranquil rural
-                    area of Western Uttar Pradesh, which offers a relaxing break from urban life. The vision of
-                    Mr. Harendra Singh, a creative resort near Delhi NCR, Devrana was created to give both
-                    Indian and international travelers a true experience of rural India. Surrounded by open
-                    fields and classical rural architecture, Devrana promotes local culture, traditional food,
-                    and folk art and serves as a great destination for weekend getaways, cultural retreats, or
-                    simply for people wanting a real connection to the roots of India.
+                <p className="mt-8 text-lg text-gray-700 leading-relaxed max-w-xl lg:max-w-none">
+                    Devrana is an exclusive, village-themed resort located in the tranquil rural
+                    area of **Western Uttar Pradesh**, offering an authentic and relaxing escape from urban life. Conceived by
+                    Mr. Harendra Singh, this creative sanctuary near Delhi NCR was established to provide both
+                    Indian and international travelers with a genuine experience of **rural India's charm**. Surrounded by open
+                    fields and classical architecture, Devrana passionately promotes local culture, traditional cuisine,
+                    and folk arts, serving as the perfect destination for cultural retreats and deep connection to the roots of India.
                 </p>
-              <NavLink to="/about-us" >  <button className="mt-8 bg-primary hover:bg-Secondary text-white px-6 py-3 font-medium transition">
-                    Discover More
-                </button>
+
+                <NavLink to="/about-us" >
+                    {/* Ghost Button with Secondary accent color for premium feel */}
+                    <button className={`mt-10 border-2 bg-white border-primary hover:text-white hover:bg-primary hover:border-Secondary px-8 py-3 font-semibold text-base tracking-widest transition-all duration-300 ease-in-out`}>
+                        DISCOVER OUR STORY
+                    </button>
                 </NavLink>
             </div>
 
-            {/* Right Content */}
-            <div className="flex-1 relative flex justify-center items-center">
-                {/* Image 1 */}
+            {/* Right Content - Elevated Image Gallery & Video Call to Action */}
+            <div className="flex-1 relative flex justify-center lg:justify-end items-start min-h-[550px]">
+
+                {/* Image 1 - Main Image */}
                 <img
                     src={img1}
-                    alt="Hotel view"
-                    className="rounded-lg shadow-lg w-72 lg:w-[340px] h-[420px] object-cover"
+                    alt="Scenic view of Devrana resort architecture"
+                    // Larger size, subtle shadow for depth, slight rotation for artistic feel
+                    className="absolute top-0 left-1/2 -translate-x-1/2 lg:left-0 lg:translate-x-0 rounded-tl-3xl rounded-br-3xl shadow-2xl w-full max-w-sm lg:max-w-md h-[450px] object-cover border-4 border-white transform rotate-1"
+                    style={{ zIndex: 2 }}
                 />
 
+                {/* Image 2 - Accent Image */}
                 <img
                     src={img2}
-                    alt="Traveler"
-                    className="absolute sm:-bottom-24 -bottom-14 sm:-right-24 -right-14 rounded-lg shadow-lg w-40 sm:w-[220px] lg:w-[220px] h-[300px] object-cover"
+                    alt="Traveler enjoying the resort experience"
+                    // Smaller, deliberately offset, strong contrasting border for a curated look
+                    className={`absolute bottom-0 right-1/2 translate-x-1/2 lg:right-0 lg:translate-x-0 rounded-br-3xl rounded-tl-3xl shadow-xl w-60 lg:w-72 h-80 object-cover border-4 ${borderPrimary} transform -rotate-2`}
+                    style={{ zIndex: 3 }}
                 />
 
 
-                {/* Play Button */}
+                {/* Play Button - Centered in the image composition, more prominent */}
                 <button
                     onClick={() => setIsOpen(true)}
-                    className="absolute right-[60px] bottom-[100px] bg-primary text-white w-28 h-28 sm:w-36 sm:h-36 flex flex-col justify-center items-center rounded-md shadow-lg hover:bg-Secondary transition"
+                    // Darker background, large size, distinct hover effect
+                    className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-white w-40 h-40 flex flex-col justify-center items-center rounded-full shadow-2xl bg-primary border-Secondary border-4 transition-all duration-300 ease-in-out hover:scale-105`}
+                    style={{ zIndex: 4 }}
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-8 w-8 sm:h-10 sm:w-10 mb-2"
-                        fill="none"
+                        className="h-10 w-10 mb-2"
+                        fill="currentColor" // Changed to fill for a solid icon look
                         viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        strokeWidth="2"
                     >
-                        <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M14.752 11.168l-4.586-2.67A1 1 0 009 9.37v5.26a1 1 0 001.166.872l4.586-2.67a1 1 0 000-1.664z"
-                        />
+                        <path d="M8 5v14l11-7z" />
                     </svg>
-                    <span className="text-xs sm:text-sm font-medium text-center">
-                        Watch Exclusive Video
+                    <span className="text-sm font-light uppercase tracking-wider text-center">
+                        View Film
                     </span>
                 </button>
             </div>
 
-            {/* Video Modal with Framer Motion */}
+            {/* Video Modal with Framer Motion (Kept mostly the same, ensuring it's sleek) */}
             <AnimatePresence>
                 {isOpen && (
                     <motion.div
-                        className="fixed inset-0 flex items-center justify-center z-50"
+                        className="fixed inset-0 flex items-center justify-center z-50 p-4"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
@@ -85,7 +105,7 @@ export default function AboutSection() {
                     >
                         {/* Dark Overlay */}
                         <motion.div
-                            className="absolute inset-0 bg-black bg-opacity-70"
+                            className="absolute inset-0 bg-black bg-opacity-80 backdrop-blur-sm"
                             onClick={() => setIsOpen(false)}
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
@@ -95,16 +115,16 @@ export default function AboutSection() {
 
                         {/* Modal Box */}
                         <motion.div
-                            className="relative bg-white rounded-lg shadow-lg w-11/12 md:w-3/4 lg:w-1/2 z-10 p-4"
-                            initial={{ scale: 0.8, opacity: 0 }}
-                            animate={{ scale: 1, opacity: 1 }}
-                            exit={{ scale: 0.8, opacity: 0 }}
-                            transition={{ duration: 0.3, ease: "easeInOut" }}
+                            className="relative bg-white rounded-xl shadow-2xl w-full md:w-4/5 lg:w-2/3 z-10 p-2"
+                            initial={{ scale: 0.9, y: 50, opacity: 0 }}
+                            animate={{ scale: 1, y: 0, opacity: 1 }}
+                            exit={{ scale: 0.9, y: 50, opacity: 0 }}
+                            transition={{ duration: 0.4, ease: "easeInOut" }}
                         >
-                            {/* Close button */}
+                            {/* Close button - Styled for premium look */}
                             <button
                                 onClick={() => setIsOpen(false)}
-                                className="absolute top-2 right-2 text-gray-700 hover:text-red-600 text-2xl z-20"
+                                className="absolute -top-3 -right-3 bg-white text-gray-800 hover:text-gray-900 border border-gray-300 w-8 h-8 flex items-center justify-center rounded-full text-2xl z-20 shadow-lg transition-colors"
                             >
                                 &times;
                             </button>
@@ -114,13 +134,11 @@ export default function AboutSection() {
                                 <video
                                     className="w-full h-full rounded-lg"
                                     src={video}
-                                    title="Exclusive Video"
-                                    frameBorder="0"
+                                    title="Exclusive Devrana Resort Video"
                                     autoPlay
                                     loop
                                     muted
                                     controls
-                                    // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen
                                 ></video>
                             </div>

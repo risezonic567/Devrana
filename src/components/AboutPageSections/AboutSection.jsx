@@ -1,26 +1,27 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import img1 from "../../images/home/Untitled-1.jpg-new.jpg"
-import img2 from "../../images/home/Untitled-2.jpg-new.jpg"
+import img1 from "../../images/about/about1st.jpg"
+// import img2 from "../images/home/home2.jpg"
 import video from "../../video/Home Page.mp4"
 export default function AboutSection() {
     const [isOpen, setIsOpen] = useState(false); // for video modal
     const [showMore, setShowMore] = useState(false); // for text toggle
 
     return (
-        <section className="relative bg-white py-16 px-6 lg:px-20 flex flex-col lg:flex-row items-center gap-12 max-w-7xl mx-auto">
+        <section className="relative bg-white py-16 px-6 lg:px-20 flex flex-col lg:flex-row items-center gap-12 max-w-8xl mx-auto">
             <div className="flex-1 text-center lg:text-left">
                 <p className="uppercase tracking-widest text-sm text-Secondary font-semibold">
                     About Devrana
                 </p>
-                <h2 className="text-3xl lg:text-4xl font-serif font-semibold text-gray-900 mt-2 leading-snug ">
-                    A Village <br />{" "}
-                    <span className="py-4"> Themed Retreat in the Heart </span> <br /> of
-                    Western UP
+                {/* Elevated Typography with a modern serif (assuming 'font-serif' is configured) */}
+                <h2 className={`text-5xl lg:text-6xl font-serif font-light text-gray-900 mt-4 leading-tight`}>
+                    A Village Theme<br />
+                    <span className={`inline-block border-b-2 border-primary pb-1`}>Retreat in the Heart</span><br />
+                    of Western UP
                 </h2>
 
                 {/* About Text */}
-                <p className="mt-6 text-gray-600 leading-relaxed">
+                <p className="mt-8 text-lg text-gray-700 leading-relaxed max-w-xl lg:max-w-none">
                     Devrana is a village-themed resort located in the tranquil rural area of Western Uttar Pradesh, which offers a relaxing break from urban life. The vision of Mr. Harendra Singh, a creative resort near Delhi NCR, Devrana was created to give both Indian and international travelers a true experience of rural India. Surrounded by open fields and classical rural architecture, Devrana promotes local culture, traditional food, and folk art and serves as a great destination for weekend getaways, cultural retreats, or simply for people wanting a real connection to the roots of India.
                     {showMore && (
                         <span className="block mt-3">
@@ -48,33 +49,28 @@ export default function AboutSection() {
                     className="rounded-lg shadow-lg w-72 lg:w-[340px] h-[420px] object-cover"
                 />
 
-                <img
+                {/* <img
                     src={img2}
                     alt="Traveler"
                     className="absolute sm:-bottom-24 -bottom-14 sm:-right-24 -right-14 rounded-lg shadow-lg w-40 sm:w-[220px] lg:w-[220px] h-[300px] object-cover"
-                />
+                /> */}
 
                 {/* Play button for modal */}
                 <button
                     onClick={() => setIsOpen(true)}
-                    className="absolute right-[60px] bottom-[100px] bg-primary text-white w-28 h-28 sm:w-36 sm:h-36 flex flex-col justify-center items-center rounded-md shadow-lg hover:bg-Secondary transition"
+                    className="absolute right-[60px] bottom-[100px] bg-primary text-white w-28 h-28 sm:w-36 sm:h-36 flex flex-col justify-center items-center rounded-full shadow-lg hover:bg-Secondary transition"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-8 w-8 sm:h-10 sm:w-10 mb-2"
-                        fill="none"
+                        className="h-10 w-10 mb-2"
+                        fill="currentColor" // Changed to fill for a solid icon look
                         viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        strokeWidth="2"
                     >
-                        <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M14.752 11.168l-4.586-2.67A1 1 0 009 9.37v5.26a1 1 0 001.166.872l4.586-2.67a1 1 0 000-1.664z"
-                        />
+                        <path d="M8 5v14l11-7z" />
                     </svg>
-                    <span className="text-xs sm:text-sm font-medium text-center">
-                        Watch Exclusive Video
+                    <span className="text-sm font-light uppercase tracking-wider text-center">
+                        Watch The
+                        <br /> Video
                     </span>
                 </button>
             </div>

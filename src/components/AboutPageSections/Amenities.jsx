@@ -9,10 +9,10 @@ import {
     FaSwimmingPool,
     FaTshirt,
     FaUtensils,
-    FaSpa,
     FaUsers,
     FaCocktail,
 } from "react-icons/fa";
+import { MdOutlinePets } from "react-icons/md";
 
 const amenities = [
     { id: 1, icon: <FaWifi className="text-4xl" />, title: "Fast wifi" },
@@ -22,7 +22,7 @@ const amenities = [
     { id: 5, icon: <FaSwimmingPool className="text-4xl" />, title: "Swimming pool" },
     { id: 6, icon: <FaTshirt className="text-4xl" />, title: "Laundry service" },
     { id: 7, icon: <FaUtensils className="text-4xl" />, title: "Breakfast" },
-    { id: 8, icon: <FaSpa className="text-4xl" />, title: "Wellness" },
+    { id: 8, icon: <MdOutlinePets className="text-4xl" />, title: "Pet Friendly" },
     { id: 9, icon: <FaUsers className="text-4xl" />, title: "Meeting Room" },
     { id: 10, icon: <FaCocktail className="text-4xl" />, title: "Welcome Drink" },
 ];

@@ -1,25 +1,39 @@
 [
     {
         "id": 1,
-        "name": "Deluxe Room",
-        "slug": "deluxe-room",
-        "price": 3500,
-        "img": "https://i.postimg.cc/qMqcBGJ1/Duluex-Room.jpg",
-        "description": "Spacious room with king-size bed, balcony view, and complimentary breakfast.",
+        "name": "Luxury Room",
+        "slug": "luxury-room",
+        "price": 5500,
+        "img": "https://i.postimg.cc/P58mYr8Z/Luxury-Room.jpg",
+        "description": "Luxury suite with living area, Jacuzzi, and premium room service.",
+        "images": [
+            "/luxary/new-luxary-image-01.jpg",
+            "/luxary/new-luxary-image-02.jpg",
+            "/luxary/new-luxary-image-03.jpg",
+            "/luxary/new-luxary-image-04.jpg",
+            "/luxary/new-luxary-image-05.jpg"
+        ],
         "amenities": [
+            "Jacuzzi",
+            "Mini Bar",
             "Free WiFi",
-            "Breakfast",
-            "Air Conditioning",
-            "TV"
+            "24x7 Service"
         ]
     },
     {
         "id": 2,
-        "name": "Cotage",
-        "slug": "cotage",
+        "name": "Cottage",
+        "slug": "cottage",
         "price": 5500,
         "img": "/cotage 1.jpg",
         "description": "Luxury suite with living area, Jacuzzi, and premium room service.",
+        "images": [
+            "/cottage/room-image-cotage-01.jpg",
+            "/cottage/room-image-cotage-02.jpg",
+            "/cottage/room-image-cotage-03.jpg",
+            "/cottage/room-image-cotage-04.jpg",
+            "/cottage/room-image-cotage-05.jpg"
+        ],
         "amenities": [
             "Jacuzzi",
             "Mini Bar",
@@ -29,17 +43,16 @@
     },
     {
         "id": 3,
-        "name": "Luxury Room",
-        "slug": "luxury-room",
-        "price": 5500,
-        "img": "https://i.postimg.cc/P58mYr8Z/Luxury-Room.jpg",
-        "description": "Luxury suite with living area, Jacuzzi, and premium room service.",
+        "name": "Family Suite",
+        "slug": "family-suite",
+        "price": 3500,
+        "img": "https://i.postimg.cc/qMqcBGJ1/Duluex-Room.jpg",
+        "description": "Spacious room with king-size bed, balcony view, and complimentary breakfast.",
         "amenities": [
-            "Jacuzzi",
-            "Mini Bar",
             "Free WiFi",
-            "24x7 Service"
+            "Breakfast",
+            "Air Conditioning",
+            "TV"
         ]
     }
-       
 ]

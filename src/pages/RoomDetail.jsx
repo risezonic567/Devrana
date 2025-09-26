@@ -141,95 +141,102 @@ import rooms from "../data/rooms.json";
 import BookingForm from "../components/BookingForm";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+
 export default function RoomDetails() {
     const { id } = useParams();
     const room = rooms.find((r) => r.id === parseInt(id));
-    const [showBooking, setShowBooking] = useState(false)
+    const [showBooking, setShowBooking] = useState(false);
+    const [selectedImg, setSelectedImg] = useState(room?.img);
+
     if (!room) return <h2 className="text-center mt-10">Room not found</h2>;
+
     return (
-        <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-10 mt-36 items-center "
+        <div
+            className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-12 mt-28"
             style={{
-                backgroundImage: "url('https://html.tonatheme.com/2022/royalking/assets/images/shape/pattern-4.png')",
-            }}>
-            <div className="max-w-7xl mx-auto px-6 flex  justify-evenly gap-x-4">
-                <div className="w-2/3">
-                    <motion.img
-                        src={room.img}
-                        alt={room.name}
+                backgroundImage:
+                    "url('https://html.tonatheme.com/2022/royalking/assets/images/shape/pattern-4.png')",
+            }}
+        >
+            <div className="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row lg:gap-10">
+                {/* Left - Image Gallery */}
+                <div className="lg:w-2/3">
+                    {/* Main Image */}
+                    <motion.div
+                        key={selectedImg}
                         initial={{ opacity: 0, scale: 1.05 }}
                         animate={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: 0.6 }}
-                        className=" sm:w-[600px] sm:h-[400px] object-cover rounded-2xl shadow-lg"
-                    />
+                        transition={{ duration: 0.5 }}
+                        className="overflow-hidden rounded-2xl shadow-lg"
+                    >
+                        <img
+                            src={selectedImg}
+                            alt={room.name}
+                            className="w-full h-[280px] sm:h-[360px] lg:h-[420px] object-cover rounded-2xl transition-transform duration-500 hover:scale-150"
+                        />
+                    </motion.div>
 
-                    <div className="flex justify-start gap-x-6 mt-4">
-                        <div className="w-24 bg-black rounded-lg overflow-hidden">
-                            <img src={room.img} alt="" />
-                        </div>
-                        <div className="w-24 bg-black rounded-lg overflow-hidden">
-                            <img src={room.img} alt="" />
-                        </div>
-                        <div className="w-24 bg-black rounded-lg overflow-hidden">
-                            <img src={room.img} alt="" />
-                        </div>
-                        <div className="w-24 bg-black rounded-lg overflow-hidden">
-                            <img src={room.img} alt="" />
-                        </div>
-                        <div className="w-24 bg-black rounded-lg overflow-hidden">
-                            <img src={room.img} alt="" />
-                        </div>
-
+                    {/* Thumbnails */}
+                    <div className="flex flex-wrap gap-3 mt-5">
+                        {room.images.map((img, i) => (
+                            <button
+                                key={i}
+                                onClick={() => setSelectedImg(img)}
+                                className={`w-20 h-16 sm:w-24 sm:h-20 rounded-xl overflow-hidden border-2 transition 
+                ${selectedImg === img ? "border-primary" : "border-transparent"}`}
+                            >
+                                <img
+                                    src={img}
+                                    alt={`Room thumbnail ${i + 1}`}
+                                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                                />
+                            </button>
+                        ))}
                     </div>
                 </div>
-                <section className="w-1/2">
-                    <div className="mt-8 grid md:grid-cols-2 gap-8 ">
-                        {/* Room Info */}
-                        <div>
-                            <h1 className="text-3xl font-bold text-gray-900">{room.name}</h1>
-                            <p className="text-gray-600 mt-3 leading-relaxed ">
-                                {room.description}
-                            </p>
-                            <section className="mt-4">
-                                <h2 className="text-2xl font-semibold mb-3">Amenities</h2>
-                                <ul className="grid grid-cols-2 sm:grid-cols-3 gap-3 ">
-                                    {room.amenities.map((a, i) => (
-                                        <li
-                                            key={i}
-                                            className="bg-gray-100 px-4 py-2 rounded-xl text-gray-600"
-                                        >
-                                            {a}
-                                        </li>
-                                    ))}
-                                </ul>
-                            </section>
-                            <p className=" text-gray-800 mt-4 text-normal flex border-2 w-36 p-3 shadow-inner hover:bg-Secondary hover:text-white">
-                                ₹ {room.price}/night
-                            </p>
-                        </div>
 
-                        {/* Booking Form */}
-                        {/* <motion.div
-                        initial={{ opacity: 0, x: 50 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.6 }}
-                        className="bg-white shadow-xl rounded-2xl p-6"
-                    >
-                        <BookingForm selectedRoom={room} />
-                    </motion.div> */}
+                {/* Right - Details */}
+                <section className="lg:w-1/2 mt-10 lg:mt-0">
+                    <div className="bg-white shadow-xl rounded-2xl p-6 sm:p-8">
+                        <h1 className="text-2xl sm:text-3xl font-bold text-gray-900">{room.name}</h1>
+                        <p className="text-gray-600 mt-3 leading-relaxed text-sm sm:text-base">
+                            {room.description}
+                        </p>
 
+                        {/* Amenities */}
+                        <section className="mt-6">
+                            <h2 className="text-xl sm:text-2xl font-semibold mb-3">Amenities</h2>
+                            <ul className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                                {room.amenities.map((a, i) => (
+                                    <li
+                                        key={i}
+                                        className="bg-gray-100 px-3 py-2 rounded-xl text-gray-600 text-sm flex items-center gap-2 shadow-sm hover:bg-gray-200 transition"
+                                    >
+                                     {a}
+                                    </li>
+                                ))}
+                            </ul>
+                        </section>
+
+                        {/* Price */}
+                        <p className="text-xl sm:text-2xl font-bold text-primary mt-6">
+                            ₹ {room.price.toLocaleString()}/night
+                        </p>
+
+                        {/* Book Button */}
+                        <button
+                            onClick={() => setShowBooking(true)}
+                            className="bg-primary text-white px-6 sm:px-8 py-3 rounded-full shadow-lg hover:scale-105 transition mt-6 text-sm sm:text-base"
+                        >
+                            Book Now
+                        </button>
                     </div>
-                    <button
-                        onClick={() => setShowBooking(true)}
-                        className="bg-primary text-white px-6 py-3 rounded-full shadow-lg hover:scale-105 transition mt-8"
-                    >
-                        Book Now
-                    </button>
                 </section>
             </div>
+
             {/* Booking Modal */}
             <AnimatePresence>
                 {showBooking && (
-
                     <motion.div
                         className="fixed inset-0 bg-black/50 backdrop-blur-sm flex justify-center items-center z-50"
                         initial={{ opacity: 0 }}
@@ -237,7 +244,7 @@ export default function RoomDetails() {
                         exit={{ opacity: 0 }}
                     >
                         <motion.div
-                            className="bg-white rounded-3xl shadow-2xl w-full max-w-lg p-8 relative"
+                            className="bg-white rounded-3xl shadow-2xl w-full max-w-lg p-6 sm:p-8 relative"
                             initial={{ y: 100, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
                             exit={{ y: 100, opacity: 0 }}
@@ -246,7 +253,7 @@ export default function RoomDetails() {
                             {/* Close button */}
                             <button
                                 onClick={() => setShowBooking(false)}
-                                className="absolute top-4 right-4 text-gray-500 hover:text-black"
+                                className="absolute top-4 right-4 text-gray-500 hover:text-black text-xl"
                             >
                                 ✕
                             </button>
@@ -259,3 +266,4 @@ export default function RoomDetails() {
         </div>
     );
 }
+
