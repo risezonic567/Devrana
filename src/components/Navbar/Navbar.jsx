@@ -161,7 +161,7 @@ const Navbar = () => {
               onMouseEnter={() => setActiveDropdown("cabin")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <NavLink to="/rooms">
+              <NavLink to="/rooms-cottage">
                 <div className="flex items-center gap-1 cursor-pointer hover:text-Secondary">
                   Rooms & Cottages
                 </div>

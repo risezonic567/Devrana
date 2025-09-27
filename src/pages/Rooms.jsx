@@ -41,7 +41,7 @@ export default function Rooms() {
                                     ₹{room.price}/night
                                 </p>
                                 <Link
-                                    to={`/rooms/${room.id}`}
+                                    to={`/rooms-cottage/${room.slug}`}
                                     className="inline-block mt-4 bg-gradient-to-r from-Secondary to-Secondary text-white px-5 py-2 rounded-lg hover:opacity-90 transition"
                                 >
                                     View Details

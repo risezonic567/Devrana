@@ -20,14 +20,13 @@ function App() {
         {/* <Route path="/" element={<Rooms />} /> */}
         {/* <Route path="/rooms/:slug" element={<RoomDetail />} />
         <Route path="/payment-success" element={<PaymentSuccess />} /> */}
-        <Route path="/rooms/:id" element={<RoomDetail />} />
         <Route path="/booking-success/:bookingId" element={<BookingSuccess />} />
         <Route path="/admin/bookings" element={<AdminBookings />} />
         
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<About />} />
-        <Route path="/rooms" element={<Rooms />} />
-        <Route path="/rooms/:slug" element={<RoomDetail />} />
+        <Route path="/rooms-cottage" element={<Rooms />} />
+        <Route path="/rooms-cottage/:slug" element={<RoomDetail />} />
         <Route path="/restaurant" element={<Restaurant />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/contact-us" element={<Contact />} />

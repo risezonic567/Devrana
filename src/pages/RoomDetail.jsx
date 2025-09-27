@@ -143,8 +143,8 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function RoomDetails() {
-    const { id } = useParams();
-    const room = rooms.find((r) => r.id === parseInt(id));
+    const { slug } = useParams();
+    const room = rooms.find((r) => r.slug === slug);
     const [showBooking, setShowBooking] = useState(false);
     const [selectedImg, setSelectedImg] = useState(room?.img);
 

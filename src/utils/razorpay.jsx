@@ -28,7 +28,7 @@
 import { saveBooking } from "./storage";
 export function openRazorpay(amount, formData, room, onSuccess) {
     const options = {
-        key: "rzp_test_EkjufYBy2zEkGi", // replace with your Razorpay test key
+        key: "rzp_test_1234567890", // replace with your Razorpay test key
         amount: amount * 100,
         currency: "INR",
         name: "Devrana Hotel",
