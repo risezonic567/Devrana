@@ -48,7 +48,7 @@ export default function Contact() {
         <>
             {/* 🚀 Hero Banner with Animation */}
             <section className="relative h-[60vh] bg-cover bg-center flex items-center justify-center sm:mt-32 mt-[73px] "
-                style={{ backgroundImage: "url('https://images.unsplash.com/photo-1501117716987-c8e9f7dbedc3?auto=format&fit=crop&w=1920&q=80')" }}>
+                style={{ backgroundImage: "url('https://i.postimg.cc/MpmmjNWq/contact-us-banner-jpg-02.jpg')" }}>
                 <div className="absolute inset-0 bg-black/50"></div>
                 <motion.div
                     initial={{ opacity: 0, y: 40 }}

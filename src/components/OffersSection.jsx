@@ -22,14 +22,14 @@ export default function OffersSection() {
                     </div>
 
                     <div className="lg:w-5/12 lg:ml-auto text-center lg:text-left">
-                        <h2 className="text-3xl md:text-6xl  mb-5 font-serif ">
-                            Finest Resort <br /> in Muzaffarnagar
+                        <h2 className="text-3xl md:text-5xl  mb-5 font-serif ">
+
+                            Luxury Resort Near Delhi on Haridwar Highway – Stay, Dine & Celebrate
+
                         </h2>
                         <p className="text-gray-700 mb-6">
-                            Experience the perfect blend of elegance, culture, and comfort at Devrana—the finest
-                            resort and destination wedding venue in Muzaffarnagar. Nestled along the Delhi–Haridwar
-                            Highway, our property offers premium stays, lush green lawns, banquet spaces, and
-                            authentic local cuisine—ideal for staycations, celebrations, or weekend getaways.
+                            Experience the perfect blend of elegance, culture, and comfort at Devrana—the finest resort and destination wedding venue in Muzaffarnagar. Nestled along the Delhi–Haridwar Highway, our property offers premium stays, lush green lawns, banquet spaces, and authentic local cuisine—ideal for staycations, celebrations, or weekend getaways.
+
                         </p>
                         <a
                             href="#discover"
@@ -57,19 +57,13 @@ export default function OffersSection() {
                     </div>
 
                     <div className="lg:w-1/3 text-center lg:text-left">
-                        <h2 className="text-3xl md:text-6xl  mb-5 font-serif ">
-                            Versatile Venues for Every Celebration
+                        <h2 className="text-3xl md:text-5xl  mb-5 font-serif ">
+                            Explore Event Packages at Devrana – A Premier Venue on Delhi–Haridwar Highway
                         </h2>
                         <p className="text-gray-700 mb-4">
-                            At Devrana, we offer a curated selection of indoor and outdoor venues designed to suit
-                            every occasion—from intimate family gatherings to grand wedding celebrations. Whether
-                            you're planning a destination wedding, a corporate retreat, or a weekend party, our
-                            thoughtfully designed spaces ensure your event is truly unforgettable.
+                            Explore our event packages at Devrana Resort! Plan your upcoming wedding, party, or corporate event near Delhi and Haridwar at Devrana Resort.  Located along the beautiful Delhi–Haridwar highway, your event will be celebrated with the taste of village charm <br />  <br />experienced with modern amenities. No matter if it is a destination wedding, business conference, or family gathering, our resort offers everything you may require - event spaces, catering, décor, and accommodation. As one of the best venues for events in the region of Uttar Pradesh, plan your special event now.
                         </p>
-                        <p className="text-gray-700 mb-4">
-                            Surrounded by nature and traditional architecture, each venue blends cultural charm with
-                            modern convenience.
-                        </p>
+
                         {/* <ul className="list-disc list-inside text-gray-700 mb-6 space-y-2">
                             <li>Powerful Admin Panel</li>
                             <li>Multi-Language Support</li>

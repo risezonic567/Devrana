@@ -11,13 +11,13 @@ import diningInterior1 from '../images/home/home1.jpg';
 import dish1 from '../images/home/home1.jpg';
 import dish2 from '../images/home/home1.jpg';
 import chefPortrait from '../images/home/home1.jpg';
-import galleryImg1 from '../images/home/home1.jpg';
-import galleryImg2 from '../images/home/home1.jpg';
-import galleryImg3 from '../images/home/home1.jpg';
-import galleryImg4 from '../images/home/home1.jpg';
-import galleryImg5 from '../images/home/home1.jpg';
-import galleryImg6 from '../images/home/home1.jpg';
-
+import galleryImg1 from './../images/Resto/dish1.jpg';
+import galleryImg2 from './../images/Resto/dish2.jpg';
+import galleryImg3 from './../images/Resto/dish3.jpg';
+import galleryImg4 from './../images/Resto/dish4.jpg';
+import galleryImg5 from './../images/Resto/dish5.jpg';
+import galleryImg6 from './../images/Resto/dish6.jpg';
+// https://postimg.cc/gallery/jP0tswS
 // --- Framer Motion Variants ---
 const sectionVariants = {
     hidden: { opacity: 0, y: 50 },

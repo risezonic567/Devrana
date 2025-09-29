@@ -34,12 +34,8 @@ export default function AboutSection() {
                     of Western UP
                 </h2>
                 <p className="mt-8 text-lg text-gray-700 leading-relaxed max-w-xl lg:max-w-none">
-                    Devrana is an exclusive, village-themed resort located in the tranquil rural
-                    area of **Western Uttar Pradesh**, offering an authentic and relaxing escape from urban life. Conceived by
-                    Mr. Harendra Singh, this creative sanctuary near Delhi NCR was established to provide both
-                    Indian and international travelers with a genuine experience of **rural India's charm**. Surrounded by open
-                    fields and classical architecture, Devrana passionately promotes local culture, traditional cuisine,
-                    and folk arts, serving as the perfect destination for cultural retreats and deep connection to the roots of India.
+                    Devrana is a multifaceted destination resort, themed on the concept of a village, in western Uttar Pradesh, that features an escape from the city's modern life. We conceptualized Devrana to offer Indian and international travelers a genuine touch of rural India. This is especially evident when visitors enjoy our tranquil setting, open fields, and the classical nature of our architecture. The resort will also promote local culture and cuisine, and our local folk culture is to be promoted as well. We consider our resort to be more than just a resort—it's a lovely venue for destination weddings, offering an entirely different space for traditional weddings, and everything is rooted in our village steeped in history. The village-style architecture and grounds will surely generate a wonderful memory, and the stories woven throughout the building lend a historic element to family stays or an escape to a rural cultural experience.
+
                 </p>
 
                 <NavLink to="/about-us" >

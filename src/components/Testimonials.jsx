@@ -15,7 +15,7 @@ SwiperCore.use([Navigation, Pagination, Autoplay]);
 const testimonials = [
     {
         id: 1,
-        name: "Amit Sharma",
+        name: "Rohit A.",
         designation: "Guest",
         rating: 5,
         image: "https://html.tonatheme.com/2022/royalking/assets/images/resource/testimonial-2.jpg",
@@ -23,19 +23,19 @@ const testimonials = [
     },
     {
         id: 2,
-        name: "Neha Singh",
+        name: "Simran K.",
         designation: "Visitor",
         rating: 4,
         image: "https://html.tonatheme.com/2022/royalking/assets/images/resource/testimonial-2.jpg",
-        text: "A perfect blend of comfort and culture. Highly recommend for family vacations or weddings.",
+        text: "“We hosted our engagement here, and everything was flawless—from decor to stay to food. Devrana made it truly memorable.”",
     },
     {
         id: 3,
-        name: "Rohan Verma",
+        name: "Amit S",
         designation: "Traveler",
         rating: 5,
         image: "https://html.tonatheme.com/2022/royalking/assets/images/resource/testimonial-1.jpg",
-        text: "Absolutely loved the experience! From rooms to dining, everything was top-notch.",
+        text: "“Spacious venues, clean rooms, and peaceful surroundings. Ideal for family events or just a break from city chaos.”",
     },
 ];
 

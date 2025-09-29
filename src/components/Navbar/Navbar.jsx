@@ -168,10 +168,10 @@ const Navbar = () => {
               </NavLink>
               {/* {activeDropdown === "cabin" && renderDropdown("cabin")} */}
             </li>
-            <NavLink to="/blog">
+            <NavLink to="/event-and-packages">
               <li className="hover:text-Secondary">Events And Pakages</li>
             </NavLink>
-            <NavLink to="/blog">
+            <NavLink to="/contact-us">
               <li className="hover:text-Secondary">Contact</li>
             </NavLink>
           </ul>

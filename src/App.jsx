@@ -11,6 +11,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Restaurant from "./pages/Restaurant";
 import Menu from "./pages/Menu";
+import EventsAndPackages from "./pages/EventsAndPackages";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/rooms-cottage/:slug" element={<RoomDetail />} />
         <Route path="/restaurant" element={<Restaurant />} />
         <Route path="/menu" element={<Menu />} />
+        <Route path="/event-and-packages" element={<EventsAndPackages />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/payment-success" element={<PaymentSuccess />} />
       </Routes>
