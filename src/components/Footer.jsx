@@ -1,4 +1,5 @@
 import { FaFacebookF, FaInstagram, FaTwitter, FaTripadvisor } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 export default function Footer() {
     return (
@@ -16,11 +17,13 @@ export default function Footer() {
                 <div>
                     <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
                     <ul className="space-y-3">
-                        <li><a href="#" className="hover:text-white transition">Rooms & Suites</a></li>
-                        <li><a href="#" className="hover:text-white transition">Dining</a></li>
-                        <li><a href="#" className="hover:text-white transition">Spa & Wellness</a></li>
-                        <li><a href="#" className="hover:text-white transition">Events</a></li>
-                        <li><a href="#" className="hover:text-white transition">Contact</a></li>
+                        <li><NavLink to="/rooms-cottage" className="hover:text-white transition">Rooms & Cottage</NavLink></li>
+                        <li><NavLink to="/event-and-packages" className="hover:text-white transition">Event and packages</NavLink></li>
+                        <li><NavLink to="/restaurant" className="hover:text-white transition">Restaurant</NavLink></li>
+                        <li><NavLink to="/menu" className="hover:text-white transition">Menu </NavLink></li>
+                        <li><NavLink to="/blog" className="hover:text-white transition">Blogs </NavLink></li>
+                        <li><NavLink to="/gallery" className="hover:text-white transition">Gallery</NavLink></li>
+
                     </ul>
                 </div>
 

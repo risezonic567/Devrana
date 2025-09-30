@@ -63,7 +63,7 @@ export default function AboutSection() {
                     src={img2}
                     alt="Traveler enjoying the resort experience"
                     // Smaller, deliberately offset, strong contrasting border for a curated look
-                    className={`absolute bottom-0 right-1/2 translate-x-1/2 lg:right-0 lg:translate-x-0 rounded-br-3xl rounded-tl-3xl shadow-xl w-60 lg:w-72 h-80 object-cover border-4 ${borderPrimary} transform -rotate-2`}
+                    className={` sm:flex hidden  absolute bottom-0 right-1/2 translate-x-1/2 lg:right-0 lg:translate-x-0 rounded-br-3xl rounded-tl-3xl shadow-xl w-60 lg:w-72 h-80 object-cover border-4  transform -rotate-2`}
                     style={{ zIndex: 3 }}
                 />
 

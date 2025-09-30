@@ -15,43 +15,41 @@ import {
 const venues = [
     {
         id: 1,
-        name: "The Gaon Heritage",
+        name: "Theth Gaon – Heritage Wedding Venue near Delhi NCR",
         img: "https://devrana.in/wp-content/uploads/2025/04/TG8.jpeg",
         capacity: "400 Guests",
-        description: "A royal heritage wedding venue with traditional architecture and premium service. Perfect for grand weddings and receptions.",
-        icon: <FaGlassCheers className="text-pink-500 text-3xl" />,
+        description: "Enter Theth Gaon, a unique heritage wedding venue that provides an authentic village feel to your grand celebrations. With greatly accommodating a guest comprising of over a thousand guests, the space couples rustic architecture with upscale wedding decor options. Embodied in lush greenery, creates the quintessential outdoor wedding venue in Uttar Pradesh. Full customizable lighting and mandap set up allows you to create the ideal traditional or themed wedding. The great venue for authentic, large-scale wedding couple near Delhi.", icon: <FaGlassCheers className="text-pink-500 text-3xl" />,
     },
     {
         id: 2,
-        name: "Open Party Space",
+        name: "Bagad Open-Air Party Space in Muzaffarnaga",
         img: "https://devrana.in/wp-content/uploads/2025/04/open-party-5.png",
         capacity: "300 Guests",
-        description: "Spacious open-air party ground, ideal for celebrations under the stars with music, lights, and unlimited fun.",
+        description: "Bagad is a beautiful, open-air space for parties or intimate gatherings, cocktail celebrations, birthday evenings, or evening events under the night sky. The natural space and flexibility make it an ideal experience for small parties of anywhere between 30 and 70 guests where outdoor charm and casual enjoyment are key. If you plan to have a party location for a pre-wedding event or a family gathering, Bagad is the space that will provide beauty, concentration by natural landscaping, and easy access to nature!",
         icon: <FaUsers className="text-indigo-500 text-3xl" />,
     },
     {
         id: 3,
-        name: "Dining Space",
+        name: "Dining at Devrana – Nature Meets Flavor",
         img: "https://devrana.in/wp-content/uploads/2025/04/Dining-space-1.png",
         capacity: "200 Guests",
-        description: "Elegant dining hall with curated menus, top-class service, and luxurious ambiance for fine dining.",
+        description: "Experience soulful dining amidst nature at Devrana, where every meal is crafted with care and authenticity. Whether it's a brunch, high-tea, or intimate dinner, our settings blend rustic charm with culinary excellence. Enjoy farm-fresh ingredients, serene surroundings, and warm hospitality. Perfect for small gatherings, celebrations, or simply savoring the moment.",
         icon: <FaUtensils className="text-yellow-500 text-3xl" />,
     },
     {
         id: 4,
-        name: "Banquet Hall",
+        name: "Utsav – Premium Indoor Banquet Hall in Muzaffarnagar",
         img: "https://devrana.in/wp-content/uploads/2025/04/UH8-1.jpeg",
         capacity: "500 Guests",
-        description: "Premium banquet hall suitable for weddings, receptions, and conferences with customizable layouts.",
+        description: "Utsav is a beautiful indoor banquet hall created specifically for hosting wedding receptions, corporate events, engagements, and anniversaries. Utsav holds up to approximately 300 guests and has a perfect balance between spaciousness and intimacy. It has the best-in-industry lighting, audio systems, and decor options available, and it is perfect for events where weather-proof indoor comfort is paramount while not sacrificing beauty or elegance. Utsav is where you should go if you want a banquet hall near Delhi NCR that has modern facilities.",
         icon: <FaHotel className="text-blue-500 text-3xl" />,
     },
     {
         id: 5,
-        name: "Theme Hall",
+        name: "Theme Hall – Personalized Event Space for Birthdays & More",
         img: "https://devrana.in/wp-content/uploads/2025/04/theme-hall-3.png",
         capacity: "250 Guests",
-        description: "Customizable theme hall with modern decor and mood lighting, perfect for birthdays and special occasions.",
-        icon: <FaTheaterMasks className="text-green-500 text-3xl" />,
+        description: "Adapted from its former purpose as a church hall, our Theme Hall is a unique and multipurpose indoor facility. It is an ideal space for an intimate birthday party, an anniversary dinner, a themed event, a corporate workshop, or other small gatherings with a maximum of 60 people. With an indoor space, a climate-controlled backdrop, a space to add your own decorations, and a cozy atmosphere, our Theme Hall is the perfect first choice for your event where detail matters. If you are looking for a small event space in the Muzaffarnagar area, The Theme Hall provides an equal balance of flexibility and charm.", icon: <FaTheaterMasks className="text-green-500 text-3xl" />,
     },
     {
         id: 6,
@@ -117,11 +115,14 @@ export default function EventsAndPackages() {
             <div className="max-w-7xl mx-auto px-6 py-20">
                 {/* Venues Section */}
                 <section className="mb-20">
-                    <h2 className="text-4xl uppercase text-center  font-serif">
-                        Our Venues
-                    </h2>
-                    <p className="max-w-5xl mx-auto text-center text-gray-700 py-4 mb-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto id iure esse ullam omnis laborum. Iste unde delectus architecto quae veniam corporis provident incidunt molestias quas enim, nesciunt ex impedit ut, odit praesentium dolorem magni.</p>
-                    <div className="space-y-20">
+
+                    <h1 className="text-4xl uppercase text-center  font-serif">
+                        Events and Packages at Devrana <br /> Celebrate in Style, Naturally
+                    </h1>
+                    <p className="max-w-5xl mx-auto  text-sm text-center text-gray-700 py-4 mb-16">At Devrana, we transform your events into memorable occasions. If you're hosting a destination wedding near Delhi, a smaller engagement party, a birthday, a corporate offsite, or a family event, Devrana is located in the scenic and family-village-style adored Muzaffarnagar, the perfect place to host your event!
+                        Devrana is located along the Delhi-Haridwar highway with a unique fusion of a traditional village setting and luxury. We have large green lawns with premium banquet halls and warm and welcoming service. We take care of everything for your event, from wedding décor, food, and stay for guests to many event services, so you can enjoy the event and create moments of joy and memories.
+                    </p>
+                    <div className="space-y-20 ">
                         {venues.map((venue, i) => (
                             <motion.div
                                 key={venue.id}
@@ -144,12 +145,12 @@ export default function EventsAndPackages() {
                                 <div className="lg:w-1/2 w-full">
                                     <div className="flex items-center gap-3 mb-3">
                                         {venue.icon}
-                                        <h3 className="text-2xl  font-serif uppercase">{venue.name}</h3>
+                                        <h3 className="text-xl  font-serif uppercase ">{venue.name}</h3>
                                     </div>
                                     <p className="text-gray-500 text-sm mb-2">
                                         Capacity: {venue.capacity}
                                     </p>
-                                    <p className="text-gray-600 mb-4 font-serif">{venue.description}</p>
+                                    <p className="text-gray-600 mb-4 font-serif line-clamp-4">{venue.description}</p>
                                     <button
                                         onClick={() => setActiveVenue(venue)}
                                         className="bg-primary text-white px-6 py-2 rounded-full shadow hover:scale-105 transition"

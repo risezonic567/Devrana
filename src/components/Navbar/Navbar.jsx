@@ -169,7 +169,7 @@ const Navbar = () => {
               {/* {activeDropdown === "cabin" && renderDropdown("cabin")} */}
             </li>
             <NavLink to="/event-and-packages">
-              <li className="hover:text-Secondary">Events And Pakages</li>
+              <li className="hover:text-Secondary">Events And packages</li>
             </NavLink>
             <NavLink to="/contact-us">
               <li className="hover:text-Secondary">Contact</li>
@@ -234,7 +234,7 @@ const Navbar = () => {
 
               <NavLink to="/about-us">
                 <li className="px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
-                  Event And Pakages
+                  Event And packages
                 </li>
               </NavLink>
 

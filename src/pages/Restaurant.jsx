@@ -6,10 +6,10 @@ import { Link, NavLink } from 'react-router-dom';
 
 // --- IMAGES & VIDEO PLACEHOLDERS ---
 // Replace these with your actual high-resolution images and videos
-import heroVideo from '../video/Home Page.mp4'; // Example video for hero
+import heroimg from '../images/Resto/Restaurant BANNER.jpg'; // Example video for hero
 import diningInterior1 from '../images/home/home1.jpg';
 import dish1 from '../images/home/home1.jpg';
-import dish2 from '../images/home/home1.jpg';
+import dish2 from '../images/Resto/Restaurant 3 IMAGE.jpg';
 import chefPortrait from '../images/home/home1.jpg';
 import galleryImg1 from './../images/Resto/dish1.jpg';
 import galleryImg2 from './../images/Resto/dish2.jpg';
@@ -66,7 +66,7 @@ export default function Restaurant() {
             <section className="relative h-screen flex items-center justify-center text-center overflow-hidden">
                 <img
                     className="absolute inset-0 w-full h-full object-cover z-0"
-                    src="https://devrana.in/wp-content/uploads/2025/04/banner-2.png"
+                    src={heroimg}
 
                 >
 
@@ -93,8 +93,8 @@ export default function Restaurant() {
                         initial="hidden"
                         animate="visible"
                         whileHover="hover"
-                        onClick={openReservationModal}
-                        className="mt-12 px-10 py-4 border-2 border-Secondary text-primary bg-transparent hover:bg-gold-600 hover:text-white transition-all duration-300 ease-in-out text-lg font-semibold tracking-wider uppercase rounded-full"
+                        // onClick={openReservationModal}
+                        className="mt-12 px-10 py-4 border-2 border-Secondary text-white bg-transparent hover:bg-gold-600 hover:text-white transition-all duration-300 ease-in-out text-lg font-semibold tracking-wider uppercase rounded-full"
                     >
                         Reserve Your Table
                     </motion.button>
@@ -109,13 +109,14 @@ export default function Restaurant() {
                 viewport={{ once: true, amount: 0.3 }}
                 variants={sectionVariants}
             >
-                <motion.p variants={textVariants} className="uppercase tracking-widest text-sm text-primary font-medium mb-3 text-Secondary">
-                    Our Culinary Philosophy
+                <motion.p variants={textVariants} className="uppercase tracking-widest text-sm  font-medium mb-3 text-Secondary">
+                    Restaurant at Devrana
                 </motion.p>
                 <motion.h2 variants={textVariants} className="text-5xl font-serif text-primary mb-8 leading-tight">
-                    A Taste of Authentic Devrana
+                    Authentic Pure Vegetarian Cuisine with Village Charm
+
                 </motion.h2>
-                <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div className="xl:max-w-6xl lg:max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <motion.div variants={imageVariants} className="relative">
                         <img src="https://devrana.in/wp-content/uploads/2025/04/devrana-about-us.png" alt="Elegant restaurant interior" className="rounded-tl-3xl rounded-br-3xl shadow-xl border-4 border-white  object-cover w-full h-96" />
                         <div className="absolute -bottom-8 -left-8 bg-deep-green-800 p-6 rounded-br-3xl rounded-tl-3xl text-white shadow-lg z-10 hidden md:block bg-primary">
@@ -125,18 +126,18 @@ export default function Restaurant() {
                     </motion.div>
                     <motion.div variants={textVariants} className="text-left space-y-6 text-lg text-gray-700">
                         <p>
-                            Nestled within the serene landscapes of Devrana, our restaurant offers a culinary journey that harmonizes the rich traditions of Western Uttar Pradesh with contemporary fine dining. We believe in farm-to-table excellence, sourcing the freshest seasonal ingredients from local farmers and our own organic gardens.
+                            At Devrana's pure vegetarian restaurant, experience authentic Indian tastes with fresh, locally-sourced ingredients and traditional recipes. Our menu offers a wide range of tasty vegetarian choices, from classic North Indian favorites to creative, seasonal dishes that encapsulate the region's diverse culinary heritage.
+                            The tranquil, village-inspired ambiance of the restaurant makes it the perfect setting for family dinners, festive celebrations, or just a casual meal outside the home. Located just off the Delhi–Haridwar highway Devrana is the perfect place to unwind with pure vegetarian cuisine on your terms.
+                            At Devrana restaurant, we serve delicious, wholesome meals made with love and authentic flavor.
                         </p>
-                        <p>
-                            Each dish is a celebration of flavor, meticulously prepared by our skilled chefs who infuse passion and precision into every creation. From the moment you step in, you are invited into an experience of rustic elegance, warm hospitality, and unforgettable tastes.
-                        </p>
-                        <NavLink to="/about-restaurant">
+
+                        <NavLink to="/contact-us">
                             <motion.button
                                 variants={buttonVariants}
                                 whileHover="hover"
                                 className="mt-6 px-8 py-3 border-2 border-Secondary text-primary bg-transparent hover:bg-primary hover:text-white transition-all duration-300 ease-in-out text-base  font-serif  "
                             >
-                                Read Our Full Story
+                                Contact Us
                             </motion.button>
                         </NavLink>
                     </motion.div>
@@ -162,7 +163,8 @@ export default function Restaurant() {
                     Signature Dishes
                 </motion.p>
                 <motion.h2 variants={textVariants} className="text-5xl font-serif text-white mb-16 text-center leading-tight">
-                    Curated For Your Palate
+                    Devrana’s Finest Pure Vegetarian Specialties
+
                 </motion.h2>
 
                 <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 ">
@@ -171,9 +173,10 @@ export default function Restaurant() {
                         <img src="https://content.jdmagicbox.com/comp/noida/l1/011pxx11.xx11.191021213919.v4l1/catalogue/maharaja-thali-noida-sector-127-noida-inexpensive-restaurants-below-rs-500--9nel3smiar.jpg" alt="Exquisite Local Platter" className="w-[245px] md:w-2/5 h-64 md:h-auto object-cover" />
                         <div className="p-8 flex-1 flex flex-col justify-center">
                             <h3 className="text-3xl font-serif text-primary mb-3">Devrana Maharaja Thali</h3>
-                            <p className="text-Secondary text-lg font-medium mb-4">A Royal Feast</p>
+                            <p className="text-Secondary text-lg font-medium mb-4">Traditional Vegetarian Thali Experience
+                            </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A grand selection of seasonal curries, artisanal breads, fragrant basmati rice, and decadent desserts, all prepared with regional spices and traditions.
+                                A royal feast of seasonal vegetarian curries, breads, rice, and desserts made with authentic spices. Enjoy the rich flavors of India’s vegetarian heritage.
                             </p>
                             <div className="flex items-center text-gray-500 text-sm">
                                 <FaStar className="text-gold-500 mr-1" /> 5.0 Rating (120 reviews)
@@ -183,12 +186,12 @@ export default function Restaurant() {
 
                     {/* Dish Card 2 */}
                     <motion.div variants={cardVariants} whileHover="hover" className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row border border-gray-200 z-10">
-                        <img src="https://i0.wp.com/www.homemakershabitat.com/wp-content/uploads/2020/06/IMG_5581.png?fit=3370%2C2527&ssl=1" alt="Fresh Organic Salad" className="w-full md:w-2/5 h-64 md:h-auto object-cover" />
+                        <img src={dish2} alt="Fresh Organic Salad" className="w-full md:w-2/5 h-64 md:h-auto object-cover" />
                         <div className="p-8 flex-1 flex flex-col justify-center">
-                            <h3 className="text-3xl font-serif text-primary mb-3">Farm Fresh Salad Platter</h3>
-                            <p className="text-Secondary text-lg font-medium mb-4">Harvested Daily</p>
+                            <h3 className="text-3xl font-serif text-primary mb-3">Devrana Special Dish</h3>
+                            <p className="text-Secondary text-lg font-medium mb-4">Signature Vegetarian Delight</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A vibrant mix of greens, heirloom tomatoes, and artisanal cheeses, drizzled with our signature herb vinaigrette – straight from our organic farm.
+                                Savor our chef’s special vegetarian dish made with fresh, local ingredients and bold flavors. This signature creation highlights Devrana’s authentic and wholesome culinary tradition.
                             </p>
                             <div className="flex items-center text-gray-500 text-sm">
                                 <FaStar className="text-gold-500 mr-1" /> 4.8 Rating (85 reviews)
@@ -202,10 +205,10 @@ export default function Restaurant() {
                     whileInView="visible"
                     whileHover="hover"
                     viewport={{ once: true, amount: 0.5 }}
-                   // Replace with actual navigation
+                    // Replace with actual navigation
                     className="relative mt-20 mx-auto block px-10 py-4 border-2 border-white text-white bg-transparent hover:bg-primary hover:text-white transition-all duration-300 ease-in-out text-lg font-semibold  uppercase rounded-full z-20"
                 >
-                  <Link to="/menu">  View Our Full Menu </Link>
+                    <Link to="/menu">  View Our Full Menu </Link>
                 </motion.button>
             </motion.section>
 
@@ -233,7 +236,7 @@ export default function Restaurant() {
                             Meet Chef Rajeev
                         </h2>
                         <p className="text-lg text-gray-700">
-                            "My passion lies in transforming the freshest regional produce into culinary masterpieces that tell a story of Devrana's rich heritage. Every dish is a labor of love, a blend of traditional techniques with innovative approaches, designed to delight and surprise."
+                            With over a decade of experience in crafting pure vegetarian cuisine, Chef Rajeev brings passion, precision, and tradition to every dish. Specializing in regional Indian flavors, he masterfully blends local ingredients with timeless recipes to deliver unforgettable dining experiences. His signature creations, like the Devrana Maharaja Thali, reflect his commitment to quality, authenticity, and innovation. Under his leadership, our kitchen has become a destination for true food lovers.
                         </p>
                         <p className="text-xl font-serif text-primary italic mt-8">
                             — Chef Rajeev Sharma
@@ -253,12 +256,13 @@ export default function Restaurant() {
                     backgroundImage: "url('https://html.tonatheme.com/2022/royalking/assets/images/shape/pattern-4.png')",
                 }}
             >
-                
+
                 <motion.p variants={textVariants} className="uppercase tracking-widest text-sm text-white font-medium mb-3 text-center">
                     Visual Feast
                 </motion.p>
                 <motion.h2 variants={textVariants} className="text-5xl font-serif text-white mb-16 text-center leading-tight">
-                    Moments from Our Table
+                    Discover Our Diverse Dining Experiences
+
                 </motion.h2>
                 <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {galleryImages.map((img, index) => (
