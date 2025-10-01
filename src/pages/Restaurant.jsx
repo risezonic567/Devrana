@@ -302,9 +302,9 @@ export default function Restaurant() {
                     <motion.div variants={cardVariants} className="bg-deep-green-700 p-8 rounded-lg shadow-xl border border-Secondary">
                         <h3 className="text-3xl font-serif text-primary mb-6">Contact Us</h3>
                         <div className="space-y-4 text-lg text-beige-200">
-                            <p className="flex items-center text-gray-700"><FaPhoneAlt className="mr-3 text-primary" /> +91 123 456 7890</p>
-                            <p className="flex items-center text-gray-700"><FaEnvelope className="mr-3 text-primary" /> dining@devarana.com</p>
-                            <p className="flex items-start text-gray-700"><FaMapMarkerAlt className="mr-3 mt-1 text-primary flex-shrink-0" /> Devrana Hotel, Village & Post Office, Devrana, Uttar Pradesh, India</p>
+                            <p className="flex items-center text-gray-700"><FaPhoneAlt className="mr-3 text-primary" /> 91 78270 02538</p>
+                            <p className="flex items-center text-gray-700"><FaEnvelope className="mr-3 text-primary" /> info@devrana.com</p>
+                            <p className="flex items-start text-gray-700"><FaMapMarkerAlt className="mr-3 mt-1 text-primary flex-shrink-0" />  Devrana, Delhi-Haridwar Highway, Mansurpur, Muzaffarnagar</p>
                         </div>
                         <div className="mt-8 flex space-x-6">
                             <a href="#" className="text-beige-200 hover:text-primary transition-colors text-gray-700"><FaFacebookF className="text-2xl" /></a>
@@ -323,7 +323,7 @@ export default function Restaurant() {
                         <motion.button
                             variants={buttonVariants}
                             whileHover="hover"
-                            onClick={openReservationModal}
+                            // onClick={openReservationModal}
                             className="px-10 py-4 text-primary border-2 border-Secondary transition-all duration-300 ease-in-out text-lg font-semibold tracking-wider uppercase "
                         >
                             Book Now

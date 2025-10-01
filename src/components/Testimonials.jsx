@@ -18,7 +18,7 @@ const testimonials = [
         name: "Rohit A.",
         designation: "Guest",
         rating: 5,
-        image: "https://html.tonatheme.com/2022/royalking/assets/images/resource/testimonial-2.jpg",
+        image: "https://bsmedia.business-standard.com/_media/bs/img/article/2020-08/19/full/20200819173632.jpg",
         text: "Devrana Resort exceeded all my expectations. The stay was luxurious, and the service was impeccable!",
     },
     {
@@ -26,7 +26,7 @@ const testimonials = [
         name: "Simran K.",
         designation: "Visitor",
         rating: 4,
-        image: "https://html.tonatheme.com/2022/royalking/assets/images/resource/testimonial-2.jpg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZbJY-9UwNKaDX3KyKBbuu6K6W_J8wVfF5EwQ-NnLgELUnaICX_fxZ57wMnQHzxVmmT1I&usqp=CAU",
         text: "“We hosted our engagement here, and everything was flawless—from decor to stay to food. Devrana made it truly memorable.”",
     },
     {
@@ -34,7 +34,7 @@ const testimonials = [
         name: "Amit S",
         designation: "Traveler",
         rating: 5,
-        image: "https://html.tonatheme.com/2022/royalking/assets/images/resource/testimonial-1.jpg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf7aH_4QA0EE2c_ZvVrw74903j-4X2BMqvTg&s",
         text: "“Spacious venues, clean rooms, and peaceful surroundings. Ideal for family events or just a break from city chaos.”",
     },
 ];

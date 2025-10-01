@@ -82,7 +82,7 @@ export default function Herosection() {
             <div style={styles.overlay} className="font-serif">
                 <h1 style={styles.title}> Devrana: Traditional heritage village resort near Delhi</h1>
                 {/* <p style={styles.subtitle}>Comfort. Luxury. Unforgettable stays.</p> */}
-              <NavLink to="/rooms"  >  <button className="bg-primary"
+              <NavLink to="/rooms-cottage"  >  <button className="bg-primary"
                     style={styles.button}
                     onClick={handleBookNow}
                     aria-label="Book now"

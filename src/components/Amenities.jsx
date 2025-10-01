@@ -54,7 +54,7 @@ export default function Amenities() {
                 </div>
 
                 {/* Amenities Grid */}
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-center hover:text-white hover:border-white">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-center hover:text-white hover:border-white sm:p-0 p-4">
                     {amenities.map((amenity, index) => (
                         <motion.div
                             key={amenity.id}
@@ -62,7 +62,7 @@ export default function Amenities() {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.1, delay: index * 0.1 }}
                             whileHover={{ scale: 1.1, y: -5 }}
-                            className="bg-gray-800 rounded-xl p-3 flex flex-col items-center justify-center cursor-pointer shadow-lg hover:shadow-2xl transition-all hover:bg-Secondary border border-gray-700 hover:text-white hover:border-white w-[240px]"
+                            className="bg-gray-800 rounded-xl p-3 flex flex-col items-center justify-center cursor-pointer shadow-lg hover:shadow-2xl transition-all hover:bg-Secondary border border-gray-700 hover:text-white hover:border-white sm:w-[240px]"
                         >
                             <motion.div
                                 whileHover={{ scale: 1.2 }}

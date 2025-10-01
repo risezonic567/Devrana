@@ -10,6 +10,7 @@ import {
     FaCheckCircle,
     FaTimes,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 // Venue Data
 const venues = [
@@ -53,11 +54,10 @@ const venues = [
     },
     {
         id: 6,
-        name: "Ek Bar",
+        name: "Devgram – Cottage-Style Stay & Celebration Venue",
         img: "https://i.postimg.cc/t4PyDBPd/Cottage-Style-Stay-amp-Celebration-Venue.jpg",
         capacity: "150 Guests",
-        description: "Trendy bar with happy hours, cocktails, and live entertainment. Best suited for casual parties & nightlife events.",
-        icon: <FaCocktail className="text-red-500 text-3xl" />,
+        description: "Devgram hosts eight elevated cottages set in lush landscapes that offer accommodation and event space in one place. This is ideal for mehendi, haldi, family dinner, and agents who are looking for some precious time away from home. It gives you the luxury of stay and celebration in one space. If you're searching for a Hudson River Valley style and elevated rustic function space near Delhi, Devgram will give you quiet, privacy, and the outdoors — in one space.", icon: <FaCocktail className="text-red-500 text-3xl" />,
     },
 ];
 
@@ -98,7 +98,7 @@ const packages = [
         highlight: false,
     },
 ];
-
+// https://postimg.cc/gallery/FmtcDKY
 export default function EventsAndPackages() {
     const [selectedPackage, setSelectedPackage] = useState(null);
     const [activeVenue, setActiveVenue] = useState(null);
@@ -247,6 +247,10 @@ export default function EventsAndPackages() {
                         </div>
                         <p className="text-gray-500 mb-2">Capacity: {activeVenue.capacity}</p>
                         <p className="text-gray-700">{activeVenue.description}</p>
+                        <div>
+                            <a href="tel:+917827002538">  <button className=" bg-primary px-4 py-2 text-white mt-4 transition-all hover:text-lg duration-100  " >Give A Call For Booking</button>
+                            </a> </div>
+
                     </motion.div>
                 </div>
             )}

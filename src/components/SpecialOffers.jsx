@@ -42,11 +42,11 @@ export default function SpecialOffers() {
                 </h2>
             </div>
 
-            <div className=" flex justify-center gap-x-8">
+            <div className=" sm:flex block justify-center gap-x-8 sm:p-0 p-2">
                 {offers.map((offer, index) => (
                     <motion.div
                         key={offer.id}
-                        className="bg-white shadow-lg rounded-lg overflow-hidden relative cursor-pointer w-[330px]  "
+                        className="bg-white shadow-lg rounded-lg overflow-hidden relative cursor-pointer mt-5 sm:mt-0 sm:w-[330px]  "
                         initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true, amount: 0.2 }}

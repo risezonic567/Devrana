@@ -6,27 +6,27 @@ import { FaArrowLeft, FaArrowRight, FaStar } from "react-icons/fa";
 const rooms = [
     {
         id: 1,
-        title: "Rohit A",
-        price: "Delhi NCR",
-        stars: 5,
-        description: "“A hidden gem on the Delhi-Haridwar highway! Beautiful ambiance, great food, and the perfect weekend escape. Highly recommended.”",
-        img: "https://html.tonatheme.com/2022/royalking/assets/images/resource/room-4.jpg",
+        name: "Rohit A.",
+        designation: "Guest",
+        rating: 5,
+        image: "https://bsmedia.business-standard.com/_media/bs/img/article/2020-08/19/full/20200819173632.jpg",
+        text: "Devrana Resort exceeded all my expectations. The stay was luxurious, and the service was impeccable!",
     },
     {
         id: 2,
-        title: "Simran K",
-        price: "Saharanpur",
-        stars: 4,
-        description: "“We hosted our engagement here, and everything was flawless—from decor to stay to food. Devrana made it truly memorable.”",
-        img: "https://html.tonatheme.com/2022/royalking/assets/images/resource/room-4.jpg",
+        name: "Simran K.",
+        designation: "Visitor",
+        rating: 4,
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZbJY-9UwNKaDX3KyKBbuu6K6W_J8wVfF5EwQ-NnLgELUnaICX_fxZ57wMnQHzxVmmT1I&usqp=CAU",
+        text: "“We hosted our engagement here, and everything was flawless—from decor to stay to food. Devrana made it truly memorable.”",
     },
     {
         id: 3,
-        title: "Amit S",
-        price: "Meerut",
-        stars: 5,
-        description: "“Spacious venues, clean rooms, and peaceful surroundings. Ideal for family events or just a break from city chaos.”",
-        img: "https://html.tonatheme.com/2022/royalking/assets/images/resource/room-4.jpg",
+        name: "Amit S",
+        designation: "Traveler",
+        rating: 5,
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf7aH_4QA0EE2c_ZvVrw74903j-4X2BMqvTg&s",
+        text: "“Spacious venues, clean rooms, and peaceful surroundings. Ideal for family events or just a break from city chaos.”",
     },
 
 ];
@@ -99,7 +99,7 @@ export default function TestimonialsSlider() {
 
                                     <div className="p-4 text-center">
                                         <h3 className=" text-gray-900 font-serif">
-                                            {room.title}
+                                            {room.name}
                                         </h3>
                                         <p className="text-gray-900 pt-2">
 
@@ -107,13 +107,14 @@ export default function TestimonialsSlider() {
                                                 {room.price}
                                             </span>
 
-                                            <p className="py-3" >{room.description}</p>
+                                            <p className="py-3" >{room.text}</p>
                                         </p>
                                         <div className=" overflow-hidden items-center flex justify-center py-7">
-                                            <img className="w-16 h-16 rounded-full" src={room.img} alt="" />
+                                            <img className="w-16 h-16 rounded-full" src={room.image} alt="" />
                                         </div>
+                                        <p className="py-3" >{room.designation}</p>
                                         <div className="flex items-center mb-2 text-center justify-center">
-                                            {Array.from({ length: room.stars }).map((_, i) => (
+                                            {Array.from({ length: room.rating }).map((_, i) => (
                                                 <FaStar key={i} className="text-yellow-400 mr-1" />
                                             ))}
                                         </div>

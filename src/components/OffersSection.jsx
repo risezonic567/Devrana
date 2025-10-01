@@ -1,6 +1,7 @@
 import React from "react";
 import Img from "../images/home/630-by-420.jpg-new.jpg"
 import Img1 from "../images/home/810-by-500-Recovered.jpg-2.jpg"
+import { Link } from "react-router-dom";
 export default function OffersSection() {
     return (
         <section className="py-16">
@@ -31,12 +32,12 @@ export default function OffersSection() {
                             Experience the perfect blend of elegance, culture, and comfort at Devrana—the finest resort and destination wedding venue in Muzaffarnagar. Nestled along the Delhi–Haridwar Highway, our property offers premium stays, lush green lawns, banquet spaces, and authentic local cuisine—ideal for staycations, celebrations, or weekend getaways.
 
                         </p>
-                        <a
+                        <Link to="/about-us"
                             href="#discover"
                             className="inline-block bg-primary  hover:bg-Secondary text-white font-semibold py-3 px-6  shadow-md transition"
                         >
                             Discover More
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
@@ -68,12 +69,12 @@ export default function OffersSection() {
                             <li>Powerful Admin Panel</li>
                             <li>Multi-Language Support</li>
                         </ul> */}
-                        <a
+                        <Link to="/rooms-cottage"
                             href="#book"
                             className="inline-block bg-primary  hover:bg-Secondary text-white font-semibold py-3 px-6  shadow-md transition"
                         >
                             Book A Stay
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

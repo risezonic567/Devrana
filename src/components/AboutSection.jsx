@@ -54,7 +54,7 @@ export default function AboutSection() {
                     src={img1}
                     alt="Scenic view of Devrana resort architecture"
                     // Larger size, subtle shadow for depth, slight rotation for artistic feel
-                    className="absolute top-0 left-1/2 -translate-x-1/2 lg:left-0 lg:translate-x-0 rounded-tl-3xl rounded-br-3xl shadow-2xl w-full max-w-sm lg:max-w-md h-[450px] object-cover border-4 border-white transform rotate-1"
+                    className="absolute top-0 left-1/2 -translate-x-1/2 lg:left-0 lg:translate-x-0 rounded-tl-3xl rounded-br-3xl shadow-2xl w-full max-w-sm lg:max-w-md h-[450px] object-cover border-4 border-white transform "
                     style={{ zIndex: 2 }}
                 />
 
@@ -63,7 +63,7 @@ export default function AboutSection() {
                     src={img2}
                     alt="Traveler enjoying the resort experience"
                     // Smaller, deliberately offset, strong contrasting border for a curated look
-                    className={` sm:flex hidden  absolute bottom-0 right-1/2 translate-x-1/2 lg:right-0 lg:translate-x-0 rounded-br-3xl rounded-tl-3xl shadow-xl w-60 lg:w-72 h-80 object-cover border-4  transform -rotate-2`}
+                    className={` sm:flex hidden  absolute bottom-0 right-1/2 translate-x-1/2 lg:right-0 lg:translate-x-0 rounded-br-3xl rounded-tl-3xl shadow-xl w-60 lg:w-72 h-80 object-cover border-4  transform `}
                     style={{ zIndex: 3 }}
                 />
 
@@ -72,7 +72,7 @@ export default function AboutSection() {
                 <button
                     onClick={() => setIsOpen(true)}
                     // Darker background, large size, distinct hover effect
-                    className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-white w-40 h-40 flex flex-col justify-center items-center rounded-full shadow-2xl bg-primary border-Secondary border-4 transition-all duration-300 ease-in-out hover:scale-105`}
+                    className={`absolute top-1/2 sm:left-1/1 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-white w-40 h-40 flex flex-col justify-center items-center rounded-full shadow-2xl bg-primary border-Secondary border-4 transition-all duration-300 ease-in-out hover:scale-105`}
                     style={{ zIndex: 4 }}
                 >
                     <svg
