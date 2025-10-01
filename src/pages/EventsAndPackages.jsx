@@ -16,14 +16,14 @@ const venues = [
     {
         id: 1,
         name: "Theth Gaon – Heritage Wedding Venue near Delhi NCR",
-        img: "https://devrana.in/wp-content/uploads/2025/04/TG8.jpeg",
+        img: "https://i.postimg.cc/VkM14KMM/The-Gaon-Heritage.jpg",
         capacity: "400 Guests",
         description: "Enter Theth Gaon, a unique heritage wedding venue that provides an authentic village feel to your grand celebrations. With greatly accommodating a guest comprising of over a thousand guests, the space couples rustic architecture with upscale wedding decor options. Embodied in lush greenery, creates the quintessential outdoor wedding venue in Uttar Pradesh. Full customizable lighting and mandap set up allows you to create the ideal traditional or themed wedding. The great venue for authentic, large-scale wedding couple near Delhi.", icon: <FaGlassCheers className="text-pink-500 text-3xl" />,
     },
     {
         id: 2,
         name: "Bagad Open-Air Party Space in Muzaffarnaga",
-        img: "https://devrana.in/wp-content/uploads/2025/04/open-party-5.png",
+        img: "https://i.postimg.cc/vZ9MX09V/Open-Party-Space.jpg",
         capacity: "300 Guests",
         description: "Bagad is a beautiful, open-air space for parties or intimate gatherings, cocktail celebrations, birthday evenings, or evening events under the night sky. The natural space and flexibility make it an ideal experience for small parties of anywhere between 30 and 70 guests where outdoor charm and casual enjoyment are key. If you plan to have a party location for a pre-wedding event or a family gathering, Bagad is the space that will provide beauty, concentration by natural landscaping, and easy access to nature!",
         icon: <FaUsers className="text-indigo-500 text-3xl" />,
@@ -31,7 +31,7 @@ const venues = [
     {
         id: 3,
         name: "Dining at Devrana – Nature Meets Flavor",
-        img: "https://devrana.in/wp-content/uploads/2025/04/Dining-space-1.png",
+        img: "https://i.postimg.cc/8zWDwZWh/Dining-Space.jpg",
         capacity: "200 Guests",
         description: "Experience soulful dining amidst nature at Devrana, where every meal is crafted with care and authenticity. Whether it's a brunch, high-tea, or intimate dinner, our settings blend rustic charm with culinary excellence. Enjoy farm-fresh ingredients, serene surroundings, and warm hospitality. Perfect for small gatherings, celebrations, or simply savoring the moment.",
         icon: <FaUtensils className="text-yellow-500 text-3xl" />,
@@ -39,7 +39,7 @@ const venues = [
     {
         id: 4,
         name: "Utsav – Premium Indoor Banquet Hall in Muzaffarnagar",
-        img: "https://devrana.in/wp-content/uploads/2025/04/UH8-1.jpeg",
+        img: "https://i.postimg.cc/g0Wp73q6/Banquet-Hall.jpg",
         capacity: "500 Guests",
         description: "Utsav is a beautiful indoor banquet hall created specifically for hosting wedding receptions, corporate events, engagements, and anniversaries. Utsav holds up to approximately 300 guests and has a perfect balance between spaciousness and intimacy. It has the best-in-industry lighting, audio systems, and decor options available, and it is perfect for events where weather-proof indoor comfort is paramount while not sacrificing beauty or elegance. Utsav is where you should go if you want a banquet hall near Delhi NCR that has modern facilities.",
         icon: <FaHotel className="text-blue-500 text-3xl" />,
@@ -47,14 +47,14 @@ const venues = [
     {
         id: 5,
         name: "Theme Hall – Personalized Event Space for Birthdays & More",
-        img: "https://devrana.in/wp-content/uploads/2025/04/theme-hall-3.png",
+        img: "https://i.postimg.cc/DyRnq9W2/Theme-Hall.jpg",
         capacity: "250 Guests",
         description: "Adapted from its former purpose as a church hall, our Theme Hall is a unique and multipurpose indoor facility. It is an ideal space for an intimate birthday party, an anniversary dinner, a themed event, a corporate workshop, or other small gatherings with a maximum of 60 people. With an indoor space, a climate-controlled backdrop, a space to add your own decorations, and a cozy atmosphere, our Theme Hall is the perfect first choice for your event where detail matters. If you are looking for a small event space in the Muzaffarnagar area, The Theme Hall provides an equal balance of flexibility and charm.", icon: <FaTheaterMasks className="text-green-500 text-3xl" />,
     },
     {
         id: 6,
         name: "Ek Bar",
-        img: "https://devrana.in/wp-content/uploads/2025/04/BAR2.jpeg",
+        img: "https://i.postimg.cc/t4PyDBPd/Cottage-Style-Stay-amp-Celebration-Venue.jpg",
         capacity: "150 Guests",
         description: "Trendy bar with happy hours, cocktails, and live entertainment. Best suited for casual parties & nightlife events.",
         icon: <FaCocktail className="text-red-500 text-3xl" />,
@@ -250,6 +250,14 @@ export default function EventsAndPackages() {
                     </motion.div>
                 </div>
             )}
+
+            <div className="text-center justify-center items-center bg-white py-12 px-6">
+                <h4 className="text-3xl text-primary mb-4 font-serif uppercase">
+                    Customizable Packages Available
+                </h4>
+                <p className=" text-lg text-gray-600 " >Choose from our flexible event packages tailored to your needs and budget. From small private events to large-scale celebrations, our team ensures a seamless and memorable experience.
+                </p>
+            </div>
         </div>
     );
 }
