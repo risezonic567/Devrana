@@ -220,7 +220,7 @@ const Navbar = () => {
                 </li>
               </NavLink>
 
-              <NavLink to="/about-us">
+              <NavLink to="/restaurant">
                 <li className="px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
                   Restaurant
                 </li>
@@ -232,13 +232,13 @@ const Navbar = () => {
                 </li>
               </NavLink>
 
-              <NavLink to="/about-us">
+              <NavLink to="/event-and-packages">
                 <li className="px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
                   Event And packages
                 </li>
               </NavLink>
 
-              <NavLink to="/about-us">
+              <NavLink to="/gallery">
                 <li className="px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
                   Gallery
                 </li>
