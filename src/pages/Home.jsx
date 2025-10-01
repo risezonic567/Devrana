@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Herosection from '../components/Herosection'
 import AboutSection from '../components/AboutSection'
 import SpecialOffers from '../components/SpecialOffers'
@@ -14,7 +14,13 @@ import WhatsAppSticky from '../components/WhatsAppSticky'
 import CallSticky from '../components/CallSticky'
 import Franchise from '../components/Franchise'
 
+
 export default function Home() {
+  useEffect(() => {
+  
+  
+          window.scrollTo(0, 0);
+      })
   return (
     <div>
       <Herosection  />

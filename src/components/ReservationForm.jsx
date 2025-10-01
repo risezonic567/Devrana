@@ -1,5 +1,6 @@
 // src/components/ReservationForm.jsx
 import { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 export default function ReservationForm() {
     const [form, setForm] = useState({
@@ -14,22 +15,49 @@ export default function ReservationForm() {
         setForm({ ...form, [e.target.name]: e.target.value });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        alert(JSON.stringify(form, null, 2));
+
+        try {
+            // Replace SERVICE_ID, TEMPLATE_ID and PUBLIC_KEY with your EmailJS values
+            await emailjs.send(
+                "SERVICE_ID",
+                "TEMPLATE_ID",
+                {
+                    checkIn: form.checkIn,
+                    checkOut: form.checkOut,
+                    rooms: form.rooms,
+                    adults: form.adults,
+                    children: form.children,
+                },
+                "PUBLIC_KEY"
+            );
+
+            alert("Reservation sent!");
+            setForm({
+                checkIn: "",
+                checkOut: "",
+                rooms: "1 Room",
+                adults: "2 Adults",
+                children: "1 Child",
+            });
+        } catch (err) {
+            console.error("EmailJS error:", err);
+            alert("Failed to send reservation. Please try again.");
+        }
     };
 
     return (
-        <div className="bg-[#C6765C] text-white py-10 px-6  shadow-lg max-w-8xl mx-auto"
+        <div
+            className="bg-[#C6765C] text-white py-10 px-6  shadow-lg max-w-8xl mx-auto"
             style={{
-                backgroundImage: "url('https://html.tonatheme.com/2022/royalking/assets/images/shape/pattern-4.png')",
-            }}>
+                backgroundImage:
+                    "url('https://html.tonatheme.com/2022/royalking/assets/images/shape/pattern-4.png')",
+            }}
+        >
             <h2 className="text-3xl font-serif mb-6 text-center">Make Reservation</h2>
 
-            <form
-                onSubmit={handleSubmit}
-                className="grid md:grid-cols-5 gap-6 items-end"
-            >
+            <form onSubmit={handleSubmit} className="grid md:grid-cols-5 gap-6 items-end">
                 {/* Check-In */}
                 <div>
                     <label className="block text-sm mb-2">Check - In</label>

@@ -3,7 +3,13 @@ import { Link } from "react-router-dom";
 import rooms from "../data/rooms.json";
 import { motion } from "framer-motion";
 import Img from "../images/rooms/Banner.jpg"
+import { useEffect } from "react";
 export default function Rooms() {
+    useEffect(() => {
+    
+    
+            window.scrollTo(0, 0);
+        })
     return (
         <div className=" bg-gradient-to-br from-gray-50 to-gray-100 py-12 pt-32">
 

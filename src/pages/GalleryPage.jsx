@@ -1,18 +1,18 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaTimes, FaChevronLeft, FaChevronRight } from "react-icons/fa";
-
+import banner from '../images/gallery/gallery-banner.jpg'
 const galleryImages = [
-  { src: "/gallery/lobby.jpg", title: "Luxury Lobby" },
-  { src: "/gallery/pool.jpg", title: "Infinity Pool" },
-  { src: "/gallery/room.jpg", title: "Premium Suite" },
-  { src: "/gallery/dining.jpg", title: "Fine Dining" },
-  { src: "/gallery/spa.jpg", title: "Luxury Spa" },
-  { src: "/gallery/banquet.jpg", title: "Banquet Hall" },
-  { src: "/gallery/lounge.jpg", title: "Cocktail Lounge" },
-  { src: "/gallery/heritage.jpg", title: "Heritage View" },
+  { src: "src/images/gallery/gallery-images.jpg02.jpg", title: "Fine Dining" },
+  { src: "src/images/gallery/gallery-images.jpg03.jpg", title: "Baar Area" },
+  { src: "src/images/gallery/gallery-images.jpg04.jpg", title: "Cocktail Lounge" },
+  { src: "src/images/gallery/gallery-images.jpg05.jpg", title: "lawn Area" },
+  { src: "src/images/gallery/gallery-images.jpg06.jpg", title: "Lawn dining Area" },
+  { src: "src/images/gallery/gallery-images.jpg-01.jpg", title: "Banquet Hall" },
+  { src: "src/images/gallery/gallery-images.jpg07.jpg", title: "Dining" },
+  { src: "src/images/gallery/gallery-images.jpg08.jpg", title: "Bed Room" },
 ];
-
+ 
 export default function GalleryPage() {
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -22,26 +22,17 @@ export default function GalleryPage() {
     setActiveIndex(
       (prev) => (prev - 1 + galleryImages.length) % galleryImages.length
     );
+  useEffect(() => {
 
+
+    window.scrollTo(0, 0);
+  })
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-100">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-primary to-purple-700 text-white py-28 px-6 text-center">
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="max-w-3xl mx-auto"
-        >
-          <h1 className="text-4xl sm:text-6xl font-extrabold">
-            Devranaa Hotel Gallery
-          </h1>
-          <p className="mt-6 text-lg sm:text-xl text-gray-100">
-            Experience the elegance, luxury, and unforgettable moments captured
-            at our hotel.
-          </p>
-        </motion.div>
-      </section>
+   <div>
+    <img className="w-full mt-16" src={banner} alt="" />
+   </div>
 
       {/* Gallery Grid */}
       <section className="max-w-7xl mx-auto px-6 py-16">

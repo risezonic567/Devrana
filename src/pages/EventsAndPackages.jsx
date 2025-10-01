@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
     FaGlassCheers,
     FaUsers,
@@ -102,12 +102,16 @@ const packages = [
 export default function EventsAndPackages() {
     const [selectedPackage, setSelectedPackage] = useState(null);
     const [activeVenue, setActiveVenue] = useState(null);
+ useEffect(() => {
 
+
+        window.scrollTo(0, 0);
+    })
     return (
         <div className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-100 font-serif">
             {/* Hero Section */}
             <section className="relative text-primary py-28 px-6 text-center mt-32 h-[700px] bg-no-repeat bg-center bg-cover" style={{
-                backgroundImage: "url('https://devrana.in/wp-content/uploads/2025/04/T6-1.jpeg')",
+                backgroundImage: "url('https://i.postimg.cc/y6PVd0J6/Event-banner.jpg')",
             }} >
 
             </section>

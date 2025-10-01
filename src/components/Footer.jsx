@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaTwitter, FaTripadvisor } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter, FaTripadvisor, FaPinterest } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
 export default function Footer() {
@@ -73,8 +73,9 @@ export default function Footer() {
                     <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary transition">
                         <FaTwitter />
                     </a>
+                   
                     <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary transition">
-                        <FaTripadvisor />
+                        <FaPinterest />
                     </a>
                 </div>
             </div>

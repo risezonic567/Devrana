@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaUtensils, FaCalendarAlt, FaStar, FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 import { IoMdClose } from "react-icons/io";
@@ -7,7 +7,7 @@ import { Link, NavLink } from 'react-router-dom';
 // --- IMAGES & VIDEO PLACEHOLDERS ---
 // Replace these with your actual high-resolution images and videos
 import heroimg from '../images/Resto/Restaurant BANNER.jpg'; // Example video for hero
-import diningInterior1 from '../images/home/home1.jpg';
+import diningInterior1 from '../images//Resto/Restaurant 1 IMAGE.jpg';
 import dish1 from '../images/home/home1.jpg';
 import dish2 from '../images/Resto/Restaurant 3 IMAGE.jpg';
 import chefPortrait from '../images/home/home1.jpg';
@@ -59,7 +59,11 @@ export default function Restaurant() {
     const galleryImages = [
         galleryImg1, galleryImg2, galleryImg3, galleryImg4, galleryImg5, galleryImg6
     ];
+    useEffect(() => {
 
+
+        window.scrollTo(0, 0);
+    })
     return (
         <div className="antialiased text-white bg-beige-100 pt-32">
             {/* Hero Section */}
@@ -118,7 +122,7 @@ export default function Restaurant() {
                 </motion.h2>
                 <div className="xl:max-w-6xl lg:max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <motion.div variants={imageVariants} className="relative">
-                        <img src="https://devrana.in/wp-content/uploads/2025/04/devrana-about-us.png" alt="Elegant restaurant interior" className="rounded-tl-3xl rounded-br-3xl shadow-xl border-4 border-white  object-cover w-full h-96" />
+                        <img src={diningInterior1} alt="Elegant restaurant interior" className="rounded-tl-3xl rounded-br-3xl shadow-xl border-4 border-white  object-cover w-full h-96" />
                         <div className="absolute -bottom-8 -left-8 bg-deep-green-800 p-6 rounded-br-3xl rounded-tl-3xl text-white shadow-lg z-10 hidden md:block bg-primary">
                             <FaUtensils className="text-white text-4xl mb-2 " />
                             <p className="font-serif text-xl">Since 1998</p>

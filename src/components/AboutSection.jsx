@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { NavLink } from "react-router-dom";
 import img1 from "../images/home/home1.jpg"
 import img2 from "../images/home/home2.jpg"
-import video from "../video/Home Page.mp4"
+import video from "../video/aboutsectionvideo.mp4"
 
 
 

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import img1 from "../../images/about/about1st.jpg"
 // import img2 from "../images/home/home2.jpg"
-import video from "../../video/Home Page.mp4"
+import video from "../../video/aboutsectionvideo.mp4"
 export default function AboutSection() {
     const [isOpen, setIsOpen] = useState(false); // for video modal
     const [showMore, setShowMore] = useState(false); // for text toggle

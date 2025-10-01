@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaPlay } from "react-icons/fa";
 import { motion } from "framer-motion";
-import video from "../video/DEVRANA HOME PAGE VIDEO.mp4"
+import video from "../video/room.mp4"
 export default function PremiumVideoSection() {
     const [isOpen, setIsOpen] = useState(false);
 

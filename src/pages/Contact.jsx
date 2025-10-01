@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 
@@ -43,7 +43,11 @@ export default function Contact() {
                 }
             );
     };
+ useEffect(() => {
 
+
+        window.scrollTo(0, 0);
+    })
     return (
         <>
             {/* 🚀 Hero Banner with Animation */}

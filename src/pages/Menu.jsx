@@ -11,11 +11,11 @@ import {
     Sun,
     ScrollText
 } from 'lucide-react';
-
+import banner from "../images/menu/menu-banner.jpg"
 // --- 1. Tailwind Configuration and Utility Constants ---
 
 // NEW: Hero Image URL Constant (A high-quality image of a luxurious dining setting)
-const HERO_IMAGE_URL = "https://devrana.in/wp-content/uploads/2025/05/about-us.jpg";
+const HERO_IMAGE_URL = banner;
 
 
 // --- 2. Data Structure ---
@@ -156,7 +156,7 @@ const MenuItem = ({ name }) => (
     >
         <span className="text-stone-800 tracking-wide">{name}</span>
         {/* Placeholder for Price */}
-        <span className="text-color-secondary font-bold text-lg">---</span>
+        <span className="text-color-secondary font-bold text-lg"></span>
     </motion.li>
 );
 
@@ -183,7 +183,11 @@ const MenuSection = ({ id, title, icon: Icon, items, delay, children }) => {
     };
 
     const isSimpleList = items && items.length > 0;
+    useEffect(() => {
 
+
+        window.scrollTo(0, 0);
+    })
     return (
         <motion.section
             id={id}

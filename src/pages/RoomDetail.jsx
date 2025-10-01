@@ -139,7 +139,7 @@
 import { useParams } from "react-router-dom";
 import rooms from "../data/rooms.json";
 import BookingForm from "../components/BookingForm";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function RoomDetails() {
@@ -149,7 +149,11 @@ export default function RoomDetails() {
     const [selectedImg, setSelectedImg] = useState(room?.img);
 
     if (!room) return <h2 className="text-center mt-10">Room not found</h2>;
+    useEffect(() => {
 
+
+        window.scrollTo(0, 0);
+    })
     return (
         <div
             className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-12 mt-28"
@@ -212,7 +216,7 @@ export default function RoomDetails() {
                                         key={i}
                                         className="bg-gray-100 px-3 py-2 rounded-xl text-gray-600 text-sm flex items-center gap-2 shadow-sm hover:bg-gray-200 transition"
                                     >
-                                     {a}
+                                        {a}
                                     </li>
                                 ))}
                             </ul>
