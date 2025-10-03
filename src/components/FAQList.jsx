@@ -5,18 +5,28 @@ import FAQItem from './FAQItem'; // Assuming FAQItem.js is in the same directory
 const faqData = [
     {
         id: 1,
-        question: "What is React?",
-        answer: "React is a JavaScript library for building user interfaces, primarily used for single-page applications.",
+        question: "What are the standard Check-in and Check-out times?",
+        answer: "The standard Check-in time is 12:00 PM (Noon), and the standard Check-out time is 12:00 PM (Noon). Early check-in or late check-out is often subject to availability and may incur extra charges.",
     },
     {
         id: 2,
-        question: "How do you use Tailwind CSS?",
-        answer: "Tailwind CSS is a utility-first CSS framework. You apply styles by adding predefined classes directly to your HTML/JSX elements.",
-    },
+        question: "Does the property allow pets?",
+        answer: "yes, pets are generally allowed at Devrana Hotel/ Resort.",},
     {
         id: 3,
-        question: "What is a React Hook?",
-        answer: "React Hooks are functions that let you 'hook into' React state and lifecycle features from function components. The most common are useState and useEffect.",
+        question: "What is the cancellation policy?",
+        answer: "The cancellation policy depends on the specific rate booked. Fully refundable room rates are typically available, allowing cancellation up to a few days before check-in. You should always confirm the exact terms of your specific booking.",
+    },
+    {
+        id:4,
+        question:"What types of identification are accepted at check-in, and are there any specific guest policies?",
+        answer:"Accepted ID proofs usually include Passport, Aadhaar Card, and Driving License. Please note that for some properties under the name 'Devrana Resort,' unmarried couples are often not allowed, and guests with local IDs may not be accepted for reservation.",
+        
+    },
+    {
+        id:5,
+        question:"Is parking available, and is Wi-Fi provided?",
+        answer:"Yes, free self-parking is typically available on-site, and free Wi-Fi is provided in the rooms for gueests.", 
     },
 ];
 

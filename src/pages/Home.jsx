@@ -13,6 +13,7 @@ import BlogSection from '../components/sections/BlogSection'
 import WhatsAppSticky from '../components/WhatsAppSticky'
 import CallSticky from '../components/CallSticky'
 import Franchise from '../components/Franchise'
+import HomeResto from '../components/HomeResto'
 
 
 export default function Home() {
@@ -27,7 +28,8 @@ export default function Home() {
       <AboutSection/>
       <SpecialOffers/>
       <RoomsSlider/>
-      <Amenities/>
+      <HomeResto/>
+      {/* <Amenities/> */}
       <FunFacts/>
       <OffersSection/>
       <VideoSection/>
