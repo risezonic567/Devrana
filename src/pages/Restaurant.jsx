@@ -157,12 +157,12 @@ export default function Restaurant() {
                 variants={sectionVariants}
 
             >
-                <div
+                {/* <div
                     className="absolute inset-0 bg-bottom bg-cover w-full bg-no-repeat"
                     style={{
                         backgroundImage: "url('https://i.postimg.cc/1tHxgtVd/pattern-1-new.png')",
                     }}
-                ></div>
+                ></div> */}
                 <motion.p variants={textVariants} className="uppercase tracking-widest text-sm text-white font-medium mb-3 text-center">
                     Signature Dishes
                 </motion.p>
