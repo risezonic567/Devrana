@@ -17,14 +17,16 @@ const venues = [
     {
         id: 1,
         name: "Theth Gaon – Heritage Wedding Venue near Delhi NCR",
-        img: "https://i.postimg.cc/VkM14KMM/The-Gaon-Heritage.jpg",
+        // img: "https://i.postimg.cc/VkM14KMM/The-Gaon-Heritage.jpg",
+        img: "https://i.postimg.cc/nctZ40s6/event-page-night-party-image.jpg",
         capacity: "400 Guests",
         description: "Enter Theth Gaon, a unique heritage wedding venue that provides an authentic village feel to your grand celebrations. With greatly accommodating a guest comprising of over a thousand guests, the space couples rustic architecture with upscale wedding decor options. Embodied in lush greenery, creates the quintessential outdoor wedding venue in Uttar Pradesh. Full customizable lighting and mandap set up allows you to create the ideal traditional or themed wedding. The great venue for authentic, large-scale wedding couple near Delhi.", icon: <FaGlassCheers className="text-pink-500 text-3xl" />,
     },
     {
         id: 2,
         name: "Bagad Open-Air Party Space in Muzaffarnaga",
-        img: "https://i.postimg.cc/vZ9MX09V/Open-Party-Space.jpg",
+        // img: "https://i.postimg.cc/vZ9MX09V/Open-Party-Space.jpg",
+        img: "https://i.postimg.cc/y6Rs3wdq/Bagad-Open-Air-Party-Space-in-Muzaffarnaga.jpg",
         capacity: "300 Guests",
         description: "Bagad is a beautiful, open-air space for parties or intimate gatherings, cocktail celebrations, birthday evenings, or evening events under the night sky. The natural space and flexibility make it an ideal experience for small parties of anywhere between 30 and 70 guests where outdoor charm and casual enjoyment are key. If you plan to have a party location for a pre-wedding event or a family gathering, Bagad is the space that will provide beauty, concentration by natural landscaping, and easy access to nature!",
         icon: <FaUsers className="text-indigo-500 text-3xl" />,
@@ -111,7 +113,7 @@ export default function EventsAndPackages() {
         <div className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-100 font-serif">
             {/* Hero Section */}
             <section className="relative text-primary py-28 px-6 text-center mt-32 h-[700px] bg-no-repeat bg-center bg-cover" style={{
-                backgroundImage: "url('https://i.postimg.cc/y6PVd0J6/Event-banner.jpg')",
+                backgroundImage: "url('https://i.postimg.cc/bN3yq1J6/Event-banner-jpg-images-chng.jpg')",
             }} >
 
             </section>

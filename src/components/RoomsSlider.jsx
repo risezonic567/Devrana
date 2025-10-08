@@ -7,16 +7,16 @@ const rooms = [
     
     {
         id: 1,
-        title: "Deluxe Room",
-        price: "$75.0",
+        title: "Luxury Room",
+        price: "3500 INR",
         stars: 5,
         description: "Spacious deluxe room with premium facilities.",
         img: "https://i.postimg.cc/R0h50KH4/1.jpg",
     },
     {
         id: 2,
-        title: "Royal Suite",
-        price: "$120.0",
+        title: "Family Suite",
+        price: "5500 INR",
         stars: 5,
         description: "Top-notch suite with royal comfort.",
         img: "https://i.postimg.cc/fy465PgR/3.jpg",
@@ -24,7 +24,7 @@ const rooms = [
     {
         id: 3,
         title: "Cottage Room",
-        price: "$65.0",
+        price: "5500 INR",
         stars: 4,
         description: "Cozy cottage experience with nature view.",
         // img: "https://i.postimg.cc/hv9NY0Hb/2.jpg",

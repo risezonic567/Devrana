@@ -7,9 +7,9 @@ import { Link, NavLink } from 'react-router-dom';
 // --- IMAGES & VIDEO PLACEHOLDERS ---
 // Replace these with your actual high-resolution images and videos
 import heroimg from '../images/Resto/Restaurant BANNER.jpg'; // Example video for hero
-import diningInterior1 from '../images//Resto/Restaurant 1 IMAGE.jpg';
+import diningInterior1 from '../images/Resto/wideangle.jpg';
 import dish1 from '../images/home/home1.jpg';
-import dish2 from '../images/Resto/Restaurant 3 IMAGE.jpg';
+import dish2 from '../images/Resto/daalmakhni.jpg';
 import chefPortrait from '../images/home/home1.jpg';
 import galleryImg1 from './../images/Resto/dish1.jpg';
 import galleryImg2 from './../images/Resto/dish2.jpg';
@@ -123,10 +123,10 @@ export default function Restaurant() {
                 <div className="xl:max-w-6xl lg:max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <motion.div variants={imageVariants} className="relative">
                         <img src={diningInterior1} alt="Elegant restaurant interior" className="rounded-tl-3xl rounded-br-3xl shadow-xl border-4 border-white  object-cover w-full h-96" />
-                        <div className="absolute -bottom-8 -left-8 bg-deep-green-800 p-6 rounded-br-3xl rounded-tl-3xl text-white shadow-lg z-10 hidden md:block bg-primary">
+                        {/* <div className="absolute -bottom-8 -left-8 bg-deep-green-800 p-6 rounded-br-3xl rounded-tl-3xl text-white shadow-lg z-10 hidden md:block bg-primary">
                             <FaUtensils className="text-white text-4xl mb-2 " />
                             <p className="font-serif text-xl">Since 1998</p>
-                        </div>
+                        </div> */}
                     </motion.div>
                     <motion.div variants={textVariants} className="text-left space-y-6 text-lg text-gray-700">
                         <p>
@@ -157,12 +157,12 @@ export default function Restaurant() {
                 variants={sectionVariants}
 
             >
-                {/* <div
+                <div
                     className="absolute inset-0 bg-bottom bg-cover w-full bg-no-repeat"
                     style={{
-                        backgroundImage: "url('https://i.postimg.cc/1tHxgtVd/pattern-1-new.png')",
+                        backgroundImage: "url('https://i.postimg.cc/Gtc3ztBn/pattern-1-new-1.png')",
                     }}
-                ></div> */}
+                ></div>
                 <motion.p variants={textVariants} className="uppercase tracking-widest text-sm text-white font-medium mb-3 text-center">
                     Signature Dishes
                 </motion.p>
@@ -192,7 +192,7 @@ export default function Restaurant() {
                     <motion.div variants={cardVariants} whileHover="hover" className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row border border-gray-200 z-10">
                         <img src={dish2} alt="Fresh Organic Salad" className="w-full md:w-2/5 h-64 md:h-auto object-cover" />
                         <div className="p-8 flex-1 flex flex-col justify-center">
-                            <h3 className="text-3xl font-serif text-primary mb-3">Devrana Special Dish</h3>
+                            <h3 className="text-3xl font-serif text-primary mb-3">Devrana Special Daal Makhani</h3>
                             <p className="text-Secondary text-lg font-medium mb-4">Signature Vegetarian Delight</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Savor our chef’s special vegetarian dish made with fresh, local ingredients and bold flavors. This signature creation highlights Devrana’s authentic and wholesome culinary tradition.

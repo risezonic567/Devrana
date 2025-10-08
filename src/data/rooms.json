@@ -3,9 +3,9 @@
         "id": 1,
         "name": "Luxury Room",
         "slug": "luxury-room",
-        "price": 5500,
+        "price": 3500,
         "img": "https://i.postimg.cc/P58mYr8Z/Luxury-Room.jpg",
-        "description": "Luxury suite with living area, Jacuzzi, and premium room service.",
+        "description": "Luxury suite with living area, and premium room service.",
         "images": [
             "/luxary/new-luxary-image-01.jpg",
             "/luxary/new-luxary-image-02.jpg",
@@ -14,7 +14,7 @@
             "/luxary/new-luxary-image-05.jpg"
         ],
         "amenities": [
-            "Jacuzzi",
+            
             "Mini Bar",
             "Free WiFi",
             "24x7 Service"
@@ -26,7 +26,7 @@
         "slug": "cottage",
         "price": 5500,
         "img": "/cotage 1.jpg",
-        "description": "Luxury suite with living area, Jacuzzi, and premium room service.",
+        "description": "Luxury suite with living area, and premium room service.",
         "images": [
             "/cottage/room-image-cotage-01.jpg",
             "/cottage/room-image-cotage-02.jpg",
@@ -35,7 +35,7 @@
             "/cottage/room-image-cotage-05.jpg"
         ],
         "amenities": [
-            "Jacuzzi",
+            
             "Mini Bar",
             "Free WiFi",
             "24x7 Service"
@@ -45,7 +45,7 @@
         "id": 3,
         "name": "Family Suite",
         "slug": "family-suite",
-        "price": 3500,
+        "price": 5500,
         "img": "https://i.postimg.cc/qMqcBGJ1/Duluex-Room.jpg",
         "description": "Spacious room with king-size bed, balcony view, and complimentary breakfast.",
         "amenities": [
