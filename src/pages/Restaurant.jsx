@@ -7,7 +7,7 @@ import { Link, NavLink } from 'react-router-dom';
 // --- IMAGES & VIDEO PLACEHOLDERS ---
 // Replace these with your actual high-resolution images and videos
 import heroimg from '../images/Resto/Restaurant BANNER.jpg'; // Example video for hero
-import diningInterior1 from '../images/Resto/wideangle.jpg';
+import diningInterior1 from '../images/Resto/Restaurant 2 image.jpg';
 import dish1 from '../images/home/home1.jpg';
 import dish2 from '../images/Resto/daalmakhni.jpg';
 import chefPortrait from '../images/home/home1.jpg';

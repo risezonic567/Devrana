@@ -14,7 +14,6 @@
             "/luxary/new-luxary-image-05.jpg"
         ],
         "amenities": [
-            
             "Mini Bar",
             "Free WiFi",
             "24x7 Service"
@@ -35,7 +34,6 @@
             "/cottage/room-image-cotage-05.jpg"
         ],
         "amenities": [
-            
             "Mini Bar",
             "Free WiFi",
             "24x7 Service"
@@ -46,8 +44,15 @@
         "name": "Family Suite",
         "slug": "family-suite",
         "price": 5500,
-        "img": "https://i.postimg.cc/qMqcBGJ1/Duluex-Room.jpg",
+        "img": "/family/family-suit-03.jpg",
+        "img2": "https://i.postimg.cc/qMqcBGJ1/Duluex-Room.jpg",
         "description": "Spacious room with king-size bed, balcony view, and complimentary breakfast.",
+        "images": [
+            "/family/family-suit-01.jpg",
+            "/family/family-suit-02.jpg",
+            "/family/family-suit-03.jpg",
+            "/family/family-suit-04.jpg"
+        ],
         "amenities": [
             "Free WiFi",
             "Breakfast",
