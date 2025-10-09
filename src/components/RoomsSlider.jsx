@@ -11,7 +11,7 @@ const rooms = [
         price: "3500 INR",
         stars: 5,
         description: "Spacious deluxe room with premium facilities.",
-        img: "https://i.postimg.cc/R0h50KH4/1.jpg",
+        img: "/1.jpg",
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ const rooms = [
         price: "5500 INR",
         stars: 5,
         description: "Top-notch suite with royal comfort.",
-        img: "https://i.postimg.cc/fy465PgR/3.jpg",
+        img: "/2.jpg",
     },
     {
         id: 3,

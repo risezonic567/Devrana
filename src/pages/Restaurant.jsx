@@ -55,7 +55,7 @@ export default function Restaurant() {
             {/* Hero Section */}
             <section className="relative h-screen flex items-center justify-center text-center overflow-hidden">
                 <img
-                    className="absolute inset-0 w-full h-full object-cover z-0"
+                    className="absolute inset-0 w-full min-h-screen object-cover z-0"
                     src={heroimg}
 
                 >
