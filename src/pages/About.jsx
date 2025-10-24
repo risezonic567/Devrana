@@ -10,14 +10,12 @@ import Img from "../images/about/Devrana About us Banner.jpg"
 import FAQList from '../components/FAQList'
 export default function About() {
     useEffect(() => {
-
-
         window.scrollTo(0, 0);
     })
     return (
         <div>
             <div className='mt-32' >
-                <img src={Img} alt="About Banner" />
+                <img className="w-full"  src={Img} alt="About Banner" />
             </div>
             <AboutSection />
             <SpecialOffers />

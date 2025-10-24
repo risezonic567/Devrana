@@ -69,7 +69,7 @@ export default function Herosection() {
     };
 
     return (
-        <section className="sm:mt-32 mt-[74px] sm:h-screen " style={styles.hero} aria-label="Hero video section">
+        <section className="sm:mt-32 mt-[74px]  lg:h-[600px]  xl:h-[600px]  h-screen  " style={styles.hero} aria-label="Hero video section">
             <video
                 style={styles.video}
                 src={homevideo} // replace with your video path

@@ -13,8 +13,8 @@ export default function Rooms() {
     return (
         <div className=" bg-gradient-to-br from-gray-50 to-gray-100 py-12 pt-32">
 
-            <div className="flex justify-center">
-                <img src={Img} alt="" />
+            <div className="flex justify-center w-full ">
+                <img src={Img} alt="rooms banner" />
             </div>
 
             <div className="max-w-6xl mx-auto px-6">

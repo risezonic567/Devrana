@@ -112,8 +112,9 @@ export default function EventsAndPackages() {
     return (
         <div className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-100 font-serif">
             {/* Hero Section */}
-            <section className="relative text-primary py-28 px-6 text-center mt-32 h-[700px] bg-no-repeat bg-center bg-cover" style={{
-                backgroundImage: "url('https://i.postimg.cc/bN3yq1J6/Event-banner-jpg-images-chng.jpg')",
+            <section className="relative text-primary py-28 px-6 text-center mt-32 h-[600px] bg-no-repeat bg-center bg-cover" style={{
+                // backgroundImage: "url('https://i.postimg.cc/bN3yq1J6/Event-banner-jpg-images-chng.jpg')",
+                backgroundImage: "url('https://i.postimg.cc/W1v0khGN/Event-banner-jpg-images-chng.jpg')",
             }} >
 
             </section>

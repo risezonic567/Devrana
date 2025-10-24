@@ -51,9 +51,9 @@ export default function Restaurant() {
         window.scrollTo(0, 0);
     })
     return (
-        <div className="antialiased text-white bg-beige-100 pt-32">
+        <div className="antialiased text-white  sm:pt-32">
             {/* Hero Section */}
-            <section className="relative h-screen flex items-center justify-center text-center overflow-hidden">
+            <section className="relative  h-screen lg:h-[600px] flex items-center justify-center text-center overflow-hidden">
                 <img
                     className="absolute inset-0 w-full min-h-screen object-cover z-0"
                     src={heroimg}
