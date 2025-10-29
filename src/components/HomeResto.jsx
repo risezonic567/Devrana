@@ -51,15 +51,15 @@ export default function HomeResto() {
                         modules={[Pagination]}
                         className="mySwiper"
                     >
-                        <SwiperSlide className='swiper-slide-menu relative' ><img src={img1} alt="" /></SwiperSlide>7
-                        <SwiperSlide className='swiper-slide-menu relative' ><img src={img2} alt="" /></SwiperSlide>
-                        <SwiperSlide className='swiper-slide-menu relative' ><img src={img3} alt="" /></SwiperSlide>
-                        <SwiperSlide className='swiper-slide-menu relative' ><img src={img4} alt="" /></SwiperSlide>
-                        <SwiperSlide className='swiper-slide-menu relative' ><img src={img5} alt="" /></SwiperSlide>
-                        <SwiperSlide className='swiper-slide-menu relative' ><img src={img6} alt="" /></SwiperSlide>
-                        <SwiperSlide className='swiper-slide-menu relative' ><img src={img1} alt="" /></SwiperSlide>
-                        <SwiperSlide className='swiper-slide-menu relative' ><img src={img2} alt="" /></SwiperSlide>
-                        <SwiperSlide className='swiper-slide-menu relative' ><img src={img3} alt="" /></SwiperSlide>
+                        <SwiperSlide className='swiper-slide-menu relative' ><img src={img1} alt=" devrana Resto food " /></SwiperSlide>7
+                        <SwiperSlide className='swiper-slide-menu relative' ><img src={img2} alt=" devrana Resto food " /></SwiperSlide>
+                        <SwiperSlide className='swiper-slide-menu relative' ><img src={img3} alt=" devrana Resto food " /></SwiperSlide>
+                        <SwiperSlide className='swiper-slide-menu relative' ><img src={img4} alt=" devrana Resto food " /></SwiperSlide>
+                        <SwiperSlide className='swiper-slide-menu relative' ><img src={img5} alt=" devrana Resto food " /></SwiperSlide>
+                        <SwiperSlide className='swiper-slide-menu relative' ><img src={img6} alt=" devrana Resto food " /></SwiperSlide>
+                        <SwiperSlide className='swiper-slide-menu relative' ><img src={img1} alt=" devrana Resto food " /></SwiperSlide>
+                        <SwiperSlide className='swiper-slide-menu relative' ><img src={img2} alt=" devrana Resto food " /></SwiperSlide>
+                        <SwiperSlide className='swiper-slide-menu relative' ><img src={img3} alt=" devrana Resto food " /></SwiperSlide>
                     </Swiper>
 
                 </div>

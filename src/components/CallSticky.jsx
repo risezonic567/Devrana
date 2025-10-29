@@ -1,7 +1,7 @@
 import { FaPhone } from "react-icons/fa";
 
 const CallStick = () => {
-  const phoneNumber = "+91 78270 02538";
+  const phoneNumber = "7060301700";
   const telHref = `tel:${phoneNumber.replace(/\s+/g, '')}`;
 
   return (

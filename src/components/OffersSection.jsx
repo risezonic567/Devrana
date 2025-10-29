@@ -12,7 +12,7 @@ export default function OffersSection() {
                         {/* Decorative shape */}
                         <img
                             src="https://html.tonatheme.com/2022/royalking/assets/images/shape/pattern-1.png"
-                            alt=""
+                            alt="Devrana Hotel"
                             className="absolute top-0 left-0 w-32 h-32"
                         />
                         <img
@@ -47,7 +47,7 @@ export default function OffersSection() {
                         {/* Decorative shape */}
                         <img
                             src="https://html.tonatheme.com/2022/royalking/assets/images/shape/pattern-1.png"
-                            alt=""
+                            alt="Devrana Hotel"
                             className="absolute top-0 right-0 w-32 h-32"
                         />
                         <img

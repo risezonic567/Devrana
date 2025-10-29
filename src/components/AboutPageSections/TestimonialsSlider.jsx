@@ -110,7 +110,7 @@ export default function TestimonialsSlider() {
                                             <p className="py-3" >{room.text}</p>
                                         </p>
                                         <div className=" overflow-hidden items-center flex justify-center py-7">
-                                            <img className="w-16 h-16 rounded-full" src={room.image} alt="" />
+                                            <img className="w-16 h-16 rounded-full" src={room.image} alt="Devrana Rooms " />
                                         </div>
                                         <p className="py-3" >{room.designation}</p>
                                         <div className="flex items-center mb-2 text-center justify-center">

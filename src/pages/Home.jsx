@@ -36,8 +36,8 @@ export default function Home() {
       <Testimonials/>
       <ReservationForm/>
       <BlogSection/>
-      {/* <WhatsAppSticky/>
-      <CallSticky /> */}
+      <WhatsAppSticky/>
+      <CallSticky />
       <Franchise/>
     </div>
   )

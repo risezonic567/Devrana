@@ -2,8 +2,9 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useNavigate } from "react-router-dom";
 
-export default function ReservationForm() {
+export default function ReservationEmailbooking({ selectedRoom }) {
     const [form, setForm] = useState({
         checkIn: "",
         checkOut: "",
@@ -13,7 +14,9 @@ export default function ReservationForm() {
         fullname: "",
         mail: "",
         number: "",
+        roomtype: selectedRoom?.name || "",
     });
+        const navigate = useNavigate();
     const [loading, setLoading] = useState(false);
     const handleChange = (e) => {
         setForm({ ...form, [e.target.name]: e.target.value });
@@ -28,7 +31,8 @@ export default function ReservationForm() {
             !form.checkOut ||
             !form.fullname ||
             !form.mail ||
-            !form.number
+            !form.number ||
+            !form.roomtype
         ) {
             toast.error("Please fill in all required fields.");
             return;
@@ -48,6 +52,7 @@ export default function ReservationForm() {
                     fullname: form.fullname,
                     mail: form.mail,
                     number: form.number,
+                    roomtype: form.roomtype,
                 },
                 "041QHTwrVzqMNMOBc" // replace with your EmailJS public key
             );
@@ -64,6 +69,10 @@ export default function ReservationForm() {
                 fullname: "",
                 mail: "",
                 number: "",
+                roomtype: selectedRoom?.name || "",
+            });
+            navigate(`/rooms-cottage`, {
+                
             });
         } catch (err) {
             console.error("EmailJS error:", err);
@@ -76,7 +85,7 @@ export default function ReservationForm() {
 
     return (
         <div
-            className="bg-[#C6765C] text-white py-10 px-6 shadow-lg max-w-8xl mx-auto"
+            className="bg-[#C6765C] text-white py-10 px-6 shadow-lg sm:max-w-8xl mx-auto"
             style={{
                 backgroundImage:
                     "url('https://html.tonatheme.com/2022/royalking/assets/images/shape/pattern-4.png')",
@@ -88,7 +97,7 @@ export default function ReservationForm() {
 
             <form
                 onSubmit={handleSubmit}
-                className="grid md:grid-cols-5 gap-6 items-end"
+                className="grid md:grid-cols-5 grid-cols-2 gap-6 items-end"
             >
                 {/* Check-In */}
                 <div>
@@ -126,12 +135,7 @@ export default function ReservationForm() {
                         <option className="text-black" value="1 Room">
                             1 Room
                         </option>
-                        <option className="text-black" value="2 Rooms">
-                            2 Rooms
-                        </option>
-                        <option className="text-black" value="3 Rooms">
-                            3 Rooms
-                        </option>
+                       
                     </select>
                 </div>
 
@@ -150,12 +154,7 @@ export default function ReservationForm() {
                         <option className="text-black" value="2 Adults">
                             2 Adults
                         </option>
-                        <option className="text-black" value="3 Adults">
-                            3 Adults
-                        </option>
-                        <option className="text-black" value="4 Adults">
-                            4 Adults
-                        </option>
+                       
                     </select>
                 </div>
 
@@ -177,9 +176,7 @@ export default function ReservationForm() {
                         <option className="text-black" value="2 Children">
                             2 Children
                         </option>
-                        <option className="text-black" value="3 Children">
-                            3 Children
-                        </option>
+                       
                     </select>
                 </div>
 
@@ -215,6 +212,16 @@ export default function ReservationForm() {
                         name="number"
                         value={form.number}
                         onChange={handleChange}
+                        className="w-full border-b border-white bg-transparent focus:outline-none text-white"
+                    />
+                </div>
+
+                <div>
+                    <label className="block text-sm mb-2">Room Type</label>
+                    <input
+                        type="text"
+                        name="roomtype"
+                        value={form.roomtype}
                         className="w-full border-b border-white bg-transparent focus:outline-none text-white"
                     />
                 </div>

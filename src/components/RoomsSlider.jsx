@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaArrowLeft, FaArrowRight, FaStar } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const rooms = [
    
@@ -124,7 +125,7 @@ export default function RoomsSlider() {
                                             <p className="font-semibold text-lg">{room.price}/night</p>
                                         </div>
                                         <button className="bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded mt-2">
-                                            View all 
+                                            <Link to="/rooms-cottage">   View all </Link>
                                         </button>
                                     </div>
                                 </div>

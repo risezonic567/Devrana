@@ -141,6 +141,7 @@ import rooms from "../data/rooms.json";
 import BookingForm from "../components/BookingForm";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import ReservationEmailbooking from "../components/ReservationEmailbooking";
 
 export default function RoomDetails() {
     const { slug } = useParams();
@@ -275,12 +276,7 @@ export default function RoomDetails() {
                                 Book Now
                             </button>
 
-                            <button
-                                onClick={() => alert('Show full menu or room services here!')}
-                                className="border border-primary text-primary px-8 py-3 rounded-full hover:bg-primary hover:text-white transition-all text-sm sm:text-base"
-                            >
-                                View Full Menu
-                            </button>
+
                         </div>
                     </div>
                 </section>
@@ -348,13 +344,13 @@ export default function RoomDetails() {
             <AnimatePresence>
                 {showBooking && (
                     <motion.div
-                        className="fixed inset-0 bg-black/50 backdrop-blur-sm flex justify-center items-center z-50"
+                        className="fixed inset-0 bg-black/50 backdrop-blur-sm flex justify-center items-center z-50  "
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
                     >
                         <motion.div
-                            className="bg-white rounded-3xl shadow-2xl w-full max-w-lg p-6 sm:p-8 relative overflow-hidden"
+                            className="bg-white rounded-3xl shadow-2xl w-full md:max-w-2xl max-w-lg p-6 sm:p-8 relative overflow-hidden m-2"
                             initial={{ y: 100, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
                             exit={{ y: 100, opacity: 0 }}
@@ -374,13 +370,13 @@ export default function RoomDetails() {
                             </div>
 
                             {/* Room Info inside Modal */}
-                            <div className="bg-gray-100 p-3 rounded-xl mb-4 text-sm">
+                            {/* <div className="bg-gray-100 p-3 rounded-xl mb-4 text-sm">
                                 <p className="font-semibold text-gray-800">{room.name}</p>
                                 <p className="text-gray-500">₹{room.price}/night</p>
-                            </div>
+                            </div> */}
 
                             {/* Booking Form */}
-                            <BookingForm selectedRoom={room} />
+                            <ReservationEmailbooking selectedRoom={room} />
 
 
                         </motion.div>

@@ -1,7 +1,7 @@
 import { FaWhatsapp } from "react-icons/fa";
 
 const WhatsAppSticky = () => {
-  const phoneNumber = "919289595558"; // Replace with your WhatsApp number
+  const phoneNumber = "7060301700"; // Replace with your WhatsApp number
 
   return (
     <a

@@ -22,15 +22,15 @@ export default function Contact() {
 
         emailjs
             .send(
-                "YOUR_SERVICE_ID",
-                "YOUR_TEMPLATE_ID",
+                "service_h7w9nis",
+                "template_r2vakij",
                 {
                     from_name: formData.name,
                     from_email: formData.email,
                     subject: formData.subject,
                     message: formData.message,
                 },
-                "YOUR_PUBLIC_KEY"
+                "041QHTwrVzqMNMOBc"
             )
             .then(
                 () => {
@@ -43,11 +43,7 @@ export default function Contact() {
                 }
             );
     };
- useEffect(() => {
 
-
-        window.scrollTo(0, 0);
-    })
     return (
         <>
             {/* 🚀 Hero Banner with Animation */}
