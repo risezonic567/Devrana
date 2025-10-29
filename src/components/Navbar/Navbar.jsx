@@ -189,7 +189,7 @@ const Navbar = () => {
           <NavLink to="/">
             <img
               loading="lazy"
-              src="https://i.postimg.cc/hvBpty6H/white-logo.png"
+              src={logo}
               // src="https://i.postimg.cc/qq7R0CjT/PNG-1.png"
 
               alt="Star Alliance Aviation Academy"

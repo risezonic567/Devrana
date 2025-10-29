@@ -1,3 +1,6 @@
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www\.devrana\.in$ [NC]
+
+# Redirect www → non-www and force HTTPS
+RewriteCond %{HTTP_HOST} ^www\.devrana\.in$ [OR]
+RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://devrana.in/$1 [L,R=301]
