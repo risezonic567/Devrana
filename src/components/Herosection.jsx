@@ -68,27 +68,45 @@ export default function Herosection() {
         window.location.href = "/booking";
     };
 
+    const [videoReady, setVideoReady] = React.useState(false);
+    const videoRef = React.useRef(null);
+
     return (
-        <section className="sm:mt-32 mt-[74px]  lg:h-[600px]  xl:h-[600px]  h-screen  " style={styles.hero} aria-label="Hero video section">
+        <section className="sm:mt-32 mt-[74px]  lg:h-[600px]  xl:h-[600px]  h-screen" style={styles.hero} aria-label="Hero video section">
             <video
-                style={styles.video}
-                src="https://www.devrana.in/assets/Homebanner-af9b8916.mp4" // replace with your video path
-                autoPlay
-                loop
+                ref={videoRef}
+                style={{
+                    ...styles.video,
+                    opacity: videoReady ? 1 : 0,
+                    transition: "opacity 400ms ease",
+                    backgroundColor: "#000"
+                }}
+                poster="https://i.postimg.cc/pLJ3F1tw/Screenshot-2025-10-30-144658.png" // use a small poster image
+                preload="metadata" // don't download entire file immediately
                 muted
                 playsInline
-                preload="auto"
-            />
+                autoPlay
+                loop
+                onCanPlayThrough={() => setVideoReady(true)}
+            >
+                <source src="https://www.devrana.in/assets/Homebanner-af9b8916.mp4" type="video/mp4" />
+                {/* Optionally provide a WebM fallback for non-Safari browsers */}
+                {/* <source src="https://www.devrana.in/assets/Homebanner.webm" type="video/webm" /> */}
+                Your browser does not support the video tag.
+            </video>
+
             <div style={styles.overlay} className="font-serif">
                 <h1 style={styles.title}> Devrana: Traditional heritage village resort </h1>
-                {/* <p style={styles.subtitle}>Comfort. Luxury. Unforgettable stays.</p> */}
-              <NavLink to="/rooms-cottage"  >  <button className="bg-primary"
-                    style={styles.button}
-                    onClick={handleBookNow}
-                    aria-label="Book now"
-                >
-                    Book Now
-                </button></NavLink>
+                <NavLink to="/rooms-cottage">
+                    <button
+                        className="bg-primary"
+                        style={styles.button}
+                        onClick={handleBookNow}
+                        aria-label="Book now"
+                    >
+                        Book Now
+                    </button>
+                </NavLink>
             </div>
         </section>
     );
