@@ -1,0 +1,12 @@
+# Enable rewrite engine
+RewriteEngine On
+
+# Make sure the request is not already using www
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+
+# Redirect to https://www version
+RewriteRule ^(.*)$ https://www.devrana.in/$1 [L,R=301]
+
+# Optional: Force HTTPS if someone uses http://
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://www.devrana.in/$1 [L,R=301]

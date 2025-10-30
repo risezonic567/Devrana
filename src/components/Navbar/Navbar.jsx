@@ -13,6 +13,7 @@ import { Link, NavLink } from "react-router-dom";
 import { ChevronDown } from "lucide-react";
 import { useLocation } from "react-router-dom";
 import logo from "../../images/logo/DR LOGO.png"
+import logowhite from "../../images/logo/DR LOGO white.png"
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolling, setScrolling] = useState(false);
@@ -189,7 +190,7 @@ const Navbar = () => {
           <NavLink to="/">
             <img
               loading="lazy"
-              src={logo}
+              src={logowhite}
               // src="https://i.postimg.cc/qq7R0CjT/PNG-1.png"
 
               alt="Star Alliance Aviation Academy"
