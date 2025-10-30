@@ -72,7 +72,7 @@ export default function Herosection() {
         <section className="sm:mt-32 mt-[74px]  lg:h-[600px]  xl:h-[600px]  h-screen  " style={styles.hero} aria-label="Hero video section">
             <video
                 style={styles.video}
-                src={homevideo} // replace with your video path
+                src="https://www.devrana.in/assets/Homebanner-af9b8916.mp4" // replace with your video path
                 autoPlay
                 loop
                 muted

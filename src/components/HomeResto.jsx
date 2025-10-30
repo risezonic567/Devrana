@@ -25,9 +25,9 @@ export default function HomeResto() {
                     backgroundImage: "url('https://html.tonatheme.com/2022/royalking/assets/images/shape/pattern-3.png')",
                 }}
             ></div>
-            <div className=' flex justify-evenly items-center mt-20 mb-20 max-w-7xl mx-auto gap-10  text-white py-12' >
+            <div className=' sm:flex sm:justify-evenly justify-center items-center mt-20 mb-20 max-w-7xl mx-auto gap-10  text-white py-12' >
 
-                <div className=' w-1/2 h-80 rounded-lg overflow-hidden  p-6 bg-Lightcolor'>
+                <div className=' sm:w-1/2 h-80 rounded-lg overflow-hidden  p-6 bg-Lightcolor'>
                     <div>
                         <h3 className='uppercase font-serif tracking-wider text-lg mt-3 '>Devrana</h3>
                         <h3 className='font-serif tracking-wider text-6xl mt-3 '>Restaurant</h3>
@@ -36,7 +36,7 @@ export default function HomeResto() {
                     </div>
                     <button className="bg-primary text-white px-4 py-2 mt-4" >Discover More</button>
                 </div>
-                <div className=' w-1/2 relative h-80 rounded-lg overflow-hidden'>
+                <div className=' sm:w-1/2 relative h-80 rounded-lg overflow-hidden'>
                     <Swiper
                         direction={'vertical'}
                         pagination={{
