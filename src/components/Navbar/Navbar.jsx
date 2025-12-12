@@ -77,37 +77,37 @@ const Navbar = () => {
               {/* <span>Phone: Devrana, Delhi-Haridwar Highway, Mansurpur, Muzaffarnagar</span> */}
               <div className="flex gap-3 text-white text-base">
                 <Link
-                  to="https://www.facebook.com/"
+                  to="https://www.facebook.com/DevranaOfficial/"
                   className="w-8 h-8 bg-white rounded-full flex items-center p-0 justify-center text-primary"
                 >
                   <FaFacebookF />
                 </Link>
-                <Link
+                {/* <Link
                   to="https://x.com/"
                   className="w-8 h-8 bg-white rounded-full flex items-center p-0 justify-center text-primary"
                 >
                   <FaTwitter />
-                </Link>
+                </Link> */}
                 <Link
-                  to="https://www.linkedin.com/company/"
+                  to="https://www.linkedin.com/company/devrana-restaurant-and-resort/"
                   className="w-8 h-8 bg-white rounded-full flex items-center p-0 justify-center text-primary"
                 >
                   <FaLinkedinIn />
                 </Link>
                 <Link
-                  to="https://www.instagram.com/"
+                  to="https://www.instagram.com/devrana_official/"
                   className="w-8 h-8 bg-white rounded-full flex items-center p-0 justify-center text-primary"
                 >
                   <FaInstagram />
                 </Link>
                 <Link
-                  to="https://in.pinterest.com/"
+                  to="https://www.pinterest.com/devranan01/"
                   className="w-8 h-8 bg-white rounded-full flex items-center p-0 justify-center text-primary"
                 >
                   <FaPinterestP />
                 </Link>
                 <Link
-                  to="https://www.youtube.com/@starallianceaviationacademy"
+                  to="https://www.youtube.com/@DevranaOfficial1"
                   className="w-8 h-8 bg-white rounded-full flex items-center p-0 justify-center text-primary"
                 >
                   <FaYoutube />
@@ -128,7 +128,7 @@ const Navbar = () => {
             <img
               loading="lazy"
               src={logo}
-              alt="Star Alliance Aviation Academy"
+              alt="logo"
               className="h-[70px]"
             />
           </Link>
@@ -193,7 +193,7 @@ const Navbar = () => {
               src={logowhite}
               // src="https://i.postimg.cc/qq7R0CjT/PNG-1.png"
 
-              alt="Star Alliance Aviation Academy"
+              alt="logo"
               className="h-14"
             />
           </NavLink>

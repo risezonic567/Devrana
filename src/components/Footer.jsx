@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaTwitter, FaTripadvisor, FaPinterest } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter, FaTripadvisor, FaPinterest, FaLinkedin } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
 export default function Footer() {
@@ -64,17 +64,20 @@ export default function Footer() {
 
                 {/* Socials */}
                 <div className="flex space-x-4 mt-4 md:mt-0">
-                    <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary transition">
+                    <a href="https://www.facebook.com/DevranaOfficial/" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary transition">
                         <FaFacebookF />
                     </a>
-                    <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary transition">
+                    <a href="https://www.linkedin.com/company/devrana-restaurant-and-resort/" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary transition">
+                        <FaLinkedin />
+                    </a>
+                    <a href="https://www.instagram.com/devrana_official/" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary transition">
                         <FaInstagram />
                     </a>
-                    <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary transition">
+                    <a href="https://www.youtube.com/@DevranaOfficial1" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary transition">
                         <FaTwitter />
                     </a>
                    
-                    <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary transition">
+                    <a href="https://www.pinterest.com/devranan01/" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary transition">
                         <FaPinterest />
                     </a>
                 </div>
