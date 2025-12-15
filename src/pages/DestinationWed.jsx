@@ -172,7 +172,6 @@ export default function DestinationWed() {
                     </h2>
                 </div>
             </motion.section>
-
             {/* CTA */}
             <section className="bg-neutral-900 py-24">
                 <motion.div
@@ -191,7 +190,7 @@ export default function DestinationWed() {
                         whileTap={{ scale: 0.95 }}
                         className="px-12 py-5 bg-white text-black rounded-full uppercase tracking-widest text-sm shadow-xl"
                     >
-                        <Link to="/contact" >Start Planning</Link>
+                        <Link to="/contact-us" >Start Planning</Link>
                     </motion.button>
                 </motion.div>
             </section>
