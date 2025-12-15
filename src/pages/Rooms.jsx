@@ -4,6 +4,7 @@ import rooms from "../data/rooms.json";
 import { motion } from "framer-motion";
 import Img from "../images/rooms/Banner.jpg"
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 export default function Rooms() {
     useEffect(() => {
     
@@ -12,7 +13,10 @@ export default function Rooms() {
         })
     return (
         <div className=" bg-gradient-to-br from-gray-50 to-gray-100 py-12 pt-32">
-
+            <Helmet>
+                <title></title>
+                <meta name="description" content="" />
+            </Helmet>
             <div className="flex justify-center w-full ">
                 <img src={Img} alt="rooms banner" />
             </div>

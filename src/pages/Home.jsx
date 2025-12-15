@@ -14,6 +14,7 @@ import WhatsAppSticky from '../components/WhatsAppSticky'
 import CallSticky from '../components/CallSticky'
 import Franchise from '../components/Franchise'
 import HomeResto from '../components/HomeResto'
+import { Helmet } from 'react-helmet'
 
 
 export default function Home() {
@@ -24,6 +25,10 @@ export default function Home() {
       })
   return (
     <div>
+      <Helmet>
+        <title></title>
+        <meta name="description" content="" />
+      </Helmet>
       <Herosection  />
       <AboutSection/>
       <SpecialOffers/>

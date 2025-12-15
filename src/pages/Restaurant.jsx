@@ -12,6 +12,7 @@ import dish1 from '../images/home/home1.jpg';
 import dish2 from '../images/Resto/daalmakhni.jpg';
 import chefPortrait from '../images/home/home1.jpg';
 import RestroDiscover from '../components/RestroDiscover';
+import { Helmet } from 'react-helmet';
 // https://postimg.cc/gallery/jP0tswS
 // --- Framer Motion Variants ---
 const sectionVariants = {
@@ -52,6 +53,10 @@ export default function Restaurant() {
     })
     return (
         <div className="antialiased text-white  sm:pt-32">
+            <Helmet>
+                <title></title>
+                <meta name="description" content="" />
+            </Helmet>
             {/* Hero Section */}
             <section className="relative  h-screen lg:h-[600px] flex items-center justify-center text-center overflow-hidden">
                 <img

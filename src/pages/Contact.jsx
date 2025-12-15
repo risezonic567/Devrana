@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 export default function Contact() {
     const [formData, setFormData] = useState({
@@ -46,6 +47,10 @@ export default function Contact() {
 
     return (
         <>
+            <Helmet>
+                <title></title>
+                <meta name="description" content="" />
+            </Helmet>
             {/* 🚀 Hero Banner with Animation */}
             <section className="relative h-[570px] bg-cover bg-center flex items-center justify-center sm:mt-32 mt-[73px] "
                 style={{ backgroundImage: "url('https://i.postimg.cc/4dfb4bbz/contact-us-bannner.jpg')" }}>

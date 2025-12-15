@@ -11,6 +11,7 @@ import img6 from "../images/gallery/gallery-images.jpg-01.jpg"
 import img7 from "../images/gallery/gallery-images.jpg07.jpg"
 import img8 from "../images/gallery/gallery-images.jpg08.jpg"
 import banner from '../images/gallery/gallery-banner.jpg'
+import { Helmet } from "react-helmet";
 const galleryImages = [
   { src: img, title: "Fine Dining" },
   { src: img2, title: "Baar Area" },
@@ -38,6 +39,10 @@ export default function GalleryPage() {
   })
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-100">
+      <Helmet>
+        <title></title>
+        <meta name="description" content="" />
+      </Helmet>
       {/* Hero Section */}
       <div className="mt-32">
         <img className="w-full" src={banner} alt="Devrana Event Gallery" />

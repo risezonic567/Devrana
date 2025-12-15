@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
 import {
     FaGlassCheers,
     FaUsers,
@@ -111,6 +112,10 @@ export default function EventsAndPackages() {
     })
     return (
         <div className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-100 font-serif">
+            <Helmet>
+                <title></title>
+                <meta name="description" content="" />
+            </Helmet>
             {/* Hero Section */}
             {/* <section className="relative text-primary py-28 px-6 text-center mt-32 xl:h-[600px] h-screen bg-no-repeat bg-center bg-cover" style={{
                 

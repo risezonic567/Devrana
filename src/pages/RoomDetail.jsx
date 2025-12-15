@@ -142,6 +142,7 @@ import BookingForm from "../components/BookingForm";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import ReservationEmailbooking from "../components/ReservationEmailbooking";
+import { Helmet } from "react-helmet";
 
 export default function RoomDetails() {
     const { slug } = useParams();
@@ -201,6 +202,10 @@ export default function RoomDetails() {
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-12 mt-28 relative">
+             <Helmet>
+                    <title></title>
+                    <meta name="description" content="" />
+                  </Helmet>
             <div className="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row lg:gap-10">
                 {/* Left - Image Gallery */}
                 <div className="lg:w-2/3">

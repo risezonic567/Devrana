@@ -2,6 +2,7 @@ import React from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import video from "../video/Video1.mp4"
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 const fadeUp = {
     hidden: { opacity: 0, y: 60 },
     show: { opacity: 1, y: 0 },
@@ -15,6 +16,10 @@ export default function DestinationWed() {
 
     return (
         <div className="bg-white overflow-hidden">
+            <Helmet>
+                <title></title>
+                <meta name="description" content="" />
+            </Helmet>
 
             {/* HERO */}
             <motion.section
