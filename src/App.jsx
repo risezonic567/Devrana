@@ -13,18 +13,19 @@ import Restaurant from "./pages/Restaurant";
 import Menu from "./pages/Menu";
 import EventsAndPackages from "./pages/EventsAndPackages";
 import GalleryPage from "./pages/GalleryPage";
+import DestinationWed from "./pages/DestinationWed";
 
 function App() {
   return (
     <BrowserRouter>
-    <Navbar/>
+      <Navbar />
       <Routes>
         {/* <Route path="/" element={<Rooms />} /> */}
         {/* <Route path="/rooms/:slug" element={<RoomDetail />} />
         <Route path="/payment-success" element={<PaymentSuccess />} /> */}
         <Route path="/booking-success/:bookingId" element={<BookingSuccess />} />
         <Route path="/admin/bookings" element={<AdminBookings />} />
-        
+
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<About />} />
         <Route path="/rooms-cottage" element={<Rooms />} />
@@ -33,10 +34,11 @@ function App() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/event-and-packages" element={<EventsAndPackages />} />
         <Route path="/gallery" element={<GalleryPage />} />
+        <Route path="/destination-wedding" element={<DestinationWed />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/payment-success" element={<PaymentSuccess />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   );
 }

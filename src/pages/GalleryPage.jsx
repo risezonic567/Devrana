@@ -2,16 +2,24 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaTimes, FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import img from "../images/gallery/gallery-images.jpg02.jpg"
+import img2 from "../images/gallery/gallery-images.jpg03.jpg"
+import img3 from "../images/gallery/gallery-images.jpg04.jpg"
+import img4 from "../images/gallery/gallery-images.jpg05.jpg"
+import img5 from "../images/gallery/gallery-images.jpg06.jpg"
+import img6 from "../images/gallery/gallery-images.jpg-01.jpg"
+import img7 from "../images/gallery/gallery-images.jpg07.jpg"
+import img8 from "../images/gallery/gallery-images.jpg08.jpg"
 import banner from '../images/gallery/gallery-banner.jpg'
 const galleryImages = [
-  { src: "src/images/gallery/gallery-images.jpg02.jpg", title: "Fine Dining" },
-  { src: "src/images/gallery/gallery-images.jpg03.jpg", title: "Baar Area" },
-  { src: "src/images/gallery/gallery-images.jpg04.jpg", title: "Cocktail Lounge" },
-  { src: "src/images/gallery/gallery-images.jpg05.jpg", title: "lawn Area" },
-  { src: "src/images/gallery/gallery-images.jpg06.jpg", title: "Lawn dining Area" },
-  { src: "src/images/gallery/gallery-images.jpg-01.jpg", title: "Banquet Hall" },
-  { src: "src/images/gallery/gallery-images.jpg07.jpg", title: "Dining" },
-  { src: "src/images/gallery/gallery-images.jpg08.jpg", title: "Bed Room" },
+  { src: img, title: "Fine Dining" },
+  { src: img2, title: "Baar Area" },
+  { src: img3, title: "Cocktail Lounge" },
+  { src: img4, title: "lawn Area" },
+  { src: img5, title: "Lawn dining Area" },
+  { src: img6, title: "Banquet Hall" },
+  { src: img7, title: "Dining" },
+  { src: img8, title: "Bed Room" },
 ];
 
 export default function GalleryPage() {
