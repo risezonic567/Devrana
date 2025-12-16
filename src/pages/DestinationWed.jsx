@@ -175,7 +175,7 @@ export default function DestinationWed() {
                     playsInline
                     className="absolute inset-0 w-full h-full object-cover"
                 >
-                    <source src="https://raw.githubusercontent.com/Ashish-Kaintura/Devrana-Hotel/main/src/video/DR%20WEBSITE%20VIDEO%20FINAL.mp4" type="video/mp4" />
+                    <source src="https://raw.githubusercontent.com/Ashish-Kaintura/Devrana-Hotel/Static/src/video/DR%20WEBSITE%20VIDEO%20FINAL.mp4" type="video/mp4" />
                 </video>
                 <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
                     <div> <h2 className="text-white font-serif text-4xl md:text-6xl text-center px-6">
