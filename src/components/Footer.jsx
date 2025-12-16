@@ -34,7 +34,7 @@ export default function Footer() {
                         <li>📍 Devrana, Delhi-Haridwar Highway, Mansurpur, Muzaffarnagar
                         </li>
                         <li>📞 For Franchise: +91 78270 02538</li>
-                        <li>📞 +91 78270 02538</li>
+                        <li>📞 +91 7060301700</li>
                         <li>✉️ info@devrana.com</li>
                     </ul>
                 </div>
@@ -60,7 +60,7 @@ export default function Footer() {
             <div className="border-t border-gray-700 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center px-6 max-w-7xl mx-auto">
                 <div> <div className="space-x-2">
                     <Link to="/privacy-policy" className=" font-sans text-sm text-gray-400">Privacy policy </Link>
-                    <Link to="/terms-and-condition" className=" font-sans text-sm text-gray-400">Terms and Condition   </Link>
+                    <Link to="/terms-and-conditions" className=" font-sans text-sm text-gray-400">Terms and Condition   </Link>
                 </div>
                     <p className="text-gray-400 text-sm">
                         © {new Date().getFullYear()} Devrana Hotel. All rights reserved.

@@ -200,7 +200,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Navbar */}
-      <div className="w-full md:hidden bg-primary text-white  shadow px-4 py-2">
+      <div className="w-full md:hidden bg-primary text-white  shadow px-4 py-2 z-50">
         {/* Logo & Menu Button */}
         <div className="flex items-center justify-between">
           <NavLink to="/">
@@ -249,6 +249,11 @@ const Navbar = () => {
                 </li>
               </NavLink>
 
+              <NavLink to="/destination-wedding">
+                <li className="px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
+                  Destination Wedding 
+                </li>
+              </NavLink>
               <NavLink to="/event-and-packages">
                 <li className="px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
                   Event And packages

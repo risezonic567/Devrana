@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import video from "../video/DR WEBSITE VIDEO FINAL.mp4"
 import { Link } from "react-router-dom";
@@ -9,6 +9,9 @@ const fadeUp = {
 };
 
 export default function DestinationWed() {
+    useEffect(() => {
+            window.scrollTo(0, 0)
+        })
     const { scrollYProgress } = useScroll();
 
     const heroOpacity = useTransform(scrollYProgress, [0, 0.2], [1, 0]);
