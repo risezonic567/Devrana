@@ -48,8 +48,9 @@ export default function Contact() {
     return (
         <>
             <Helmet>
-                <title></title>
-                <meta name="description" content="" />
+                <title>Contact Devrana | Best Hotel & Event Venue in Muzaffarnagar</title>
+                <link rel="canonical" href="https://www.devrana.in/contact-us" />
+                <meta name="description" content="Contact Devrana, a leading hotel in Muzaffarnagar, for room bookings, weddings, events and restaurant inquiries. Call or visit us today." />
             </Helmet>
             {/* 🚀 Hero Banner with Animation */}
             <section className="relative h-[570px] bg-cover bg-center flex items-center justify-center sm:mt-32 mt-[73px] "

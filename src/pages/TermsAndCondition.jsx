@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 export default function TermsAndCondition() {
     useEffect(() => {
@@ -7,6 +8,11 @@ export default function TermsAndCondition() {
         })
     return (
         <div className="bg-gray-50 min-h-screen py-12 px-4 sm:px-8 lg:px-20">
+            <Helmet>
+                <title>Terms & Conditions | Devrana Resort, Restaurant & Events</title>
+                <link rel="canonical" href="https://www.devrana.in/terms-and-conditions" />
+                <meta name="description" content="Review the terms and conditions governing bookings, services, events and website usage at Devrana resort, restaurant and event venue." />
+            </Helmet>
             <div className="max-w-5xl mx-auto bg-white shadow-md rounded-lg p-8 mt-28">
 
                 {/* Header */}

@@ -12,6 +12,7 @@ import {
     ScrollText
 } from 'lucide-react';
 import banner from "../images/menu/menu-banner.jpg"
+import { Helmet } from 'react-helmet';
 // --- 1. Tailwind Configuration and Utility Constants ---
 
 // NEW: Hero Image URL Constant (A high-quality image of a luxurious dining setting)
@@ -378,8 +379,8 @@ const NavSidebar = ({ sections }) => {
                         key={item.id}
                         onClick={() => handleScrollTo(item.id)}
                         className={`flex items-center gap-3 p-2 rounded-lg text-sm transition duration-300 font-serif ${activeSection === item.id
-                                ? 'bg-Secondary text-white shadow-md'
-                                : 'text-white hover:bg-Secondary'
+                            ? 'bg-Secondary text-white shadow-md'
+                            : 'text-white hover:bg-Secondary'
                             }`}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
@@ -425,9 +426,14 @@ const Menu = () => {
 
     return (
         <>
-         
-            <div className="font-serif bg-background-light min-h-screen text-stone-800 pt-32">
 
+            <div className="font-serif bg-background-light min-h-screen text-stone-800 pt-32">
+                <Helmet>
+                    <title>Restaurant Menu in Muzaffarnagar | Devrana Pure Veg Dining</title>
+                    <link rel="canonical" href="https://www.devrana.in/menu" />
+                    <meta name="description" content="View the Devrana restaurant menu in Muzaffarnagar featuring pure vegetarian multi-cuisine dishes, seasonal specials and signature delicacies for every taste." />
+
+                </Helmet>
                 {/* HERO BANNER SECTION */}
                 <div
                     className="relative h-[60vh] bg-cover bg-center shadow-2xl"

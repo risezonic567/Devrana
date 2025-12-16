@@ -1,11 +1,17 @@
 import React, { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 export default function PrivacyPolicy() {
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    })
+   useEffect(() => {
+            window.scrollTo(0, 0)
+        })
     return (
         <div className="bg-gray-50 min-h-screen py-12 px-4 sm:px-8 lg:px-20">
+            <Helmet>
+                <title>Privacy Policy | Devrana Resort & Hospitality</title>
+                <link rel="canonical" href="https://www.devrana.in/privacy-policy" />
+                <meta name="description" content="Read Devrana’s privacy policy to understand how we collect, use and protect personal information across our website, services and bookings." />
+            </Helmet>
             <div className="max-w-5xl mx-auto bg-white shadow-md rounded-lg p-8 mt-28">
 
                 {/* Header */}

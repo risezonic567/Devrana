@@ -113,8 +113,9 @@ export default function EventsAndPackages() {
     return (
         <div className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-100 font-serif">
             <Helmet>
-                <title></title>
-                <meta name="description" content="" />
+                <title>Best Event Packages in Muzaffarnagar | Wedding & Party Venue – Devrana</title>
+                <link rel="canonical" href="https://www.devrana.in/event-and-packages" />
+                <meta name="description" content="Discover the best event packages in Muzaffarnagar at Devrana for weddings, parties and corporate events with customizable venues and premium hospitality." />
             </Helmet>
             {/* Hero Section */}
             {/* <section className="relative text-primary py-28 px-6 text-center mt-32 xl:h-[600px] h-screen bg-no-repeat bg-center bg-cover" style={{

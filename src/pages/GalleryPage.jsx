@@ -40,8 +40,9 @@ export default function GalleryPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-100">
       <Helmet>
-        <title></title>
-        <meta name="description" content="" />
+        <title>Resort Photos in Muzaffarnagar | Devrana Wedding & Event Gallery</title>
+        <link rel="canonical" href="https://www.devrana.in/gallery" />
+        <meta name="description" content="Explore Devrana’s photo gallery showcasing luxury resort rooms, wedding events, banquet lawns and pure vegetarian dining in Muzaffarnagar." />
       </Helmet>
       {/* Hero Section */}
       <div className="mt-32">

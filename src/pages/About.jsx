@@ -16,8 +16,9 @@ export default function About() {
     return (
         <div>
             <Helmet>
-                <title>About Devrana</title>
-                <meta name="description" content="" />
+                <title>About Devrana | Resort, Restaurant & Wedding Venue in Western UP</title>
+                <link rel="canonical" href="https://www.devrana.in/about-us" />
+                <meta name="description" content="Know Devrana – a village-theme resort, pure veg restaurant and wedding venue in Western Uttar Pradesh near Delhi-NCR, offering stays, dining and events." />
             </Helmet>
             <div className='mt-32' >
                 <img className="w-full" src={Img} alt="About Banner" />

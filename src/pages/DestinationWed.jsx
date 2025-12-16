@@ -20,8 +20,9 @@ export default function DestinationWed() {
     return (
         <div className="bg-white overflow-hidden">
             <Helmet>
-                <title></title>
-                <meta name="description" content="" />
+                <title>Destination Wedding Near Delhi | Luxury Wedding Resort – Devrana</title>
+                <link rel="canonical" href="https://www.devrana.in/destination-wedding" />
+                <meta name="description" content="Host a luxury destination wedding near Delhi at Devrana Resort with stunning venues, curated wedding packages, elegant décor and premium hospitality." />
             </Helmet>
 
             {/* HERO */}

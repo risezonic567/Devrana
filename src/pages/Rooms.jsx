@@ -14,8 +14,9 @@ export default function Rooms() {
     return (
         <div className=" bg-gradient-to-br from-gray-50 to-gray-100 py-12 pt-32">
             <Helmet>
-                <title></title>
-                <meta name="description" content="" />
+                <link rel="canonical" href="https://www.devrana.in/rooms-cottage" />
+                <title>Luxury Room Hotel in Muzaffarnagar | Premium Rooms & Cottages – Devrana</title>
+                <meta name="description" content="Book a luxury room hotel in Muzaffarnagar at Devrana. Spacious premium rooms and cottages with modern amenities, comfort and warm hospitality." />
             </Helmet>
             <div className="flex justify-center w-full ">
                 <img src={Img} alt="rooms banner" />

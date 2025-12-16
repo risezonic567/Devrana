@@ -54,8 +54,9 @@ export default function Restaurant() {
     return (
         <div className="antialiased text-white  sm:pt-32">
             <Helmet>
-                <title></title>
-                <meta name="description" content="" />
+                <title>Best Restaurants in Muzaffarnagar | Pure Veg Restaurant – Devrana</title>
+                <link rel="canonical" href="https://www.devrana.in/restaurant" />
+                <meta name="description" content="Visit Devrana, one of the best restaurants in Muzaffarnagar offering pure vegetarian food, village-theme ambiance and family dining near NH-58." />
             </Helmet>
             {/* Hero Section */}
             <section className="relative  h-screen lg:h-[600px] flex items-center justify-center text-center overflow-hidden">
