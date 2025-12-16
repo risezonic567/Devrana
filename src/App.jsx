@@ -14,6 +14,8 @@ import Menu from "./pages/Menu";
 import EventsAndPackages from "./pages/EventsAndPackages";
 import GalleryPage from "./pages/GalleryPage";
 import DestinationWed from "./pages/DestinationWed";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsAndCondition from "./pages/TermsAndCondition";
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
         <Route path="/event-and-packages" element={<EventsAndPackages />} />
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/destination-wedding" element={<DestinationWed />} />
+        <Route path="/privacy-policy" element={< PrivacyPolicy />} />
+        <Route path="/terms-and-conditions" element={<TermsAndCondition />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/payment-success" element={<PaymentSuccess />} />
       </Routes>

@@ -1,5 +1,5 @@
 import { FaFacebookF, FaInstagram, FaTwitter, FaTripadvisor, FaPinterest, FaLinkedin } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Footer() {
     return (
@@ -58,9 +58,14 @@ export default function Footer() {
 
             {/* Divider */}
             <div className="border-t border-gray-700 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center px-6 max-w-7xl mx-auto">
-                <p className="text-gray-400 text-sm">
-                    © {new Date().getFullYear()} Devrana Hotel. All rights reserved.
-                </p>
+                <div> <div className="space-x-2">
+                    <Link to="/privacy-policy" className=" font-sans text-sm text-gray-400">Privacy policy </Link>
+                    <Link to="/terms-and-condition" className=" font-sans text-sm text-gray-400">Terms and Condition   </Link>
+                </div>
+                    <p className="text-gray-400 text-sm">
+                        © {new Date().getFullYear()} Devrana Hotel. All rights reserved.
+                    </p>
+                </div>
 
                 {/* Socials */}
                 <div className="flex space-x-4 mt-4 md:mt-0">
@@ -76,7 +81,7 @@ export default function Footer() {
                     <a href="https://www.youtube.com/@DevranaOfficial1" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary transition">
                         <FaTwitter />
                     </a>
-                   
+
                     <a href="https://www.pinterest.com/devranan01/" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary transition">
                         <FaPinterest />
                     </a>

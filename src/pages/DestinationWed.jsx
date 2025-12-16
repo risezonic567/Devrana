@@ -1,6 +1,6 @@
 import React from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import video from "../video/Video1.mp4"
+import video from "../video/DR WEBSITE VIDEO FINAL.mp4"
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 const fadeUp = {
@@ -39,18 +39,19 @@ export default function DestinationWed() {
                     animate="show"
                     variants={fadeUp}
                     transition={{ duration: 1 }}
-                    className="relative z-10 text-center px-6 max-w-4xl"
+                    className="relative z-10 text-center px-6 max-w-5xl"
                 >
-                    <h1 className="text-white font-serif uppercase text-5xl md:text-7xl tracking-widest">
-                        Destination Wedding
+                    <h1 className="text-white font-serif uppercase text-4xl md:text-5xl tracking-widest">
+                        An Elegant Wedding Destination in North India
                     </h1>
                     <p className="mt-6 text-white/80 text-lg md:text-xl">
-                        A celebration crafted in the world’s most beautiful places
+                        At Devrana, couples can create forever wedding memories by experiencing true elegance, comfort, and hospitality in a beautiful destination setting in the Delhi-NCR region.
+
                     </p>
                 </motion.div>
             </motion.section>
 
-            {/* INTRO */}
+
             <section className="max-w-7xl mx-auto py-24 px-6">
                 <motion.div
                     variants={fadeUp}
@@ -61,16 +62,16 @@ export default function DestinationWed() {
                     className="text-center max-w-4xl mx-auto"
                 >
                     <h2 className="font-serif uppercase text-4xl mb-6">
-                        Beyond a Wedding
+                        A Destination Wedding Experience Beyond Expectations
                     </h2>
                     <p className="text-gray-600 text-lg leading-relaxed">
-                        Destination weddings blend luxury, travel, and love into an
-                        unforgettable experience for couples and guests alike.
+                        Devrana is located in Muzaffarnagar, one of the most highly sought-after luxury resort wedding destinations near New Delhi. The property is perfectly placed on the Delhi-Haridwar Highway; its gorgeous, tranquil environment and excellent access to the rest of Uttar Pradesh make it a perfect choice for couples looking to have a luxurious wedding.
+
                     </p>
                 </motion.div>
             </section>
 
-            {/* ANIMATED DESTINATION CARDS */}
+
             <section className="max-w-7xl mx-auto px-6 pb-32">
                 <motion.div
                     initial="hidden"
@@ -81,18 +82,18 @@ export default function DestinationWed() {
                 >
                     {[
                         {
-                            title: "Beachside Bliss",
-                            desc: "Barefoot vows by the sea",
+                            title: "Outdoor Gardens",
+                            desc: " Outdoor garden weddings offer a picturesque and natural setting for your special day. Surrounded by lush greenery, blooming flowers, and open skies, these venues provide a romantic and serene atmosphere that is perfect for couples who love nature.",
                             img: "https://i.postimg.cc/vZNGY2d7/Gemini_Generated_Image_r4rwtgr4rwtgr4rw.png",
                         },
                         {
                             title: "Royal Palaces",
-                            desc: "A regal celebration",
+                            desc: "For a truly grand and opulent wedding, consider renting a royal palace. These venues often come with stunning architecture, lavish interiors, and expansive grounds that can accommodate large guest lists.",
                             img: "https://i.postimg.cc/Y9ckg404/Gemini_Generated_Image_c0h5cdc0h5cdc0h5.png",
                         },
                         {
-                            title: "European Romance",
-                            desc: "Old-world charm & elegance",
+                            title: "House of worship",
+                            desc: "If you're planning a traditional religious wedding ceremony, this is an affordable option. Keep in mind, not all houses of worship have",
                             img: "https://i.postimg.cc/P5RdXVk6/Gemini_Generated_Image_7z02gu7z02gu7z02.png",
                         },
                     ].map((item, index) => (
@@ -110,11 +111,11 @@ export default function DestinationWed() {
                             />
 
                             {/* Glass overlay */}
-                            <div className="absolute inset-0 flex flex-col justify-end p-8">
+                            <div className="absolute bg-black/15 inset-0 flex flex-col justify-end p-8">
                                 <h3 className="text-white font-serif text-2xl mb-1">
                                     {item.title}
                                 </h3>
-                                <p className="text-white/80 text-sm">
+                                <p className="text-white/80 text-sm line-clamp-4">
                                     {item.desc}
                                 </p>
                             </div>
@@ -123,7 +124,7 @@ export default function DestinationWed() {
                 </motion.div>
             </section>
 
-            {/* STORY SPLIT */}
+
             <section className="max-w-7xl mx-auto px-6 pb-32">
                 <div className="grid md:grid-cols-2 gap-16 items-center">
                     <motion.img
@@ -144,23 +145,28 @@ export default function DestinationWed() {
                     >
                         <h3 className="font-serif text-4xl mb-6">
                             Designed Around Your Love Story
+
                         </h3>
-                        <p className="text-gray-600 text-lg leading-relaxed">
-                            Every destination wedding we create is deeply personal — from
-                            venue selection and décor to guest experiences and rituals,
-                            ensuring elegance in every moment.
+                        <p className="text-gray-600 text-sm leading-relaxed">
+                            Every Devrana price destination wedding Jubilee near Delhi has been designed to reflect your own particular love story. We plan everything from choosing the wedding venue and selecting the personalized décor theme to planning the rituals, planning the guest experience, and grand celebrations. Every aspect is specifically planned so that your wedding experience is seamless and unforgettable. We provide professionalism, creativity, precision, and friendly hospitality to our clients by using our expertise in wedding planning so that every moment is easy and elegant and you can enjoy your wedding day to the fullest.
+
+                        </p>
+                        <br />
+                        <p className="text-gray-600 text-sm leading-relaxed">
+                            Devrana will provide you a wedding venue near Delhi/NCR to create your own intimate or elaborate, multi-day ceremony that includes an abundance of flexibility in space and service with a personal touch that makes your vision come to life.
+
                         </p>
                     </motion.div>
                 </div>
             </section>
 
-            {/* CINEMATIC VIDEO */}
+
             <motion.section
                 initial={{ opacity: 0, scale: 1.1 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 1 }}
-                className="relative h-[720px] mb-32 overflow-hidden"
+                className="relative md:h-[560px] h-96 mb-32 overflow-hidden"
             >
                 <video
                     autoPlay
@@ -169,15 +175,19 @@ export default function DestinationWed() {
                     playsInline
                     className="absolute inset-0 w-full h-full object-cover"
                 >
-                    <source src={video} type="video/mp4" />
+                    <source src="https://raw.githubusercontent.com/Ashish-Kaintura/Devrana-Hotel/main/src/video/DR%20WEBSITE%20VIDEO%20FINAL.mp4" type="video/mp4" />
                 </video>
                 <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
-                    <h2 className="text-white font-serif text-4xl md:text-6xl text-center px-6">
-                        Timeless Moments, Beautifully Crafted
+                    <div> <h2 className="text-white font-serif text-4xl md:text-6xl text-center px-6">
+                        Timeless Destination Weddings Near Delhi
+
                     </h2>
+                        <p className="text-white md:flex hidden font-serif text-2xl md:text-2xl mt-2 text-center px-6">Beautifully crafted celebrations at Devrana — a luxury destination wedding venue near Delhi, designed for unforgettable moments.</p>
+                    </div>
                 </div>
             </motion.section>
-            {/* CTA */}
+
+
             <section className="bg-neutral-900 py-24">
                 <motion.div
                     initial={{ opacity: 0, y: 40 }}

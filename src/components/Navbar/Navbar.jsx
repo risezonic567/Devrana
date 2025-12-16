@@ -50,6 +50,9 @@ const Navbar = () => {
     // cabin: [
     //   { name: "R", path: "/job-oriented-cc-training" },
     // ],
+    eventandwedding: [
+      { name: "Destination Wedding", path: "/destination-wedding" },
+    ],
 
   };
 
@@ -169,9 +172,22 @@ const Navbar = () => {
               </NavLink>
               {/* {activeDropdown === "cabin" && renderDropdown("cabin")} */}
             </li>
-            <NavLink to="/event-and-packages">
+            {/* <NavLink to="/event-and-packages">
               <li className="hover:text-Secondary">Events And packages</li>
-            </NavLink>
+            </NavLink> */}
+
+            <li
+              className="relative group"
+              onMouseEnter={() => setActiveDropdown("eventandwedding")}
+              onMouseLeave={() => setActiveDropdown(null)}
+            >
+              <NavLink to="/event-and-packages">
+                <div className="flex items-center gap-1 cursor-pointer hover:text-Secondary">
+                  Events And packages
+                </div>
+              </NavLink>
+              {activeDropdown === "eventandwedding" && renderDropdown("eventandwedding")}
+            </li>
             <NavLink to="/contact-us">
               <li className="hover:text-Secondary">Contact</li>
             </NavLink>
