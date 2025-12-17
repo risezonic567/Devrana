@@ -205,6 +205,7 @@ export default function RoomDetails() {
             <Helmet>
                 <title></title>
                 <meta name="description" content="" />
+                <meta name="keywords" content=""></meta>
             </Helmet>
             <div className="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row lg:gap-10">
                 {/* Left - Image Gallery */}

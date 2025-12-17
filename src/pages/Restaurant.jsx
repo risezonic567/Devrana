@@ -55,6 +55,7 @@ export default function Restaurant() {
         <div className="antialiased text-white  sm:pt-32">
             <Helmet>
                 <title>Best Restaurants in Muzaffarnagar | Pure Veg Restaurant – Devrana</title>
+                <meta name="keywords" content="restaurants in Muzaffarnagar"></meta>
                 <link rel="canonical" href="https://www.devrana.in/restaurant" />
                 <meta name="description" content="Visit Devrana, one of the best restaurants in Muzaffarnagar offering pure vegetarian food, village-theme ambiance and family dining near NH-58." />
             </Helmet>

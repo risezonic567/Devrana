@@ -49,6 +49,7 @@ export default function Contact() {
         <>
             <Helmet>
                 <title>Contact Devrana | Best Hotel & Event Venue in Muzaffarnagar</title>
+                <meta name="keywords" content=""></meta>
                 <link rel="canonical" href="https://www.devrana.in/contact-us" />
                 <meta name="description" content="Contact Devrana, a leading hotel in Muzaffarnagar, for room bookings, weddings, events and restaurant inquiries. Call or visit us today." />
             </Helmet>

@@ -9,6 +9,7 @@ export default function PrivacyPolicy() {
         <div className="bg-gray-50 min-h-screen py-12 px-4 sm:px-8 lg:px-20">
             <Helmet>
                 <title>Privacy Policy | Devrana Resort & Hospitality</title>
+                <meta name="keywords" content=""></meta>
                 <link rel="canonical" href="https://www.devrana.in/privacy-policy" />
                 <meta name="description" content="Read Devrana’s privacy policy to understand how we collect, use and protect personal information across our website, services and bookings." />
             </Helmet>

@@ -10,6 +10,7 @@ export default function TermsAndCondition() {
         <div className="bg-gray-50 min-h-screen py-12 px-4 sm:px-8 lg:px-20">
             <Helmet>
                 <title>Terms & Conditions | Devrana Resort, Restaurant & Events</title>
+                <meta name="keywords" content=""></meta>
                 <link rel="canonical" href="https://www.devrana.in/terms-and-conditions" />
                 <meta name="description" content="Review the terms and conditions governing bookings, services, events and website usage at Devrana resort, restaurant and event venue." />
             </Helmet>

@@ -10,9 +10,12 @@ export default function AboutSection() {
     return (
         <section className="relative bg-white py-16 px-6 lg:px-20 flex flex-col lg:flex-row items-center gap-12 max-w-8xl mx-auto">
             <div className="flex-1 text-center lg:text-left">
-                <p className="uppercase tracking-widest text-sm text-Secondary font-semibold">
-                    About Devrana
-                </p>
+                {/* <p className="uppercase tracking-widest text-sm text-Secondary font-semibold">
+                    About Us
+                </p> */}
+                <h1 className="uppercase tracking-widest text-sm text-Secondary font-semibold">
+                    Top Resorts in Western Uttar Pradesh
+                </h1>
                 {/* Elevated Typography with a modern serif (assuming 'font-serif' is configured) */}
                 <h2 className={`text-5xl lg:text-6xl font-serif font-light text-gray-900 mt-4 leading-tight`}>
                     A Village Theme<br />

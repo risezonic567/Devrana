@@ -114,6 +114,7 @@ export default function EventsAndPackages() {
         <div className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-100 font-serif">
             <Helmet>
                 <title>Best Event Packages in Muzaffarnagar | Wedding & Party Venue – Devrana</title>
+                <meta name="keywords" content="Best Event Packages"></meta>
                 <link rel="canonical" href="https://www.devrana.in/event-and-packages" />
                 <meta name="description" content="Discover the best event packages in Muzaffarnagar at Devrana for weddings, parties and corporate events with customizable venues and premium hospitality." />
             </Helmet>

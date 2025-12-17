@@ -431,6 +431,7 @@ const Menu = () => {
                 <Helmet>
                     <title>Restaurant Menu in Muzaffarnagar | Devrana Pure Veg Dining</title>
                     <link rel="canonical" href="https://www.devrana.in/menu" />
+                    <meta name="keywords" content="restaurants in Muzaffarnagar"></meta>
                     <meta name="description" content="View the Devrana restaurant menu in Muzaffarnagar featuring pure vegetarian multi-cuisine dishes, seasonal specials and signature delicacies for every taste." />
 
                 </Helmet>

@@ -21,6 +21,7 @@ export default function DestinationWed() {
         <div className="bg-white overflow-hidden">
             <Helmet>
                 <title>Destination Wedding Near Delhi | Luxury Wedding Resort – Devrana</title>
+                <meta name="keywords" content="destination wedding near Delhi"></meta>
                 <link rel="canonical" href="https://www.devrana.in/destination-wedding" />
                 <meta name="description" content="Host a luxury destination wedding near Delhi at Devrana Resort with stunning venues, curated wedding packages, elegant décor and premium hospitality." />
             </Helmet>

@@ -28,6 +28,7 @@ export default function Home() {
       <Helmet>
         <title>Hotel in Muzaffarnagar | Devrana Resort, Restaurant & Event Venue</title>
         <link rel="canonical" href="https://www.devrana.in/" />
+        <meta name="keywords" content="hotel in Muzaffarnagar"></meta>
         <meta name="description" content="Looking for a hotel in Muzaffarnagar? Devrana offers luxury stays, pure veg dining, wedding & event venues near Delhi–Haridwar Highway. Book now." />
       </Helmet>
       <Herosection  />

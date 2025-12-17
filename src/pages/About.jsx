@@ -18,6 +18,7 @@ export default function About() {
             <Helmet>
                 <title>About Devrana | Resort, Restaurant & Wedding Venue in Western UP</title>
                 <link rel="canonical" href="https://www.devrana.in/about-us" />
+                <meta name="keywords" content="resorts in Western Uttar Pradesh"></meta>
                 <meta name="description" content="Know Devrana – a village-theme resort, pure veg restaurant and wedding venue in Western Uttar Pradesh near Delhi-NCR, offering stays, dining and events." />
             </Helmet>
             <div className='mt-32' >

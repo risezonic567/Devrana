@@ -41,6 +41,7 @@ export default function GalleryPage() {
     <div className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-100">
       <Helmet>
         <title>Resort Photos in Muzaffarnagar | Devrana Wedding & Event Gallery</title>
+        <meta name="keywords" content="resorts in Muzaffarnagar"></meta>
         <link rel="canonical" href="https://www.devrana.in/gallery" />
         <meta name="description" content="Explore Devrana’s photo gallery showcasing luxury resort rooms, wedding events, banquet lawns and pure vegetarian dining in Muzaffarnagar." />
       </Helmet>
