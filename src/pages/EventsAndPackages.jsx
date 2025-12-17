@@ -117,6 +117,52 @@ export default function EventsAndPackages() {
                 <meta name="keywords" content="Best Event Packages"></meta>
                 <link rel="canonical" href="https://www.devrana.in/event-and-packages" />
                 <meta name="description" content="Discover the best event packages in Muzaffarnagar at Devrana for weddings, parties and corporate events with customizable venues and premium hospitality." />
+                <script type="application/ld+json">
+                    {`
+          {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Devrana",
+            "image": "https://www.devrana.in/assets/DR%20LOGO-df167871.png",
+            "@id": "https://www.devrana.in",
+            "url": "https://www.devrana.in/event-and-packages",
+            "telephone": "7060301700",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Milestone 103, NH334, Near Mansurpur, Delhi- Haridwar-Dehradun Highway, Meerut Road",
+              "addressLocality": "Muzaffarnagar",
+              "postalCode": "251203",
+              "addressCountry": "IN"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 29.3533648,
+              "longitude": 77.7126515
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "opens": "07:00",
+              "closes": "23:59"
+            },
+            "sameAs": [
+              "https://www.facebook.com/DevranaOfficial",
+              "https://www.instagram.com/devrana_official",
+              "https://www.youtube.com/@DevranaOfficial1",
+              "https://www.linkedin.com/company/devrana-restaurant-and-resort",
+              "https://www.pinterest.com/devranan01"
+            ]
+          }
+          `}
+                </script>
             </Helmet>
             {/* Hero Section */}
             {/* <section className="relative text-primary py-28 px-6 text-center mt-32 xl:h-[600px] h-screen bg-no-repeat bg-center bg-cover" style={{

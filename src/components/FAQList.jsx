@@ -34,12 +34,12 @@ const FAQList = () => {
     return (
         <section className="p-8 bg-gray-50 ">
             <div className="max-w-3xl mx-auto">
-                {/* Header */}
+           
                 <h2 className="text-4xl font-serif text-center text-gray-900 mb-10">
                     Frequently Asked Questions
                 </h2>
 
-                {/* FAQ Container */}
+             
                 <div className="bg-white shadow-xl rounded-lg p-6 divide-y divide-gray-100">
                     {faqData.map((item) => (
                         <FAQItem

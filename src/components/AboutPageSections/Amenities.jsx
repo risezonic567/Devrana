@@ -30,7 +30,7 @@ const amenities = [
 export default function Amenities() {
     return (
         <section className="relative py-16 bg-[#FAF5F2] overflow-hidden border border-gray-700 rounded-xl">
-            {/* Decorative background */}
+        
             <div
                 className="absolute inset-0 bg-no-repeat bg-bottom"
                 style={{
@@ -39,7 +39,7 @@ export default function Amenities() {
             ></div>
 
             <div className="relative max-w-6xl mx-auto ">
-                {/* Section Heading */}
+              
                 <div className="text-center mb-12">
                     <motion.span
                         initial={{ opacity: 0, y: 20 }}
@@ -70,7 +70,7 @@ export default function Amenities() {
                     </motion.p>
                 </div>
 
-                {/* Amenities Grid */}
+                {/* Amenities Grid  isko chnage kar sakte hai  */}
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-center hover:text-white hover:border-white">
                     {amenities.map((amenity, index) => (
                         <motion.div

@@ -52,7 +52,7 @@ export default function SpecialOffers() {
                             className="w-full h-56 object-cover"
                         />
 
-                        {/* Badge */}
+                        {/* Badge Icon attach here*/}
                         <span className="absolute w-16 h-16 items-center text-center top-4 right-4 bg-primary text-white text-sm px-3 py-2 rounded-full shadow-md">
                             {offer.discount}
                         </span>

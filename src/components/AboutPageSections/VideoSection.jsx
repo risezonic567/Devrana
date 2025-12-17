@@ -11,7 +11,7 @@ export default function PremiumVideoSection() {
     return (
         <div className="max-w-6xl mx-auto p-9" >
         <section className="relative h-[700px] flex items-center justify-center overflow-hidden ">
-            {/* Background Image with Overlay */}
+            {/* Background Image with Overlay done Can inc/dec the black shadow */}
             <motion.div
                 initial={{ scale: 1.1 }}
                 animate={{ scale: 1 }}

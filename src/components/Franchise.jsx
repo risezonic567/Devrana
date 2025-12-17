@@ -2,7 +2,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Franchise = () => {
-    // Replace with your WhatsApp number
+   
 
     return (
         <div

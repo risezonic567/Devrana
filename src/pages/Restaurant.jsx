@@ -58,6 +58,53 @@ export default function Restaurant() {
                 <meta name="keywords" content="restaurants in Muzaffarnagar"></meta>
                 <link rel="canonical" href="https://www.devrana.in/restaurant" />
                 <meta name="description" content="Visit Devrana, one of the best restaurants in Muzaffarnagar offering pure vegetarian food, village-theme ambiance and family dining near NH-58." />
+                <script type="application/ld+json">
+                    {`
+        {
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Devrana",
+          "image": "https://www.devrana.in/assets/DR%20LOGO-df167871.png",
+          "@id": "https://www.devrana.in",
+          "url": "https://www.devrana.in/restaurant",
+          "telephone": "7060301700",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Milestone 103, NH334, Near Mansurpur, Delhi- Haridwar-Dehradun Highway, Meerut Road",
+            "addressLocality": "Muzaffarnagar",
+            "postalCode": "251203",
+            "addressCountry": "IN"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 29.3533648,
+            "longitude": 77.7126515
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Sunday",
+              "Saturday"
+            ],
+            "opens": "07:00",
+            "closes": "23:59"
+          },
+          "sameAs": [
+            "https://www.facebook.com/DevranaOfficial",
+            "https://www.instagram.com/devrana_official",
+            "https://www.youtube.com/@DevranaOfficial1",
+            "https://www.linkedin.com/company/devrana-restaurant-and-resort",
+            "https://www.pinterest.com/devranan01"
+          ]
+        }
+        `}
+                </script>
+
             </Helmet>
             {/* Hero Section */}
             <section className="relative  h-screen lg:h-[600px] flex items-center justify-center text-center overflow-hidden">

@@ -24,9 +24,9 @@ export default function PremiumVideoSection() {
                 <div className="absolute inset-0 bg-black bg-opacity-50"></div>
             </motion.div>
 
-            {/* Content */}
+       
             <div className="relative z-10 flex flex-col items-center text-center px-6">
-                {/* Heading */}
+                
                 <motion.h2
                     initial={{ opacity: 0, y: 50 }}
                     animate={{ opacity: 1, y: 0 }}

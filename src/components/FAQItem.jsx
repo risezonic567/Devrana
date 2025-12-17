@@ -42,6 +42,8 @@ const FAQItem = ({ question, answer }) => {
 
 export default FAQItem;
 
+
+// for new developer 
 // NOTE: For the smooth transition, you would typically need a custom
 // transition group or a separate library for height-based animation in a real
 // production app, but 'animate-fadeIn' (a custom Tailwind utility or standard opacity)

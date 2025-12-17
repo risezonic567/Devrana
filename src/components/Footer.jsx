@@ -56,7 +56,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            {/* Divider */}
+    
             <div className="border-t border-gray-700 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center px-6 max-w-7xl mx-auto">
                 <div> <div className="space-x-2">
                     <Link to="/privacy-policy" className=" font-sans text-sm text-gray-400">Privacy policy </Link>
@@ -67,7 +67,7 @@ export default function Footer() {
                     </p>
                 </div>
 
-                {/* Socials */}
+                
                 <div className="flex space-x-4 mt-4 md:mt-0">
                     <a href="https://www.facebook.com/DevranaOfficial/" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary transition">
                         <FaFacebookF />

@@ -30,6 +30,31 @@ export default function Home() {
         <link rel="canonical" href="https://www.devrana.in/" />
         <meta name="keywords" content="hotel in Muzaffarnagar"></meta>
         <meta name="description" content="Looking for a hotel in Muzaffarnagar? Devrana offers luxury stays, pure veg dining, wedding & event venues near Delhi–Haridwar Highway. Book now." />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Devrana",
+              "url": "https://www.devrana.in/",
+              "logo": "https://www.devrana.in/assets/DR%20LOGO-df167871.png",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+917060301700",
+                "contactType": "sales",
+                "areaServed": "IN",
+                "availableLanguage": ["en","Hindi"]
+              },
+              "sameAs": [
+                "https://www.facebook.com/DevranaOfficial",
+                "https://www.instagram.com/devrana_official",
+                "https://www.linkedin.com/company/devrana-restaurant-and-resort",
+                "https://www.youtube.com/@DevranaOfficial1",
+                "https://www.pinterest.com/devranan01"
+              ]
+            }
+          `}
+        </script>
       </Helmet>
       <Herosection  />
       <AboutSection/>

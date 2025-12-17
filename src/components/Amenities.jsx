@@ -13,7 +13,7 @@ const amenities = [
 export default function Amenities() {
     return (
         <section className="relative py-16 bg-gray-900 overflow-hidden border border-gray-700 rounded-xl">
-            {/* Decorative background */}
+            
             <div
                 className="absolute inset-0 bg-no-repeat bg-bottom"
                 style={{
@@ -22,7 +22,7 @@ export default function Amenities() {
             ></div>
 
             <div className="relative max-w-7xl mx-auto ">
-                {/* Section Heading */}
+             
                 <div className="text-center mb-12">
                     <motion.span
                         initial={{ opacity: 0, y: 20 }}
