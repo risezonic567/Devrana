@@ -16,6 +16,8 @@ import GalleryPage from "./pages/GalleryPage";
 import DestinationWed from "./pages/DestinationWed";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsAndCondition from "./pages/TermsAndCondition";
+import Blogs from "./pages/Blogs";
+import PostDetail from "./pages/PostDetail";
 
 function App() {
   return (
@@ -37,6 +39,8 @@ function App() {
         <Route path="/event-and-packages" element={<EventsAndPackages />} />
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/destination-wedding" element={<DestinationWed />} />
+        <Route path="/blog" element={<Blogs />} />
+        <Route path="/blog/:slug" element={<PostDetail />} />
         <Route path="/privacy-policy" element={< PrivacyPolicy />} />
         <Route path="/terms-and-conditions" element={<TermsAndCondition />} />
         <Route path="/contact-us" element={<Contact />} />

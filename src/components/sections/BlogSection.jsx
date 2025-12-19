@@ -1,12 +1,13 @@
-import blogData from "../../data/blog.json";
-import BlogCard from "../BlogCard";
 
+import { blogPosts } from "../../data/blogData";
+import BlogCard from "../BlogCard";
 export default function BlogSection() {
+    const latestPosts = blogPosts.slice(0, 4);
     return (
         <section className="py-16 bg-gray-50">
-            <div className="max-w-6xl mx-auto px-6 text-center">
+            <div className="max-w-7xl mx-auto px-6 text-center">
                 <p className="uppercase text-sm tracking-widest text-primary font-semibold">
-                    Get More Update 
+                    Get More Update
                 </p>
                 <h2 className="text-4xl font-serif font-bold text-gray-900 mt-2">
                     Latest News & Info
@@ -17,10 +18,13 @@ export default function BlogSection() {
                 </p>
 
                 {/* Blog Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-                    {blogData.map((blog) => (
-                        <BlogCard key={blog.id} blog={blog} />
-                    ))}
+                {/* Display the top 4 posts in a grid */}
+                <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+                    {latestPosts.length > 0 ? (
+                        latestPosts.map(post => <BlogCard key={post.slug} post={post} />)
+                    ) : (
+                        <p className="col-span-full text-center">No articles found.</p>
+                    )}
                 </div>
             </div>
         </section>
