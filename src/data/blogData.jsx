@@ -12,7 +12,7 @@ export const blogPosts = [
     author: "Devrana Team",
     authorAvatar: "https://devrana.in/assets/Travel%20o%20sun%20logo%20png-0728f093.png",
 
-    readingTime: "9 min read",
+    readingTime: "9 min read", 
     views: 983,
     likes: 73,
     popularScore: 73 * 2 + 983, // optional for sorting popular posts
