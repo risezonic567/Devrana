@@ -1,4 +1,4 @@
-import { openRazorpay } from "../utils/razorpay";
+// import { openRazorpay } from "../utils/razorpay";
 
 export default function PaymentButton({ amount, customer }) {
     return (

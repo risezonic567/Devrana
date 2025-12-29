@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: https://www.devrana.in/sitemap.xml
+Sitemap: https://www.devrana.in/sitemap.xml 

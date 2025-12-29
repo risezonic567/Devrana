@@ -1,4 +1,4 @@
-import { getBookings } from "../utils/storage";
+// import { getBookings } from "../utils/storage";
 
 export default function AdminBookings() {
     const bookings = getBookings();

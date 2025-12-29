@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { openRazorpay } from "../utils/razorpay";
+// import { openRazorpay } from "../utils/razorpay";
 
 export default function BookingForm({ selectedRoom }) {
     const [formData, setFormData] = useState({
