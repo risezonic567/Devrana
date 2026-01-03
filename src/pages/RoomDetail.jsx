@@ -203,9 +203,10 @@ export default function RoomDetails() {
     return (
         <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-12 mt-28 relative">
             <Helmet>
-                <title></title>
-                <meta name="description" content="" />
-                <meta name="keywords" content=""></meta>
+                <title>{room.metatitle}</title>
+                <meta name="description" content={room.metades} />
+                <meta name="keywords" content={room.metakey}></meta>
+                <link rel="canonical" href={`https://www.devrana.in/rooms-cottage/${room.slug}`} />
             </Helmet>
             <div className="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row lg:gap-10">
                 {/* Left - Image Gallery */}

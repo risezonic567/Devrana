@@ -2,6 +2,9 @@
     {
         "id": 1,
         "name": "Luxury Room",
+        "metatitle":"Luxury Rooms at Devrana – Elegance & Modern Amenities",
+        "metades":"Experience premium comfort in the Luxury Rooms at Devrana. Spacious interiors, warm aesthetics, and modern amenities designed for a peaceful and relaxing stay.",
+        "metakey":"Luxury Rooms",
         "slug": "luxury-room",
         "price": 3500,
         "img": "https://i.postimg.cc/P58mYr8Z/Luxury-Room.jpg",
@@ -22,6 +25,9 @@
     {
         "id": 2,
         "name": "Cottage",
+        "metatitle": "Cottages at Devrana – Serene,Spacious & Nature-Inspired",
+        "metades": "Stay in beautifully designed Luxury cottages at Devrana. Perfect for couples and families seeking privacy, greenery, and a peaceful resort experience.",
+        "metakey": "Luxury cottages",
         "slug": "cottage",
         "price": 5500,
         "img": "/cotage 1.jpg",
@@ -42,6 +48,9 @@
     {
         "id": 3,
         "name": "Family Suite",
+        "metatitle": "Family Suites at Devrana – Spacious, Comfortable & Ideal for Groups",
+        "metades": "Enjoy a spacious and well-designed Family Suite at Devrana. Perfect for families and groups looking for comfort, privacy, and a premium resort experience.",
+        "metakey": "premium resort ",
         "slug": "family-suite",
         "price": 5500,
         "img": "/family/family-suit-03.jpg",

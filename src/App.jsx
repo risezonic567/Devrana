@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Rooms from "./pages/Rooms";
 import RoomDetail from "./pages/RoomDetail";
 import PaymentSuccess from "./pages/PaymentSuccess";
@@ -18,6 +18,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsAndCondition from "./pages/TermsAndCondition";
 import Blogs from "./pages/Blogs";
 import PostDetail from "./pages/PostDetail";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -45,6 +46,14 @@ function App() {
         <Route path="/terms-and-conditions" element={<TermsAndCondition />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/payment-success" element={<PaymentSuccess />} />
+        <Route path="*" element={<NotFound />} />
+        <Route path="https://devrana.in/wp-content/themes/devrana/js/appear.js" element={<Navigate to="/" replace />} /> 
+        <Route path="https://www.devrana.in/?referral_url=https://in.iappscreator.com/dir/v/devrana-muzaffarnagar/beac8cc5df104808972d9ac4198ed3e4" element={<Navigate to="/" replace />} />
+        <Route path="https://www.devrana.in/?referral_url=https://in.iappscreator.com/dir/v/devrana-muzaffarnagar/beac8cc5df104808972d9ac4198ed3e4" element={<Navigate to="/" replace />} />
+        <Route path="https://www.devrana.in/devrana-express-meerut.html" element={<Navigate to="/" replace />} />
+        <Route path="https://www.devrana.in/devrana-express-dehradun.html" element={<Navigate to="/" replace />} />
+        <Route path="https://www.devrana.in/?referral_url=https://in.iappscreator.com/dir/v/devrana-muzaffarnagar/beac8cc5df104808972d9ac4198ed3e4" element={<Navigate to="/" replace />} />
+        <Route path="https://www.devrana.in/?referral_url=https://in.iappscreator.com/dir/v/devrana-muzaffarnagar/beac8cc5df104808972d9ac4198ed3e4" element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
     </BrowserRouter>
