@@ -12,7 +12,7 @@ export const blogPosts = [
     author: "Devrana Team",
     authorAvatar: "https://devrana.in/assets/Travel%20o%20sun%20logo%20png-0728f093.png",
 
-    readingTime: "9 min read", 
+    readingTime: "9 min read",
     views: 983,
     likes: 73,
     popularScore: 73 * 2 + 983, // optional for sorting popular posts
@@ -374,7 +374,7 @@ export const blogPosts = [
 
     title: "Why Weekend Getaway Resorts Near Delhi Are Becoming the First Choice for Urban Travelers",
     category: "Tour and Travels",
-    date: "2025-01-09",
+    date: "2026-01-09",
     author: "Devrana Team",
     authorAvatar: "https://devrana.in/assets/Travel%20o%20sun%20logo%20png-0728f093.png",
 
@@ -383,8 +383,8 @@ export const blogPosts = [
     likes: 108,
     popularScore: 85 * 2 + 1240,
 
-    image: "https://i.postimg.cc/N0SYzX2H/Devrana-blog-image-Why-Couples-Are-Choosing-Devrana-for-Their-Destination-Weddings-in-Western-UP.jpg", // Replace with specific blog 2 image if available
-    coverImage: "https://i.postimg.cc/N0SYzX2H/Devrana-blog-image-Why-Couples-Are-Choosing-Devrana-for-Their-Destination-Weddings-in-Western-UP.jpg",
+    image: "https://i.postimg.cc/QdVzfxdx/Devrana-blog-image-Why-Weekend-Getaway-Resorts-Near-Delhi-Are-Becoming-the-First-Choice-for-Urban-Tr.jpg", // Replace with specific blog 2 image if available
+    coverImage: "https://i.postimg.cc/QdVzfxdx/Devrana-blog-image-Why-Weekend-Getaway-Resorts-Near-Delhi-Are-Becoming-the-First-Choice-for-Urban-Tr.jpg",
 
     tags: [
       "Destination Weddings",
@@ -399,7 +399,7 @@ export const blogPosts = [
     relatedPosts: [1],
 
     content: `
-    <img src="https://i.postimg.cc/N0SYzX2H/Devrana-blog-image-Why-Couples-Are-Choosing-Devrana-for-Their-Destination-Weddings-in-Western-UP.jpg" class="w-full rounded-xl shadow mb-6" />
+    <img src="https://i.postimg.cc/QdVzfxdx/Devrana-blog-image-Why-Weekend-Getaway-Resorts-Near-Delhi-Are-Becoming-the-First-Choice-for-Urban-Tr.jpg" class="w-full rounded-xl shadow mb-6" />
     <p>
       If you reside in Delhi NCR, you understand all too well the feeling of the city by Friday afternoon, i.e., there is an excessive amount of congestion on the streets, there are tons of sounds present, and an overwhelming feeling is experienced by the mind. Because of this, many people have decided to pack up their things and escape to a weekend getaway resort that is close to the city in order to recharge themselves for the following week. However, what is changing now is that people are not just going anywhere but rather are looking for resorts that provide them with the optimal mix of comfort, experience, nature, food, and ample space to unwind.
  
