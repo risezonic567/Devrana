@@ -634,27 +634,27 @@ export const blogPosts = [
     `,
   },
   {
-    "id": 4,
-    "slug": "how-to-choose-the-perfect-destination-wedding-locations-in-western-uttar-pradesh",
-    "metatitle": "Destination Wedding Locations Near Delhi | Western UP Wedding Guide",
-    "metadescription": "Discover how to choose the perfect destination wedding locations near Delhi in Western UP. Explore venues, planning tips, and luxury wedding resorts.",
-    "canonical": "https://www.devrana.in/blog/how-to-choose-the-perfect-destination-wedding-locations-in-western-uttar-pradesh",
+    id: 4,
+    slug: "how-to-choose-the-perfect-destination-wedding-locations-in-western-uttar-pradesh",
+    metatitle: "Destination Wedding Locations Near Delhi | Western UP Wedding Guide",
+    metadescription: "Discover how to choose the perfect destination wedding locations near Delhi in Western UP. Explore venues, planning tips, and luxury wedding resorts.",
+    canonical: "https://www.devrana.in/blog/how-to-choose-the-perfect-destination-wedding-locations-in-western-uttar-pradesh",
 
-    "title": "How to Choose the Perfect Destination Wedding Locations in Western Uttar Pradesh",
-    "category": "Weddings",
-    "date": "2026-01-14",
-    "author": "Devrana Team",
-    "authorAvatar": "https://devrana.in/assets/Travel%20o%20sun%20logo%20png-0728f093.png",
+    title: "How to Choose the Perfect Destination Wedding Locations in Western Uttar Pradesh",
+    category: "Wedding",
+    date: "2026-01-15",
+    author: "Devrana Team",
+    authorAvatar: "https://devrana.in/assets/Travel%20o%20sun%20logo%20png-0728f093.png",
 
-    "readingTime": "12 min read",
-    "views": 1120,
-    "likes": 95,
-    "popularScore": 85 * 2 + 1120,
+    readingTime: "10 min read",
+    views: 1370,
+    likes: 108,
+    popularScore: 85 * 2 + 1240,
 
-    "image": "https://i.postimg.cc/QdVzfxdx/Devrana-blog-image-Wedding-Destination.jpg",
-    "coverImage": "https://i.postimg.cc/QdVzfxdx/Devrana-blog-image-Wedding-Destination.jpg",
+    image: "https://i.postimg.cc/RhzXhCFJ/Blog-image-Devrana-How-to-Choose-the-Perfect-Destination-Wedding-Locations-in-Western-Uttar-Prades.jpg", // Replace with specific blog 2 image if available
+    coverImage: "https://i.postimg.cc/RhzXhCFJ/Blog-image-Devrana-How-to-Choose-the-Perfect-Destination-Wedding-Locations-in-Western-Uttar-Prades.jpg",
 
-    "tags": [
+    tags: [
       "Destination Weddings",
       "Western UP Weddings",
       "Wedding Planning Tips",
@@ -662,12 +662,12 @@ export const blogPosts = [
       "Devrana Weddings"
     ],
 
-    "excerpt": "A destination wedding is likely the most emotional and energizing time of your life. Discover why Western Uttar Pradesh is becoming the premier choice for modern couples.",
+    excerpt: "A destination wedding is likely the most emotional and energizing time of your life. Discover why Western Uttar Pradesh is becoming the premier choice for modern couples.",
 
-    "relatedPosts": [3],
+    relatedPosts: [3],
 
-    "content": `
-    <img src="https://i.postimg.cc/QdVzfxdx/Devrana-blog-image-Wedding-Destination.jpg" class="w-full rounded-xl shadow mb-6" />
+    content: `
+    <img src="https://i.postimg.cc/RhzXhCFJ/Blog-image-Devrana-How-to-Choose-the-Perfect-Destination-Wedding-Locations-in-Western-Uttar-Prades.jpg" class="w-full rounded-xl shadow mb-6" />
     <p>
       A destination wedding is likely the most emotional and energizing time of your life, but it can also be the most stressful. Each choice along the way to planning your big day affects everything else; therefore, they are all crucial to the overall process. As couples are beginning to seek out new best destination wedding venue locations away from the traditional crowded cities or lofty hilltops, some have started to consider Western Uttar Pradesh near Delhi because of the unique combinations of accessibility, huge and varied types of venues, and abundant open spaces, which provide for all the needs of the modern spouse while also allowing for a more personal and tailored approach to hospitality. Whether you are in the early stages of searching for your location or you feel lost in a multitude of options, this guide will assist you in feeling confident and guided through the process of finding the best wedding venue for you.
     </p>
@@ -848,5 +848,5 @@ export const blogPosts = [
       In recent years, Western UP is no longer simply an option for couples seeking destination weddings but has actually now become one of the top choices for couples desiring a beautiful destination wedding experience that is less stressful and more elegant. The right venue combined with effective planning will make your destination wedding experience one your family and friends will talk about for years to come and remember forever.
     </p>
     `,
-  }
+  },
 ];
