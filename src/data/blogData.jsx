@@ -867,8 +867,8 @@ export const blogPosts = [
     likes: 108,
     popularScore: 85 * 2 + 1240,
 
-    image: "/public/A-Food-Lover’s-Guide-to-Muzaffarnagar-Exploring-Authentic-Local-Cuisine-&-Modern-Dining.jpg", // Replace with specific blog 2 image if available
-    coverImage: "/public/A-Food-Lover’s-Guide-to-Muzaffarnagar-Exploring-Authentic-Local-Cuisine-&-Modern-Dining.jpg",
+    image: "/A-Food-Lover’s-Guide-to-Muzaffarnagar-Exploring-Authentic-Local-Cuisine-&-Modern-Dining.jpg", // Replace with specific blog 2 image if available
+    coverImage: "/A-Food-Lover’s-Guide-to-Muzaffarnagar-Exploring-Authentic-Local-Cuisine-&-Modern-Dining.jpg",
 
     tags: [
       "Destination Weddings",
@@ -883,7 +883,7 @@ export const blogPosts = [
     relatedPosts: [3],
 
     content: `
-    <img src="/public/A-Food-Lover’s-Guide-to-Muzaffarnagar-Exploring-Authentic-Local-Cuisine-&-Modern-Dining.jpg" class="w-full rounded-xl shadow mb-6" />
+    <img src="/A-Food-Lover’s-Guide-to-Muzaffarnagar-Exploring-Authentic-Local-Cuisine-&-Modern-Dining.jpg" class="w-full rounded-xl shadow mb-6" />
     <p>
       To fully appreciate the culture of a city, you must spend time in that city; the best way to learn about the culture of a city is to eat as the locals eat. Muzaffarnagar does not promote its cuisine to the same extent that larger cities do, which provides Muzaffarnagar with its own uniqueness, and its culinary offerings prove to be authentic and steeped in tradition, while at the same time, they are developing into contemporary culinary experiences through modern technology/innovation. The city's cuisine ranges from dishes you would eat at home to more traditional restaurant dining plans. Food lovers appreciate this.
     </p>
