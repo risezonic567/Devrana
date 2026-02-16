@@ -31,8 +31,8 @@ export default function Blogs() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-8 mt-40">
       <Helmet>
-        <title>Travel Blog India | Tips, Guides & Inspiration – Travel O Sun  </title>
-        <meta name="description" content="Discover travel blogs from Travel O Sun. Read expert tips, destination guides, and real travel stories to plan your next family holiday, honeymoon, or adventure trip across India." />
+        <title>Devrana Resort Blog – Luxury Celebrations, Stays & Getaway Inspiration  </title>
+        <meta name="description" content="Discover ideas for luxury celebrations, resort stays, family getaways, parties and unforgettable experiences at Devrana Resort" />
         <meta name="keywords" content="destination guides," />
         <link rel="canonical" href="https://www.devrana.in/blog" />
       </Helmet>
