@@ -83,7 +83,7 @@ export default function Blogs() {
         {filtered.length ? (
           filtered.map(post => <BlogCard key={post.slug} post={post} />)
         ) : (
-          <p>No articles found.</p>
+          <p>No articles found</p>
         )}
       </div>
     </div>
