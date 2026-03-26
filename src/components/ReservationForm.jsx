@@ -52,7 +52,7 @@ export default function ReservationForm() {
                 "041QHTwrVzqMNMOBc" // replace with your EmailJS public key
             );
 
-            toast.success("🎉 Query sent successfully!");
+            toast.success("Query sent successfully!");
 
             // Reset all fields
             setForm({
@@ -67,7 +67,7 @@ export default function ReservationForm() {
             });
         } catch (err) {
             console.error("EmailJS error:", err);
-            toast.error("❌ Failed to send reservation. Please try again.");
+            toast.error("Failed to send reservation. Please try again.");
         }
         finally {
             setLoading(false); // stop loader

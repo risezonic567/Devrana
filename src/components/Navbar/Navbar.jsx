@@ -156,7 +156,9 @@ const Navbar = () => {
               </NavLink>
               {activeDropdown === "pilot" && renderDropdown("pilot")}
             </li> */}
-
+             <NavLink to="/abhinav-resort">
+              <li className="hover:text-Secondary">Abhinav Resort</li>
+            </NavLink>
             <NavLink to="/restaurant">
               <li className="hover:text-Secondary">Restaurant</li>
             </NavLink>
@@ -236,7 +238,9 @@ const Navbar = () => {
                   About Us
                 </li>
               </NavLink>
-
+<NavLink to="/abhinav-resort">
+              <li className="hover:text-Secondary">Abhinav Resort</li>
+            </NavLink>
               <NavLink to="/restaurant">
                 <li className="px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
                   Restaurant

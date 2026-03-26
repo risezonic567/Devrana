@@ -19,7 +19,7 @@ export default function BookingSuccess() {
     return (
         <div className="p-6 max-w-xl mx-auto bg-white shadow-lg rounded-lg text-center">
             <h2 className="text-2xl font-bold text-green-600 mb-4">
-                Booking Confirmed 🎉
+                Booking Confirmed 
             </h2>
             <p className="mb-2">Booking ID: <b>{bookingId}</b></p>
             <p className="mb-2">Room: <b>{booking.room}</b></p>
