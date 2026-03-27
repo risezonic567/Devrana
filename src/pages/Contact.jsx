@@ -35,12 +35,12 @@ export default function Contact() {
             )
             .then(
                 () => {
-                    setStatus(" Message sent successfully!");
+                    setStatus("✅ Message sent successfully!");
                     setFormData({ name: "", email: "", subject: "", message: "" });
                 },
                 (error) => {
                     console.error("EmailJS Error:", error);
-                    setStatus(" Failed to send message. Please try again.");
+                    setStatus("❌ Failed to send message. Please try again.");
                 }
             );
     };
@@ -48,7 +48,7 @@ export default function Contact() {
     return (
         <>
             <Helmet>
-                <title>Contact Devrana | Best Hotel & Event Venue in Muzaffarnagar</title>
+                <title>Contact Devrana | Best Hotel & Event Venue in Muzaffarnagar.</title>
                 <meta name="keywords" content=""></meta>
                 <link rel="canonical" href="https://www.devrana.in/contact-us" />
                 <meta name="description" content="Contact Devrana, a leading hotel in Muzaffarnagar, for room bookings, weddings, events and restaurant inquiries. Call or visit us today." />
