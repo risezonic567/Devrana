@@ -142,7 +142,9 @@ const Navbar = () => {
             <NavLink to="/about-us">
               <li className="hover:text-Secondary">About Us</li>
             </NavLink>
-
+            <NavLink to="/abhinav-resort">
+              <li className="hover:text-Secondary">Abhinav Resort</li>
+            </NavLink>
             {/* <li
               className="relative group"
               onMouseEnter={() => setActiveDropdown("pilot")}
@@ -236,6 +238,9 @@ const Navbar = () => {
                   About Us
                 </li>
               </NavLink>
+              <NavLink to="/abhinav-resort">
+              <li className="hover:text-Secondary">Abhinav Resort</li>
+            </NavLink>
 
               <NavLink to="/restaurant">
                 <li className="px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
@@ -251,7 +256,7 @@ const Navbar = () => {
 
               <NavLink to="/destination-wedding">
                 <li className="px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
-                  Destination Wedding 
+                  Destination Wedding
                 </li>
               </NavLink>
               <NavLink to="/event-and-packages">

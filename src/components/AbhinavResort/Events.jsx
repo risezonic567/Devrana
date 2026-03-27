@@ -6,7 +6,7 @@ export default function Events() {
    <>
    <section className='max-w-7xl mx-auto px-3 py-10 grid grid-cols-1 md:grid-cols-2 gap-6'>
 <div className='order-2 md:order-1 relative overflow-hidden group border'>
-    <img src="https://assets.simplotel.com/simplotel/image/upload/w_5000,h_3193/x_371,y_0,w_4258,h_3193,r_0,c_crop,q_80,fl_progressive/w_1237,f_auto,c_fit/heritage-village-resorts-spa-manesar/Utsav_Joint_A_vcjiq7" loading={'lazy'} alt="" className='h-full w-full sm:h-54 md:h-full'/>
+    <img src="/images/abhinav/Elegant venues for seamless corporate events.jpg.jpeg" loading={'lazy'} alt="" className='h-full w-full sm:h-54 md:h-full'/>
 </div>
 {/* 'h-[620px] w-[614px] */}
 <div className='order-1 md:order-2 '>

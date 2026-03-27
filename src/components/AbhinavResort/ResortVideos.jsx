@@ -6,22 +6,22 @@ export default function ResortVideos() {
     let vidoes = [
         {
             path: "https://www.instagram.com/reel/DVciMyZAgWa/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-            img: "https://picsum.photos/seed/resort6/600/400",
+            img: "/images/abhinav/reel image.jpg.jpeg",
         }, {
             path: "https://www.instagram.com/reel/DTM1aeEEmaO/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-            img: "https://picsum.photos/seed/resort6/600/400",
+            img: "/images/reels/reel image 2.jpg.jpeg",
         }, {
             path: "https://www.instagram.com/reel/DTK78OHD8vB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-            img: "https://picsum.photos/seed/resort6/600/400",
+            img: "/images/reels/reel image 3.jpg.jpeg",
         }, {
             path: "https://www.instagram.com/reel/DQtem5_Eu0p/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-            img: "https://picsum.photos/seed/resort6/600/400",
+            img: "/images/reels/reel image 4.jpg.jpeg",
         }, {
             path: "https://www.instagram.com/reel/DQ_A6G3kkx2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-            img: "https://picsum.photos/seed/resort6/600/400",
+            img: "/images/reels/reel image 5.jpg.jpeg",
         },
         {
-            path: "https://www.instagram.com/reel/DPLbCBkEms7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==", img: "",
+            path: "https://www.instagram.com/reel/DPLbCBkEms7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==", img: "/images/reels/reel image 6.jpg.jpeg",
         }
 
     ]
@@ -52,7 +52,7 @@ export default function ResortVideos() {
                     {
                         vidoes.map((item, id) => (
                             <div className="relative group overflow-hidden border ">
-                                <NavLink to={item.path}><img src={item.img} className="h-[180px] w-[180px]  border" /> <div className="cursor-pointer absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition duration-300">
+                                <NavLink to={item.path}><img src={item.img} className="h-full w-full object-cover group-hover:scale-110" /> <div className="cursor-pointer absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition duration-300">
 
                                     {/* Instagram Icon */}
                                     <Instagram

@@ -10,37 +10,37 @@ export default function WhyChooseus() {
   const whychoose = [
   {
     title: "Luxury Rooms",
-    img: "https://picsum.photos/seed/room/600/400",
+    img: "/images/abhinav/Luxury Rooms.jpg.jpeg",
     description: "Experience premium comfort in our well-designed luxury rooms featuring modern amenities, elegant interiors, and a peaceful ambiance for a relaxing and memorable stay."
   },
   {
     title: "Fine Restaurant",
-    img: "https://picsum.photos/seed/restaurant/600/400",
+    img: "/images/abhinav/Fine Restaurant.jpg.jpeg",
     description: "Enjoy delicious cuisines at our fine dining restaurant offering a variety of flavors, exceptional service, and a warm ambiance perfect for every dining experience."
   },
   {
     title: "Beautiful Garden",
-    img: "https://picsum.photos/seed/garden/600/400",
+    img: "/images/abhinav/Beautiful Garden.jpg.jpeg",
     description: "Relax in our lush green gardens with serene surroundings, fresh air, and scenic beauty, creating the perfect environment for leisure, walks, and peaceful moments."
   },
   {
-    title: "Private Theater",
-    img: "https://picsum.photos/seed/theater/600/400",
+    title: "Theth Gaon",
+    img: "/images/abhinav/dv image.jpg.jpeg",
     description: "Enjoy entertainment like  our private theater with comfortable seating, advanced sound systems, and a cozy setting for movies and special screenings."
   },
   {
     title: "Luxury Bar",
-    img: "https://picsum.photos/seed/bar/600/400",
+    img: "/images/abhinav/Private Theater.jpg.jpeg",
     description: "Unwind at our stylish bar offering premium drinks, signature cocktails, and a vibrant atmosphere, perfect for relaxing evenings and social gatherings."
   },
   {
     title: "Private Dining",
-    img: "https://picsum.photos/seed/dining/600/400",
+    img: "/images/abhinav/Private Dining.jpg.jpeg",
     description: "Enjoy exclusive dining experiences with personalized service, elegant setups, and a private ambiance, ideal for romantic dinners, celebrations, and special occasions."
   },
   {
     title: "Chef Special Experience",
-    img: "https://picsum.photos/seed/chef/600/400",
+    img: "/images/abhinav/Chef Special Experience.jpg.jpeg",
     description: "Delight in curated dishes prepared by our expert chefs, offering unique flavors, fresh ingredients, and a memorable culinary journey crafted specially for you."
   }
 ];
@@ -74,7 +74,7 @@ export default function WhyChooseus() {
                 
                   <div className="overflow-hidden">
                     <img
-                      src={''}
+                      src={item.img}
                       alt={item.title}
                       className="w-[315px] h-[230px] object-cover border group-hover:scale-110 transition duration-500"
                     />
@@ -91,7 +91,7 @@ export default function WhyChooseus() {
                     </p>
     
                 
-                    <button className="bg-orange-500 text-white px-4 py-2 rounded-full text-sm hover:bg-orange-600 transition">
+                    <button className="bg-red-700 text-white px-4 py-2 rounded-full text-sm hover:bg-red-800 transition">
                       Book Now
                     </button>
                   </div>

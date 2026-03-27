@@ -11,34 +11,34 @@ export default function SpecialOffers() {
   const offers = [
     {
       title: "Weekend Getaway Offer",
-      img: "https://picsum.photos/seed/resort1/600/400",
+      img: "/images/abhinav/Weekend Getaway Offer.jpg.jpeg",
       description: "Enjoy a refreshing weekend at Abhinav Resort with luxury rooms and relaxing ambiance."
     },
     {
       title: "Romantic Escape Package",
-      img: "https://picsum.photos/seed/resort2/600/400",
+      img: "/images/abhinav/Romantic Escape Package.jpg.jpeg",
       description: "Indulge in a romantic getaway with candlelight dinners and peaceful surroundings."
     },
     {
       title: "Family Fun Retreat",
-      img: "https://picsum.photos/seed/resort3/600/400",
+      img: "/images/abhinav/Family Fun Retreat.jpg.jpeg",
       description: "Experience joyful family time with fun activities and comfortable stays."
     },
     {
       title: "Corporate Retreat Deal",
-      img: "https://picsum.photos/seed/resort4/600/400",
+      img: "/images/abhinav/Corporate Retreat Deal.jpg.jpeg",
       description: "Host productive corporate retreats with modern facilities and services."
     },
     {
       title: "Luxury Staycation Offer",
-      img: "https://picsum.photos/seed/resort5/600/400",
+      img: "/images/abhinav/Luxury Staycation Offer.jpg.jpeg",
       description: "Enjoy premium luxury staycation with top-class amenities and comfort."
     },
-    {
-      title: "Spa & Wellness Package",
-      img: "https://picsum.photos/seed/resort6/600/400",
-      description: "Relax and rejuvenate with spa therapies and wellness experiences."
-    }
+    // {
+    //   title: "Spa & Wellness Package",
+    //   img: "/images/abhinav/",
+    //   description: "Relax and rejuvenate with spa therapies and wellness experiences."
+    // }
   ]
 
   return (
@@ -72,9 +72,9 @@ export default function SpecialOffers() {
             
               <div className="overflow-hidden">
                 <img
-                  src={''}
+                  src={item.img}
                   alt={item.title}
-                  className="w-[315px] h-[230px]w-[315px] h-[230px] object-cover border group-hover:scale-110 transition duration-500"
+                  className="h-full w-full object-cover border group-hover:scale-110 transition duration-500"
                 />
               </div>
 
@@ -89,7 +89,7 @@ export default function SpecialOffers() {
                 </p>
 
             
-                <button className="bg-orange-500 text-white px-4 py-2 rounded-full text-sm hover:bg-orange-600 transition">
+                <button className="bg-red-700 text-white px-4 py-2 rounded-full text-sm hover:bg-red-800 transition">
                   Book Now
                 </button>
               </div>
