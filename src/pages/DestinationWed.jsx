@@ -433,7 +433,7 @@ export default function DestinationWed() {
     spaceBetween={20}
     
     grid={{
-      rows: 2, // 🔥 2 rows
+      rows: 2, 
       fill: "row"
     }}
 
