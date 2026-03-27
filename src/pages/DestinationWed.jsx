@@ -81,38 +81,35 @@ export default function DestinationWed() {
         },
     ]
     let weddings=[
+        {
+           img:"/images/weds/weddings images 1.jpg.jpeg"
+        },
          {
-            img: "/images/weds/wedding image 1.jpg.jpeg"
+           img:"/images/weds/weddings images 2.jpg.jpeg"
         },
-        {
-            img: "/images/weds/wedding image 2.jpg.jpeg"
+         {
+           img:"/images/weds/weddings images 3.jpg.jpeg"
         },
-        {
-            img: "/images/weds/wedding image 3.jpg.jpeg"
+         {
+           img:"/images/weds/weddings images 4.jpg.jpeg"
         },
-        {
-            img: "/images/weds/wedding image 4.jpg.jpeg"
+         {
+           img:"/images/weds/weddings images 5.jpg.jpeg"
         },
-        {
-            img: "/images/weds/wedding image 5.jpg.jpeg"
+         {
+           img:"/images/weds/weddings images 6.jpg.jpeg"
+        }, {
+           img:"/images/weds/weddings images 7.jpg.jpeg"
         },
-        {
-            img: "/images/weds/wedding image 6.jpg.jpeg"
+
+         {
+           img:"/images/weds/weddings images 8.jpg.jpeg"
         },
-        {
-            img: "https://i.postimg.cc/zvPcCKB0/Untitled.png"
-        },{
-            img: "/images/weds/wedding image 4.jpg.jpeg"
+         {
+            img: "/images/weds/weddings images 9.jpg.jpeg"
         },
-        {
-            img: "/images/weds/wedding image 5.jpg.jpeg"
-        },
-        {
-            img: "/images/weds/wedding image 6.jpg.jpeg"
-        },
-        {
-            img: "https://i.postimg.cc/zvPcCKB0/Untitled.png"
-        }
+            
+       
     ]
     const { scrollYProgress } = useScroll();
 
@@ -458,7 +455,7 @@ export default function DestinationWed() {
         <div className="relative group overflow-hidden">
           <img
             src={item.img}
-            className="h-full md:h-[220px] w-full object-cover group-hover:scale-110 rounded-md"
+            className="h-full  w-full object-cover group-hover:scale-110 rounded-md"
             alt=""
           />
         </div>
