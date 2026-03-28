@@ -1,46 +1,4 @@
-export const blogPosts = [
-  {
-    id: 1,
-    slug: "why-devrana-is-a-top-destination-wedding-resort-in-western-uttar-pradesh",
-    metatitle:
-      "Why Devrana is a Top Destination Wedding Resort in Western Uttar Pradesh | Wedding Planning",
-    metadescription:
-      "Looking for the perfect destination wedding venue? Devrana offers a seamless experience for couples in Western Uttar Pradesh with its convenience, comfort, and top-notch hospitality.",
-    canonical:
-      "https://www.devrana.in/blog/why-devrana-is-a-top-destination-wedding-resort-in-western-uttar-pradesh",
-
-    title:
-      "Why Devrana Is a Top Destination Wedding Resort in Western Uttar Pradesh",
-    category: "Destination Weddings",
-    date: "2025-12-19",
-    author: "Devrana Team",
-    authorAvatar:
-      "https://devrana.in/assets/Travel%20o%20sun%20logo%20png-0728f093.png",
-
-    readingTime: "9 min read",
-    views: 983,
-    likes: 73,
-    popularScore: 73 * 2 + 983, // optional for sorting popular posts
-
-    image:
-      "https://i.postimg.cc/6QNpfrzm/Devrana-blog-image-Why-Devrana-Is-a-Top-Destination-Wedding-Resort-in-Western-Uttar-Pradesh.jpg",
-    coverImage:
-      "https://i.postimg.cc/6QNpfrzm/Devrana-blog-image-Why-Devrana-Is-a-Top-Destination-Wedding-Resort-in-Western-Uttar-Pradesh.jpg",
-
-    tags: [
-      "Destination Weddings",
-      "Wedding Resorts",
-      "Western Uttar Pradesh Weddings",
-      "Luxury Weddings",
-      "Devrana Wedding",
-    ],
-
-    excerpt:
-      "Planning a wedding in Western Uttar Pradesh? Devrana offers the perfect combination of location, comfort, and unforgettable experiences to make your destination wedding dream come true.",
-
-    relatedPosts: [1, 3],
-
-    content: `
+import{j as e,L as a}from"./index-3307f49f.js";const i=[{id:1,slug:"why-devrana-is-a-top-destination-wedding-resort-in-western-uttar-pradesh",metatitle:"Why Devrana is a Top Destination Wedding Resort in Western Uttar Pradesh | Wedding Planning",metadescription:"Looking for the perfect destination wedding venue? Devrana offers a seamless experience for couples in Western Uttar Pradesh with its convenience, comfort, and top-notch hospitality.",canonical:"https://www.devrana.in/blog/why-devrana-is-a-top-destination-wedding-resort-in-western-uttar-pradesh",title:"Why Devrana Is a Top Destination Wedding Resort in Western Uttar Pradesh",category:"Destination Weddings",date:"2025-12-19",author:"Devrana Team",authorAvatar:"https://devrana.in/assets/Travel%20o%20sun%20logo%20png-0728f093.png",readingTime:"9 min read",views:983,likes:73,popularScore:73*2+983,image:"https://i.postimg.cc/6QNpfrzm/Devrana-blog-image-Why-Devrana-Is-a-Top-Destination-Wedding-Resort-in-Western-Uttar-Pradesh.jpg",coverImage:"https://i.postimg.cc/6QNpfrzm/Devrana-blog-image-Why-Devrana-Is-a-Top-Destination-Wedding-Resort-in-Western-Uttar-Pradesh.jpg",tags:["Destination Weddings","Wedding Resorts","Western Uttar Pradesh Weddings","Luxury Weddings","Devrana Wedding"],excerpt:"Planning a wedding in Western Uttar Pradesh? Devrana offers the perfect combination of location, comfort, and unforgettable experiences to make your destination wedding dream come true.",relatedPosts:[1,3],content:`
     <img src="https://i.postimg.cc/6QNpfrzm/Devrana-blog-image-Why-Devrana-Is-a-Top-Destination-Wedding-Resort-in-Western-Uttar-Pradesh.jpg" class="w-full rounded-xl shadow mb-6 " />
     <p>
       The process of planning a wedding can be exciting, exhilarating, and at times, overwhelming. When the number of guests begins to add up, and the number of events increases, couples and their family members often discover that it becomes very difficult to manage everything appropriately across multiple locations. For this reason, many couples have become interested in having their reception at a resort in Western Uttar Pradesh, which is where destination weddings are becoming more and more popular.
@@ -197,50 +155,7 @@ export const blogPosts = [
     <p class="mt-3">
       If you’re looking for a place that offers convenience, comfort, flexibility, and a genuine sense of hospitality, Devrana delivers exactly that—helping couples celebrate their wedding with ease, joy, and memories that last long after the final function ends.
     </p>
-  `,
-  },
-  {
-    id: 2,
-    slug: "why-couples-are-choosing-devrana-for-their-destination-weddings-in-western-up",
-    metatitle:
-      "Why Couples Choose Devrana for Destination Weddings in Western UP",
-    metadescription:
-      "Discover why Devrana is the top choice for a destination wedding in Western UP. A luxury wedding resort offering grand venues, stunning décor & unforgettable celebrations.",
-    canonical:
-      "https://www.devrana.in/blog/why-couples-are-choosing-devrana-for-their-destination-weddings-in-western-up",
-
-    title:
-      "Why Couples Are Choosing Devrana for Their Destination Weddings in Western UP",
-    category: "Wedding Trends",
-    date: "2025-12-29",
-    author: "Devrana Team",
-    authorAvatar:
-      "https://devrana.in/assets/Travel%20o%20sun%20logo%20png-0728f093.png",
-
-    readingTime: "10 min read",
-    views: 1240,
-    likes: 85,
-    popularScore: 85 * 2 + 1240,
-
-    image:
-      "https://i.postimg.cc/N0SYzX2H/Devrana-blog-image-Why-Couples-Are-Choosing-Devrana-for-Their-Destination-Weddings-in-Western-UP.jpg", // Replace with specific blog 2 image if available
-    coverImage:
-      "https://i.postimg.cc/N0SYzX2H/Devrana-blog-image-Why-Couples-Are-Choosing-Devrana-for-Their-Destination-Weddings-in-Western-UP.jpg",
-
-    tags: [
-      "Destination Weddings",
-      "Muzaffarnagar Weddings",
-      "Western UP Resorts",
-      "Wedding Planning",
-      "Devrana Experience",
-    ],
-
-    excerpt:
-      "From seamless accessibility to personalized luxury, discover why modern couples are choosing Devrana in Muzaffarnagar for their dream destination wedding.",
-
-    relatedPosts: [1],
-
-    content: `
+  `},{id:2,slug:"why-couples-are-choosing-devrana-for-their-destination-weddings-in-western-up",metatitle:"Why Couples Choose Devrana for Destination Weddings in Western UP",metadescription:"Discover why Devrana is the top choice for a destination wedding in Western UP. A luxury wedding resort offering grand venues, stunning décor & unforgettable celebrations.",canonical:"https://www.devrana.in/blog/why-couples-are-choosing-devrana-for-their-destination-weddings-in-western-up",title:"Why Couples Are Choosing Devrana for Their Destination Weddings in Western UP",category:"Wedding Trends",date:"2025-12-29",author:"Devrana Team",authorAvatar:"https://devrana.in/assets/Travel%20o%20sun%20logo%20png-0728f093.png",readingTime:"10 min read",views:1240,likes:85,popularScore:85*2+1240,image:"https://i.postimg.cc/N0SYzX2H/Devrana-blog-image-Why-Couples-Are-Choosing-Devrana-for-Their-Destination-Weddings-in-Western-UP.jpg",coverImage:"https://i.postimg.cc/N0SYzX2H/Devrana-blog-image-Why-Couples-Are-Choosing-Devrana-for-Their-Destination-Weddings-in-Western-UP.jpg",tags:["Destination Weddings","Muzaffarnagar Weddings","Western UP Resorts","Wedding Planning","Devrana Experience"],excerpt:"From seamless accessibility to personalized luxury, discover why modern couples are choosing Devrana in Muzaffarnagar for their dream destination wedding.",relatedPosts:[1],content:`
     <img src="https://i.postimg.cc/N0SYzX2H/Devrana-blog-image-Why-Couples-Are-Choosing-Devrana-for-Their-Destination-Weddings-in-Western-UP.jpg" class="w-full rounded-xl shadow mb-6" />
     <p>
       Newly engaged couples often have similar answers when asked what they want from their wedding. Most couples want their wedding to be beautiful, relaxed, hassle-free, and include many special moments for their family and friends to enjoy. Because of this, a destination wedding in Muzaffarnagar UP has become an increasingly popular choice for couples in the area. 
@@ -379,50 +294,7 @@ export const blogPosts = [
     <p>
       You will find that Devrana is home to many of the things that are important to any destination wedding, including multiple venues, beautiful settings, and an exceptional level of hospitality. Couples and their families will really enjoy a wedding that they will have memories of for a lifetime.
     </p>
-    `,
-  },
-  {
-    id: 3,
-    slug: "why-weekend-getaway-resorts-near-delhi-are-becoming-the-first-choice-for-urban-travelers",
-    metatitle:
-      "Best Marble Supplier in Delhi for Premium Home Interiors | Malani Marbles",
-    metadescription:
-      "Looking for the best marble supplier in Delhi? Explore premium marble for home interiors, imported marble collections, and expert guidance from a trusted marble dealer.",
-    canonical:
-      "https://www.devrana.in/blog/why-weekend-getaway-resorts-near-delhi-are-becoming-the-first-choice-for-urban-travelers",
-
-    title:
-      "Why Weekend Getaway Resorts Near Delhi Are Becoming the First Choice for Urban Travelers",
-    category: "Tour and Travels",
-    date: "2026-01-09",
-    author: "Devrana Team",
-    authorAvatar:
-      "https://devrana.in/assets/Travel%20o%20sun%20logo%20png-0728f093.png",
-
-    readingTime: "10 min read",
-    views: 1370,
-    likes: 108,
-    popularScore: 85 * 2 + 1240,
-
-    image:
-      "https://i.postimg.cc/QdVzfxdx/Devrana-blog-image-Why-Weekend-Getaway-Resorts-Near-Delhi-Are-Becoming-the-First-Choice-for-Urban-Tr.jpg", // Replace with specific blog 2 image if available
-    coverImage:
-      "https://i.postimg.cc/QdVzfxdx/Devrana-blog-image-Why-Weekend-Getaway-Resorts-Near-Delhi-Are-Becoming-the-First-Choice-for-Urban-Tr.jpg",
-
-    tags: [
-      "Destination Weddings",
-      "Muzaffarnagar Weddings",
-      "Western UP Resorts",
-      "Wedding Planning",
-      "Devrana Experience",
-    ],
-
-    excerpt:
-      "From seamless accessibility to personalized luxury, discover why modern couples are choosing Devrana in Muzaffarnagar for their dream destination wedding.",
-
-    relatedPosts: [1],
-
-    content: `
+    `},{id:3,slug:"why-weekend-getaway-resorts-near-delhi-are-becoming-the-first-choice-for-urban-travelers",metatitle:"Best Marble Supplier in Delhi for Premium Home Interiors | Malani Marbles",metadescription:"Looking for the best marble supplier in Delhi? Explore premium marble for home interiors, imported marble collections, and expert guidance from a trusted marble dealer.",canonical:"https://www.devrana.in/blog/why-weekend-getaway-resorts-near-delhi-are-becoming-the-first-choice-for-urban-travelers",title:"Why Weekend Getaway Resorts Near Delhi Are Becoming the First Choice for Urban Travelers",category:"Tour and Travels",date:"2026-01-09",author:"Devrana Team",authorAvatar:"https://devrana.in/assets/Travel%20o%20sun%20logo%20png-0728f093.png",readingTime:"10 min read",views:1370,likes:108,popularScore:85*2+1240,image:"https://i.postimg.cc/QdVzfxdx/Devrana-blog-image-Why-Weekend-Getaway-Resorts-Near-Delhi-Are-Becoming-the-First-Choice-for-Urban-Tr.jpg",coverImage:"https://i.postimg.cc/QdVzfxdx/Devrana-blog-image-Why-Weekend-Getaway-Resorts-Near-Delhi-Are-Becoming-the-First-Choice-for-Urban-Tr.jpg",tags:["Destination Weddings","Muzaffarnagar Weddings","Western UP Resorts","Wedding Planning","Devrana Experience"],excerpt:"From seamless accessibility to personalized luxury, discover why modern couples are choosing Devrana in Muzaffarnagar for their dream destination wedding.",relatedPosts:[1],content:`
     <img src="https://i.postimg.cc/QdVzfxdx/Devrana-blog-image-Why-Weekend-Getaway-Resorts-Near-Delhi-Are-Becoming-the-First-Choice-for-Urban-Tr.jpg" class="w-full rounded-xl shadow mb-6" />
     <p>
       If you reside in Delhi NCR, you understand all too well the feeling of the city by Friday afternoon, i.e., there is an excessive amount of congestion on the streets, there are tons of sounds present, and an overwhelming feeling is experienced by the mind. Because of this, many people have decided to pack up their things and escape to a weekend getaway resort that is close to the city in order to recharge themselves for the following week. However, what is changing now is that people are not just going anywhere but rather are looking for resorts that provide them with the optimal mix of comfort, experience, nature, food, and ample space to unwind.
@@ -655,50 +527,7 @@ export const blogPosts = [
   resorts nearby to Delhi
 </a> have evolved into more than just places to go. Today, they have become part of a lifestyle. From peaceful family trips to wellness fare and quick escapes as couples, weekend getaway resorts provide everything that city living lacks—serenity, walking and exploring, fresh air, gourmet dining, and experiential learning.</p>
     <p class="mt-3">Weekend getaway resorts located in Devrana, for example, now offer a different kind of feeling compared with the past, as they have developed into beautiful intimate locations where modern travelers can unwind.</p>
-    `,
-  },
-  {
-    id: 4,
-    slug: "how-to-choose-the-perfect-destination-wedding-locations-in-western-uttar-pradesh",
-    metatitle:
-      "Destination Wedding Locations Near Delhi | Western UP Wedding Guide",
-    metadescription:
-      "Discover how to choose the perfect destination wedding locations near Delhi in Western UP. Explore venues, planning tips, and luxury wedding resorts.",
-    canonical:
-      "https://www.devrana.in/blog/how-to-choose-the-perfect-destination-wedding-locations-in-western-uttar-pradesh",
-
-    title:
-      "How to Choose the Perfect Destination Wedding Locations in Western Uttar Pradesh",
-    category: "Wedding",
-    date: "2026-01-15",
-    author: "Devrana Team",
-    authorAvatar:
-      "https://devrana.in/assets/Travel%20o%20sun%20logo%20png-0728f093.png",
-
-    readingTime: "10 min read",
-    views: 1370,
-    likes: 108,
-    popularScore: 85 * 2 + 1240,
-
-    image:
-      "https://i.postimg.cc/RhzXhCFJ/Blog-image-Devrana-How-to-Choose-the-Perfect-Destination-Wedding-Locations-in-Western-Uttar-Prades.jpg", // Replace with specific blog 2 image if available
-    coverImage:
-      "https://i.postimg.cc/RhzXhCFJ/Blog-image-Devrana-How-to-Choose-the-Perfect-Destination-Wedding-Locations-in-Western-Uttar-Prades.jpg",
-
-    tags: [
-      "Destination Weddings",
-      "Western UP Weddings",
-      "Wedding Planning Tips",
-      "Luxury Resorts Delhi NCR",
-      "Devrana Weddings",
-    ],
-
-    excerpt:
-      "A destination wedding is likely the most emotional and energizing time of your life. Discover why Western Uttar Pradesh is becoming the premier choice for modern couples.",
-
-    relatedPosts: [3],
-
-    content: `
+    `},{id:4,slug:"how-to-choose-the-perfect-destination-wedding-locations-in-western-uttar-pradesh",metatitle:"Destination Wedding Locations Near Delhi | Western UP Wedding Guide",metadescription:"Discover how to choose the perfect destination wedding locations near Delhi in Western UP. Explore venues, planning tips, and luxury wedding resorts.",canonical:"https://www.devrana.in/blog/how-to-choose-the-perfect-destination-wedding-locations-in-western-uttar-pradesh",title:"How to Choose the Perfect Destination Wedding Locations in Western Uttar Pradesh",category:"Wedding",date:"2026-01-15",author:"Devrana Team",authorAvatar:"https://devrana.in/assets/Travel%20o%20sun%20logo%20png-0728f093.png",readingTime:"10 min read",views:1370,likes:108,popularScore:85*2+1240,image:"https://i.postimg.cc/RhzXhCFJ/Blog-image-Devrana-How-to-Choose-the-Perfect-Destination-Wedding-Locations-in-Western-Uttar-Prades.jpg",coverImage:"https://i.postimg.cc/RhzXhCFJ/Blog-image-Devrana-How-to-Choose-the-Perfect-Destination-Wedding-Locations-in-Western-Uttar-Prades.jpg",tags:["Destination Weddings","Western UP Weddings","Wedding Planning Tips","Luxury Resorts Delhi NCR","Devrana Weddings"],excerpt:"A destination wedding is likely the most emotional and energizing time of your life. Discover why Western Uttar Pradesh is becoming the premier choice for modern couples.",relatedPosts:[3],content:`
     <img src="https://i.postimg.cc/RhzXhCFJ/Blog-image-Devrana-How-to-Choose-the-Perfect-Destination-Wedding-Locations-in-Western-Uttar-Prades.jpg" class="w-full rounded-xl shadow mb-6" />
     <p>
       A destination wedding is likely the most emotional and energizing time of your life, but it can also be the most stressful. Each choice along the way to planning your big day affects everything else; therefore, they are all crucial to the overall process. As couples are beginning to seek out new best destination wedding venue locations away from the traditional crowded cities or lofty hilltops, some have started to consider Western Uttar Pradesh near Delhi because of the unique combinations of accessibility, huge and varied types of venues, and abundant open spaces, which provide for all the needs of the modern spouse while also allowing for a more personal and tailored approach to hospitality. Whether you are in the early stages of searching for your location or you feel lost in a multitude of options, this guide will assist you in feeling confident and guided through the process of finding the best wedding venue for you.
@@ -879,50 +708,7 @@ export const blogPosts = [
     <p class="mt-3">
       In recent years, Western UP is no longer simply an option for couples seeking destination weddings but has actually now become one of the top choices for couples desiring a beautiful destination wedding experience that is less stressful and more elegant. The right venue combined with effective planning will make your destination wedding experience one your family and friends will talk about for years to come and remember forever.
     </p>
-    `,
-  },
-  {
-    id: 5,
-    slug: "A-food-lover’s-guide-to-muzaffarnagar:exploring-authentic-local-cuisine-&-modern-dining",
-    metatitle:
-      "Local Cuisine in Muzaffarnagar | Best Restaurants & Dining Guide",
-    metadescription:
-      "Explore authentic local cuisine in Muzaffarnagar, discover the best restaurants, modern dining spots, and local food experiences loved by locals and travelers.",
-    canonical:
-      "https://www.devrana.in/blog/A-food-lover’s-guide-to-muzaffarnagar:exploring-authentic-local-cuisine-&-modern-dining",
-
-    title:
-      "A Food Lover’s Guide to Muzaffarnagar: Exploring Authentic Local Cuisine & Modern Dining",
-    category: "Cuisine",
-    date: "2026-01-20",
-    author: "Devrana Team",
-    authorAvatar:
-      "/public/A-Food-Lover’s-Guide-to-Muzaffarnagar-Exploring-Authentic-Local-Cuisine-&-Modern-Dining.jpg",
-
-    readingTime: "10 min read",
-    views: 1370,
-    likes: 108,
-    popularScore: 85 * 2 + 1240,
-
-    image:
-      "/A-Food-Lover’s-Guide-to-Muzaffarnagar-Exploring-Authentic-Local-Cuisine-&-Modern-Dining.jpg", // Replace with specific blog 2 image if available
-    coverImage:
-      "/A-Food-Lover’s-Guide-to-Muzaffarnagar-Exploring-Authentic-Local-Cuisine-&-Modern-Dining.jpg",
-
-    tags: [
-      "Destination Weddings",
-      "Western UP Weddings",
-      "Wedding Planning Tips",
-      "Luxury Resorts Delhi NCR",
-      "Devrana Weddings",
-    ],
-
-    excerpt:
-      "To fully appreciate the culture of a city, you must spend time in that city; the best way to learn about the culture of a city is to eat as the locals eat.",
-
-    relatedPosts: [3],
-
-    content: `
+    `},{id:5,slug:"A-food-lover’s-guide-to-muzaffarnagar:exploring-authentic-local-cuisine-&-modern-dining",metatitle:"Local Cuisine in Muzaffarnagar | Best Restaurants & Dining Guide",metadescription:"Explore authentic local cuisine in Muzaffarnagar, discover the best restaurants, modern dining spots, and local food experiences loved by locals and travelers.",canonical:"https://www.devrana.in/blog/A-food-lover’s-guide-to-muzaffarnagar:exploring-authentic-local-cuisine-&-modern-dining",title:"A Food Lover’s Guide to Muzaffarnagar: Exploring Authentic Local Cuisine & Modern Dining",category:"Cuisine",date:"2026-01-20",author:"Devrana Team",authorAvatar:"/public/A-Food-Lover’s-Guide-to-Muzaffarnagar-Exploring-Authentic-Local-Cuisine-&-Modern-Dining.jpg",readingTime:"10 min read",views:1370,likes:108,popularScore:85*2+1240,image:"/A-Food-Lover’s-Guide-to-Muzaffarnagar-Exploring-Authentic-Local-Cuisine-&-Modern-Dining.jpg",coverImage:"/A-Food-Lover’s-Guide-to-Muzaffarnagar-Exploring-Authentic-Local-Cuisine-&-Modern-Dining.jpg",tags:["Destination Weddings","Western UP Weddings","Wedding Planning Tips","Luxury Resorts Delhi NCR","Devrana Weddings"],excerpt:"To fully appreciate the culture of a city, you must spend time in that city; the best way to learn about the culture of a city is to eat as the locals eat.",relatedPosts:[3],content:`
     <img src="/A-Food-Lover’s-Guide-to-Muzaffarnagar-Exploring-Authentic-Local-Cuisine-&-Modern-Dining.jpg" class="w-full rounded-xl shadow mb-6" />
     <p>
       To fully appreciate the culture of a city, you must spend time in that city; the best way to learn about the culture of a city is to eat as the locals eat. Muzaffarnagar does not promote its cuisine to the same extent that larger cities do, which provides Muzaffarnagar with its own uniqueness, and its culinary offerings prove to be authentic and steeped in tradition, while at the same time, they are developing into contemporary culinary experiences through modern technology/innovation. The city's cuisine ranges from dishes you would eat at home to more traditional restaurant dining plans. Food lovers appreciate this.
@@ -1030,50 +816,7 @@ export const blogPosts = [
     <p class="mt-3">
       Muzaffarnagar has a wide array of cuisines available, from home-style cooking to creating experiences at restaurants, so no matter what type of food you love, Muzaffarnagar has something for you. If you have the time and willingness to discover all that Muzaffarnagar has to offer, then your taste buds will not forget about Muzaffarnagar's many offerings.
     </p>
-    `,
-  },
-  {
-    id: 6,
-    slug: "why-modern-couples-prefer-luxury-celebrations-at-resorts-in-western-uttar-pradesh",
-    metatitle:
-      "Local Cuisine in Muzaffarnagar | Best Restaurants & Dining Guide",
-    metadescription:
-      "Explore authentic local cuisine in Muzaffarnagar, discover the best restaurants, modern dining spots, and local food experiences loved by locals and travelers.",
-    canonical:
-      "https://www.devrana.in/blog/why-modern-couples-prefer-luxury-celebrations-at-resorts-in-western-uttar-pradesh",
-
-    title:
-      "Why Modern Couples Prefer Luxury Celebrations at Resorts in Western Uttar Pradesh",
-    category: "Resorts",
-    date: "2026-01-27",
-    author: "Devrana Team",
-    authorAvatar:
-      "/Devrana-blog-image-Why-Modern-Couples-Prefer-Luxury-Celebrations-at-Resorts-in-Western-Uttar-Pradesh.jpg",
-
-    readingTime: "10 min read",
-    views: 1870,
-    likes: 158,
-    popularScore: 85 * 2 + 1440,
-
-    image:
-      "/Devrana-blog-image-Why-Modern-Couples-Prefer-Luxury-Celebrations-at-Resorts-in-Western-Uttar-Pradesh.jpg", // Replace with specific blog 2 image if available
-    coverImage:
-      "/Devrana-blog-image-Why-Modern-Couples-Prefer-Luxury-Celebrations-at-Resorts-in-Western-Uttar-Pradesh.jpg",
-
-    tags: [
-      "Destination Weddings",
-      "Western UP Weddings",
-      "Wedding Planning Tips",
-      "Luxury Resorts Delhi NCR",
-      "Devrana Weddings",
-    ],
-
-    excerpt:
-      "The weddings of today are vastly different than those of 10 years ago. Today’s couples desire an experience, as opposed to just a venue. Their celebrations must be grand yet relaxed, personal yet unforgettable.",
-
-    relatedPosts: [3],
-
-    content: `
+    `},{id:6,slug:"why-modern-couples-prefer-luxury-celebrations-at-resorts-in-western-uttar-pradesh",metatitle:"Local Cuisine in Muzaffarnagar | Best Restaurants & Dining Guide",metadescription:"Explore authentic local cuisine in Muzaffarnagar, discover the best restaurants, modern dining spots, and local food experiences loved by locals and travelers.",canonical:"https://www.devrana.in/blog/why-modern-couples-prefer-luxury-celebrations-at-resorts-in-western-uttar-pradesh",title:"Why Modern Couples Prefer Luxury Celebrations at Resorts in Western Uttar Pradesh",category:"Resorts",date:"2026-01-27",author:"Devrana Team",authorAvatar:"/Devrana-blog-image-Why-Modern-Couples-Prefer-Luxury-Celebrations-at-Resorts-in-Western-Uttar-Pradesh.jpg",readingTime:"10 min read",views:1870,likes:158,popularScore:85*2+1440,image:"/Devrana-blog-image-Why-Modern-Couples-Prefer-Luxury-Celebrations-at-Resorts-in-Western-Uttar-Pradesh.jpg",coverImage:"/Devrana-blog-image-Why-Modern-Couples-Prefer-Luxury-Celebrations-at-Resorts-in-Western-Uttar-Pradesh.jpg",tags:["Destination Weddings","Western UP Weddings","Wedding Planning Tips","Luxury Resorts Delhi NCR","Devrana Weddings"],excerpt:"The weddings of today are vastly different than those of 10 years ago. Today’s couples desire an experience, as opposed to just a venue. Their celebrations must be grand yet relaxed, personal yet unforgettable.",relatedPosts:[3],content:`
     <img src="/Devrana-blog-image-Why-Modern-Couples-Prefer-Luxury-Celebrations-at-Resorts-in-Western-Uttar-Pradesh.jpg" class="w-full rounded-xl shadow mb-6" />
     <p>
       The weddings of today are vastly different than those of 10 years ago. Today’s couples desire an experience, as opposed to just a venue. Their celebrations must be grand yet relaxed, personal yet unforgettable. Hence, this is why <a class="text-blue-800 underline " href="https://www.devrana.in/"> resorts in Western Uttar Pradesh</a> are fast becoming popular venues for hosting extravagant weddings and celebrations.
@@ -1278,50 +1021,7 @@ These features—such as proximity, location convenience, and comprehensive gath
     <p>
      Destination wedding venues like Devrana and many others prove that you can have an elegant and comfortable wedding and receive excellent service without it being overly extravagant or loud.
     </p>
-    `,
-  },
-  {
-    id: 7,
-    slug: "why-resorts-in-western-uttar-pradesh-are-perfect-for-family-getaways-and-celebrations",
-    metatitle:
-      "Family-Friendly Resorts in Western UP for Getaways & Celebrations",
-    metadescription:
-      "Discover why family-friendly resorts in Western Uttar Pradesh are ideal for getaways and celebrations. Explore a luxury resort in Muzaffarnagar.",
-    canonical:
-      "https://www.devrana.in/blog/why-resorts-in-western-uttar-pradesh-are-perfect-for-family-getaways-and-celebrations",
-
-    title:
-      "Why Resorts in Western Uttar Pradesh Are Perfect for Family Getaways & Celebrations",
-    category: "Resorts",
-    date: "2026-02-06",
-    author: "Devrana Team",
-    authorAvatar:
-      "/Devrana-blog-image-Why-Resorts-in-Western-Uttar-Pradesh-Are-Perfect-for-Family-Getaways-&-Celebrations.jpeg",
-
-    readingTime: "10 min read",
-    views: 2070,
-    likes: 178,
-    popularScore: 85 * 2 + 1460,
-
-    image:
-      "/Devrana-blog-image-Why-Resorts-in-Western-Uttar-Pradesh-Are-Perfect-for-Family-Getaways-&-Celebrations.jpeg", // Replace with specific blog 2 image if available
-    coverImage:
-      "/Devrana-blog-image-Why-Modern-Couples-Prefer-Luxury-Celebrations-at-Resorts-in-Western-Uttar-Pradesh.jpg",
-
-    tags: [
-      "Destination Weddings",
-      "Western UP Weddings",
-      "Wedding Planning Tips",
-      "Luxury Resorts Delhi NCR",
-      "Devrana Weddings",
-    ],
-
-    excerpt:
-      "When families plan to take a break, they are no longer looking for busy hill stations or long, tiring distances to travel; they want to find places that are easily accessible from their home, family-friendly with something for everyone, and provide a plethora of activities. ",
-
-    relatedPosts: [3],
-
-    content: `
+    `},{id:7,slug:"why-resorts-in-western-uttar-pradesh-are-perfect-for-family-getaways-and-celebrations",metatitle:"Family-Friendly Resorts in Western UP for Getaways & Celebrations",metadescription:"Discover why family-friendly resorts in Western Uttar Pradesh are ideal for getaways and celebrations. Explore a luxury resort in Muzaffarnagar.",canonical:"https://www.devrana.in/blog/why-resorts-in-western-uttar-pradesh-are-perfect-for-family-getaways-and-celebrations",title:"Why Resorts in Western Uttar Pradesh Are Perfect for Family Getaways & Celebrations",category:"Resorts",date:"2026-02-06",author:"Devrana Team",authorAvatar:"/Devrana-blog-image-Why-Resorts-in-Western-Uttar-Pradesh-Are-Perfect-for-Family-Getaways-&-Celebrations.jpeg",readingTime:"10 min read",views:2070,likes:178,popularScore:85*2+1460,image:"/Devrana-blog-image-Why-Resorts-in-Western-Uttar-Pradesh-Are-Perfect-for-Family-Getaways-&-Celebrations.jpeg",coverImage:"/Devrana-blog-image-Why-Modern-Couples-Prefer-Luxury-Celebrations-at-Resorts-in-Western-Uttar-Pradesh.jpg",tags:["Destination Weddings","Western UP Weddings","Wedding Planning Tips","Luxury Resorts Delhi NCR","Devrana Weddings"],excerpt:"When families plan to take a break, they are no longer looking for busy hill stations or long, tiring distances to travel; they want to find places that are easily accessible from their home, family-friendly with something for everyone, and provide a plethora of activities. ",relatedPosts:[3],content:`
     <img src="/Devrana-blog-image-Why-Resorts-in-Western-Uttar-Pradesh-Are-Perfect-for-Family-Getaways-&-Celebrations.jpeg" class="w-full rounded-xl shadow mb-6" />
     <p >
      Today, in the fast-paced lifestyles of today, family time is at a premium. When families plan to take a break, they are no longer looking for busy hill stations or long, tiring distances to travel; they want to find places that are easily accessible from their home, family-friendly with something for everyone, and provide a plethora of activities. Therefore, as this trend grows, so do the number of <span class="font-semibold">family-oriented resorts in Western UP</span> and the reasons why they are becoming the first choice among families for their vacations and events.
@@ -1440,50 +1140,7 @@ These features—such as proximity, location convenience, and comprehensive gath
       Upcoming family trips can be filled with celebration and enjoyment, or a quiet and peaceful family getaway could be the perfect way to simply enjoy spending time together! In addition to being a beautiful place with many premium resorts, Western Uttar Pradesh Local has also established itself in terms of creating an environment where families can travel together and create special memories!
     </p>
 
-    `,
-  },
-  {
-    id: 8,
-    slug: "why-luxury-wedding-resorts-near-delhi-are-the-top-choice-for-modern-destination-weddings",
-    metatitle:
-      "Luxury Wedding Resorts Near Delhi for Destination Weddings",
-    metadescription:
-      "Discover why couples prefer luxury wedding resorts near Delhi for destination-style weddings with premium venues, easy access, and unforgettable experiences.",
-    canonical:
-      "https://www.devrana.in/blog/why-luxury-wedding-resorts-near-delhi-are-the-top-choice-for-modern-destination-weddings",
-
-    title:
-      "Why Luxury Wedding Resorts Near Delhi Are the Top Choice for Modern Destination Weddings",
-    category: "Resorts",
-    date: "2026-02-12",
-    author: "Devrana Team",
-    authorAvatar:
-      "/why-luxury-wedding-resorts-near-delhi-are-the-top-choice-for-modern-destination-weddings.jpg.jpeg",
-
-    readingTime: "10 min read",
-    views: 2575,
-    likes: 201,
-    popularScore: 85 * 2 + 1460,
-
-    image:
-      "/why-luxury-wedding-resorts-near-delhi-are-the-top-choice-for-modern-destination-weddings.jpg.jpeg", // Replace with specific blog 2 image if available
-    coverImage:
-      "/why-luxury-wedding-resorts-near-delhi-are-the-top-choice-for-modern-destination-weddings.jpg.jpeg",
-
-    tags: [
-      "Destination Weddings",
-      "Western UP Weddings",
-      "Wedding Planning Tips",
-      "Luxury Resorts Delhi NCR",
-      "Devrana Weddings",
-    ],
-
-    excerpt:
-      "weddings are no longer just about rituals; rather, weddings are about experiences. Wedding couples want to throw a celebration that is personal, immersive, and memorable—rather than one that is rushed or packaged into an overcrowded banquet hall. I have seen, in the last 10 years, a distinct shift in how Indian weddings are planned, primarily in North India. As a person who professionally studies and researches landscapes and environments ",
-
-    relatedPosts: [3],
-
-    content: `
+    `},{id:8,slug:"why-luxury-wedding-resorts-near-delhi-are-the-top-choice-for-modern-destination-weddings",metatitle:"Luxury Wedding Resorts Near Delhi for Destination Weddings",metadescription:"Discover why couples prefer luxury wedding resorts near Delhi for destination-style weddings with premium venues, easy access, and unforgettable experiences.",canonical:"https://www.devrana.in/blog/why-luxury-wedding-resorts-near-delhi-are-the-top-choice-for-modern-destination-weddings",title:"Why Luxury Wedding Resorts Near Delhi Are the Top Choice for Modern Destination Weddings",category:"Resorts",date:"2026-02-12",author:"Devrana Team",authorAvatar:"/why-luxury-wedding-resorts-near-delhi-are-the-top-choice-for-modern-destination-weddings.jpg.jpeg",readingTime:"10 min read",views:2575,likes:201,popularScore:85*2+1460,image:"/why-luxury-wedding-resorts-near-delhi-are-the-top-choice-for-modern-destination-weddings.jpg.jpeg",coverImage:"/why-luxury-wedding-resorts-near-delhi-are-the-top-choice-for-modern-destination-weddings.jpg.jpeg",tags:["Destination Weddings","Western UP Weddings","Wedding Planning Tips","Luxury Resorts Delhi NCR","Devrana Weddings"],excerpt:"weddings are no longer just about rituals; rather, weddings are about experiences. Wedding couples want to throw a celebration that is personal, immersive, and memorable—rather than one that is rushed or packaged into an overcrowded banquet hall. I have seen, in the last 10 years, a distinct shift in how Indian weddings are planned, primarily in North India. As a person who professionally studies and researches landscapes and environments ",relatedPosts:[3],content:`
     <img src="/why-luxury-wedding-resorts-near-delhi-are-the-top-choice-for-modern-destination-weddings.jpg.jpeg" class="w-full rounded-xl shadow mb-6" />
     <p >
      Today, weddings are no longer just about rituals; rather, weddings are about experiences. Wedding couples want to throw a celebration that is personal, immersive, and memorable—rather than one that is rushed or packaged into an overcrowded banquet hall. I have seen, in the last 10 years, a distinct shift in how Indian weddings are planned, primarily in North India. As a person who professionally studies and researches landscapes and environments, I tell wedding couples regularly that just as the geological features of a landscape shape the energy of that landscape, so too do the geographic features of a wedding setting shape the energy of a wedding. This is why <a class="underline text-blue-800" href="https://www.devrana.in/">luxury wedding resorts located near Delhi</a>, India, have become the premier choice for modern destination weddings.
@@ -1613,50 +1270,7 @@ These features—such as proximity, location convenience, and comprehensive gath
   A <a class="underline text-blue-800" href="https://www.devrana.in/">resort-based destination wedding</a> (where you have your bridal party and/or guests come to a specific destination) in or around Delhi & Western UP offers the best option for modern brides & grooms who desire sophistication, simplicity, and genuine experience!
     </p>
 
-    `,
-  },
-  {
-    id: 9,
-    slug: "from-local-flavors-to-luxury-dining-resort-food-experiences-that-guests-remember",
-    metatitle:
-      "Luxury Dining Experiences at Resorts | Local Flavors & Fine Dining",
-    metadescription:
-      "Explore luxury dining experiences at resorts blending local cuisine in Muzaffarnagar with refined hospitality. Discover authentic flavors, elegant ambience, and unforgettable resort dining moments near Delhi",
-    canonical:
-      "https://www.devrana.in/blog/from-local-flavors-to-luxury-dining-resort-food-experiences-that-guests-remember",
-
-    title:
-      "From Local Flavors to Luxury Dining: Resort Food Experiences That Guests Remember",
-    category: "Resorts",
-    date: "2026-02-19",
-    author: "Devrana Team",
-    authorAvatar:
-      "/why-luxury-wedding-resorts-near-delhi-are-the-top-choice-for-modern-destination-weddings.jpg.jpeg",
-
-    readingTime: "10 min read",
-    views: 2595,
-    likes: 220,
-    popularScore: 85 * 2 + 1460,
-
-    image:
-      "/FromLocalFlavorstoLuxuryDiningResortFoodExperiencesThatGuestsRemember.jpg.jpeg", // Replace with specific blog 2 image if available
-    coverImage:
-      "/FromLocalFlavorstoLuxuryDiningResortFoodExperiencesThatGuestsRemember.jpg.jpeg",
-
-    tags: [
-      "Destination Weddings",
-      "Western UP Weddings",
-      "Wedding Planning Tips",
-      "Luxury Resorts Delhi NCR",
-      "Devrana Weddings",
-    ],
-
-    excerpt:
-      "Forgetting people's hotel room numbers is common, but many people remember what they ate while on holiday. Hotel food has the ability to anchor our memories. For example, the smell of warm bread first thing in the morning, the sound of spices sizzling in fresh virgin ghee, and the laughter of people enjoying exquisitely plated meals all remain in our memory bank forever. ",
-
-    relatedPosts: [3],
-
-    content: `
+    `},{id:9,slug:"from-local-flavors-to-luxury-dining-resort-food-experiences-that-guests-remember",metatitle:"Luxury Dining Experiences at Resorts | Local Flavors & Fine Dining",metadescription:"Explore luxury dining experiences at resorts blending local cuisine in Muzaffarnagar with refined hospitality. Discover authentic flavors, elegant ambience, and unforgettable resort dining moments near Delhi",canonical:"https://www.devrana.in/blog/from-local-flavors-to-luxury-dining-resort-food-experiences-that-guests-remember",title:"From Local Flavors to Luxury Dining: Resort Food Experiences That Guests Remember",category:"Resorts",date:"2026-02-19",author:"Devrana Team",authorAvatar:"/why-luxury-wedding-resorts-near-delhi-are-the-top-choice-for-modern-destination-weddings.jpg.jpeg",readingTime:"10 min read",views:2595,likes:220,popularScore:85*2+1460,image:"/FromLocalFlavorstoLuxuryDiningResortFoodExperiencesThatGuestsRemember.jpg.jpeg",coverImage:"/FromLocalFlavorstoLuxuryDiningResortFoodExperiencesThatGuestsRemember.jpg.jpeg",tags:["Destination Weddings","Western UP Weddings","Wedding Planning Tips","Luxury Resorts Delhi NCR","Devrana Weddings"],excerpt:"Forgetting people's hotel room numbers is common, but many people remember what they ate while on holiday. Hotel food has the ability to anchor our memories. For example, the smell of warm bread first thing in the morning, the sound of spices sizzling in fresh virgin ghee, and the laughter of people enjoying exquisitely plated meals all remain in our memory bank forever. ",relatedPosts:[3],content:`
     <img src="/FromLocalFlavorstoLuxuryDiningResortFoodExperiencesThatGuestsRemember.jpg.jpeg" class="w-full rounded-xl shadow mb-6" alt="luxury wedding resorts"/>
     <p >
      Forgetting people's hotel room numbers is common, but many people remember what they ate while on holiday. Hotel food has the ability to anchor our memories. For example, the smell of warm bread first thing in the morning, the sound of spices sizzling in fresh virgin ghee, and the laughter of people enjoying exquisitely plated meals all remain in our memory bank forever.
@@ -1826,50 +1440,7 @@ These features—such as proximity, location convenience, and comprehensive gath
 
     
 
-    `,
-  },
-  {
-    id: 10,
-    slug: "how-to-choose-the-perfect-destination-wedding-locatio-in-western-uttar-pradesh",
-    metatitle:
-      "Destination Wedding Locations Near Delhi | Western UP Wedding",
-    metadescription:
-      " Discover how to choose the perfect destination wedding location in Western U.P. Explore venues near Delhi, Muzaffarnagar resorts, and wedding spaces for a seamless celebration.",
-    canonical:
-      "https://www.devrana.in/blog/how-to-choose-the-perfect-destination-wedding-locatio-in-western-uttar-pradesh",
-
-    title:
-      "How to Choose the Perfect Destination Wedding Location in Western Uttar Pradesh",
-    category: "Resorts",
-    date: "2026-02-25",
-    author: "Devrana Team",
-    authorAvatar:
-      "/blogImage/How-to-Choose-the-Perfect-Destination-Wedding-Location-in-Western-Uttar-Pradesh.jpg.jpeg",
-
-    readingTime: "10 min read",
-    views: 2575,
-    likes: 201,
-    popularScore: 85 * 2 + 1460,
-
-    image:
-      "/blogImage/How-to-Choose-the-Perfect-Destination-Wedding-Location-in-Western-Uttar-Pradesh.jpg.jpeg", // Replace with specific blog 2 image if available
-    coverImage:
-      "/blogImage/How-to-Choose-the-Perfect-Destination-Wedding-Location-in-Western-Uttar-Pradesh.jpg.jpeg",
-
-    tags: [
-      "Destination Weddings",
-      "Western UP Weddings",
-      "Wedding Planning Tips",
-      "Luxury Resorts Delhi NCR",
-      "Devrana Weddings",
-    ],
-
-    excerpt:
-      "Arranging a wedding can bring about various emotions. When it comes to arranging a destination wedding, it is also an emotional and strategic process.As time has passed, I have observed couples who are moving away from busy banquet halls in major cities and toward a more personal atmosphere. ",
-
-    relatedPosts: [3],
-
-    content: `
+    `},{id:10,slug:"how-to-choose-the-perfect-destination-wedding-locatio-in-western-uttar-pradesh",metatitle:"Destination Wedding Locations Near Delhi | Western UP Wedding",metadescription:" Discover how to choose the perfect destination wedding location in Western U.P. Explore venues near Delhi, Muzaffarnagar resorts, and wedding spaces for a seamless celebration.",canonical:"https://www.devrana.in/blog/how-to-choose-the-perfect-destination-wedding-locatio-in-western-uttar-pradesh",title:"How to Choose the Perfect Destination Wedding Location in Western Uttar Pradesh",category:"Resorts",date:"2026-02-25",author:"Devrana Team",authorAvatar:"/blogImage/How-to-Choose-the-Perfect-Destination-Wedding-Location-in-Western-Uttar-Pradesh.jpg.jpeg",readingTime:"10 min read",views:2575,likes:201,popularScore:85*2+1460,image:"/blogImage/How-to-Choose-the-Perfect-Destination-Wedding-Location-in-Western-Uttar-Pradesh.jpg.jpeg",coverImage:"/blogImage/How-to-Choose-the-Perfect-Destination-Wedding-Location-in-Western-Uttar-Pradesh.jpg.jpeg",tags:["Destination Weddings","Western UP Weddings","Wedding Planning Tips","Luxury Resorts Delhi NCR","Devrana Weddings"],excerpt:"Arranging a wedding can bring about various emotions. When it comes to arranging a destination wedding, it is also an emotional and strategic process.As time has passed, I have observed couples who are moving away from busy banquet halls in major cities and toward a more personal atmosphere. ",relatedPosts:[3],content:`
     <img src="/blogImage/How-to-Choose-the-Perfect-Destination-Wedding-Location-in-Western-Uttar-Pradesh.jpg.jpeg" class="w-full rounded-xl shadow mb-6" />
 
       <p >
@@ -2227,50 +1798,7 @@ These features—such as proximity, location convenience, and comprehensive gath
     Each wedding lasts for one whole day, but the memories of the event will last forever. If you find a venue that has both outstanding beauty and makes everything about your ceremony easy, then you can expect that your wedding will be remembered as an effortless occasion.
     </p>
 
-    `,
-  },
-  {
-    id: 11,
-    slug: "best-weekend-getaway-resorts-near-delhi-for-a-relaxing-escape",
-    metatitle:
-      " Best Weekend Getaway Resorts Near Delhi for a Relaxing Escape",
-    metadescription:
-      " Looking for the perfect weekend getaway resorts near Delhi? Discover relaxing luxury resorts, family-friendly stays, and peaceful countryside escapes ideal for a short vacation.",
-    canonical:
-      "https://www.devrana.in/blog/best-weekend-getaway-resorts-near-delhi-for-a-relaxing-escape",
-
-    title:
-      "Best Weekend Getaway Resorts Near Delhi for a Relaxing Escape",
-    category: "Resorts",
-    date: "2026-03-07",
-    author: "Devrana Team",
-    authorAvatar:
-      "/blogImage/Best-Weekend-Getaway-Resorts-Near-Delhi-for-a-Relaxing-Escape.jpg.jpeg",
-
-    readingTime: "10 min read",
-    views: 2655,
-    likes: 245,
-    popularScore: 85 * 2 + 1460,
-
-    image:
-      "/blogImage/Best-Weekend-Getaway-Resorts-Near-Delhi-for-a-Relaxing-Escape.jpg.jpeg", // Replace with specific blog 2 image if available
-    coverImage:
-      "/blogImage/Best-Weekend-Getaway-Resorts-Near-Delhi-for-a-Relaxing-Escape.jpg.jpeg",
-
-    tags: [
-      "Destination Weddings",
-      "Western UP Weddings",
-      "Wedding Planning Tips",
-      "Luxury Resorts Delhi NCR",
-      "Devrana Weddings",
-    ],
-
-    excerpt:
-      "Life outside of Delhi, NCR, is full of excitement but can also be stressful and tiring. With traffic jams, hectic work schedules, and the daily noise of city life, it’s easy to feel like a little getaway would do you good. Fortunately, you don’t need to go very far in order to recharge your batteries. Sometimes just taking a short drive to the right destination, in a calm and serene environment, can do wonders for your spirit. ",
-
-    relatedPosts: [3],
-
-    content: `
+    `},{id:11,slug:"best-weekend-getaway-resorts-near-delhi-for-a-relaxing-escape",metatitle:" Best Weekend Getaway Resorts Near Delhi for a Relaxing Escape",metadescription:" Looking for the perfect weekend getaway resorts near Delhi? Discover relaxing luxury resorts, family-friendly stays, and peaceful countryside escapes ideal for a short vacation.",canonical:"https://www.devrana.in/blog/best-weekend-getaway-resorts-near-delhi-for-a-relaxing-escape",title:"Best Weekend Getaway Resorts Near Delhi for a Relaxing Escape",category:"Resorts",date:"2026-03-07",author:"Devrana Team",authorAvatar:"/blogImage/Best-Weekend-Getaway-Resorts-Near-Delhi-for-a-Relaxing-Escape.jpg.jpeg",readingTime:"10 min read",views:2655,likes:245,popularScore:85*2+1460,image:"/blogImage/Best-Weekend-Getaway-Resorts-Near-Delhi-for-a-Relaxing-Escape.jpg.jpeg",coverImage:"/blogImage/Best-Weekend-Getaway-Resorts-Near-Delhi-for-a-Relaxing-Escape.jpg.jpeg",tags:["Destination Weddings","Western UP Weddings","Wedding Planning Tips","Luxury Resorts Delhi NCR","Devrana Weddings"],excerpt:"Life outside of Delhi, NCR, is full of excitement but can also be stressful and tiring. With traffic jams, hectic work schedules, and the daily noise of city life, it’s easy to feel like a little getaway would do you good. Fortunately, you don’t need to go very far in order to recharge your batteries. Sometimes just taking a short drive to the right destination, in a calm and serene environment, can do wonders for your spirit. ",relatedPosts:[3],content:`
     <img src="/blogImage/Best-Weekend-Getaway-Resorts-Near-Delhi-for-a-Relaxing-Escape.jpg.jpeg" class="w-full rounded-xl shadow mb-6" />
 
       <p >
@@ -2417,49 +1945,7 @@ These features—such as proximity, location convenience, and comprehensive gath
     </p>
     
 
-    `,
-  },
-  {
-    id: 12,
-    slug: "why-muzaffarnagar-is-emerging-as-a-top-destination-for-luxury-hotels-stays",
-    metatitle:" Top Destination for Luxury Resort Stays | Devrana",
-    metadescription:
-      "  Discover why Muzaffarnagar is becoming a popular destination for luxury resort stays. Explore relaxing resorts, family-friendly retreats, and premium hospitality experiences.",
-    canonical:
-      "https://www.devrana.in/blog/why-muzaffarnagar-is-emerging-as-a-top-destination-for-luxury-hotels-stays",
-
-    title:
-      "Why Muzaffarnagar Is Emerging as a Top Destination for Luxury Hotels Stays",
-    category: "Resorts",
-    date: "2026-03-16",
-    author: "Devrana Team",
-    authorAvatar:
-      "/blogImage/Why-Muzaffarnagar-Is-Emerging-as-a-Top-Destination-for-Luxury-Resort-Stays.jpg.jpeg",
-
-    readingTime: "10 min read",
-    views: 2695,
-    likes: 295,
-    popularScore: 85 * 2 + 1460,
-
-    image:
-      "/blogImage/Why-Muzaffarnagar-Is-Emerging-as-a-Top-Destination-for-Luxury-Resort-Stays.jpg.jpeg", // Replace with specific blog 2 image if available
-    coverImage:
-      "/blogImage/Why-Muzaffarnagar-Is-Emerging-as-a-Top-Destination-for-Luxury-Resort-Stays.jpg.jpeg",
-
-    tags: [
-      "Destination Weddings",
-      "Western UP Weddings",
-      "Wedding Planning Tips",
-      "Luxury Resorts Delhi NCR",
-      "Devrana Weddings",
-    ],
-
-    excerpt:
-      "Until recently, travelers from Delhi NCR looking for short breaks mostly thought about the well-established tourist centers, such as the hill stations of Mussoorie or the popular city locations. However, trends in travel have shifted dramatically, and many tourists are now interested in places where they can enjoy relaxation and/or renewal without having to spend hours in the car getting there. ",
-
-    relatedPosts: [3],
-
-    content: `
+    `},{id:12,slug:"why-muzaffarnagar-is-emerging-as-a-top-destination-for-luxury-hotels-stays",metatitle:" Top Destination for Luxury Resort Stays | Devrana",metadescription:"  Discover why Muzaffarnagar is becoming a popular destination for luxury resort stays. Explore relaxing resorts, family-friendly retreats, and premium hospitality experiences.",canonical:"https://www.devrana.in/blog/why-muzaffarnagar-is-emerging-as-a-top-destination-for-luxury-hotels-stays",title:"Why Muzaffarnagar Is Emerging as a Top Destination for Luxury Hotels Stays",category:"Resorts",date:"2026-03-16",author:"Devrana Team",authorAvatar:"/blogImage/Why-Muzaffarnagar-Is-Emerging-as-a-Top-Destination-for-Luxury-Resort-Stays.jpg.jpeg",readingTime:"10 min read",views:2695,likes:295,popularScore:85*2+1460,image:"/blogImage/Why-Muzaffarnagar-Is-Emerging-as-a-Top-Destination-for-Luxury-Resort-Stays.jpg.jpeg",coverImage:"/blogImage/Why-Muzaffarnagar-Is-Emerging-as-a-Top-Destination-for-Luxury-Resort-Stays.jpg.jpeg",tags:["Destination Weddings","Western UP Weddings","Wedding Planning Tips","Luxury Resorts Delhi NCR","Devrana Weddings"],excerpt:"Until recently, travelers from Delhi NCR looking for short breaks mostly thought about the well-established tourist centers, such as the hill stations of Mussoorie or the popular city locations. However, trends in travel have shifted dramatically, and many tourists are now interested in places where they can enjoy relaxation and/or renewal without having to spend hours in the car getting there. ",relatedPosts:[3],content:`
     <img src="/blogImage/Why-Muzaffarnagar-Is-Emerging-as-a-Top-Destination-for-Luxury-Resort-Stays.jpg.jpeg" class="w-full rounded-xl shadow mb-6" />
 
       <p >
@@ -2604,49 +2090,7 @@ These features—such as proximity, location convenience, and comprehensive gath
 
     
 
-    `,
-  },
-  {
-    id: 13,
-    slug: "best-resorts-in-western-uttar-pradesh-for-family-vacations-and-celebrations",
-    metatitle:" Best Resorts in Western Uttar Pradesh for Family Getaways & Events | Devrana Resort",
-    metadescription:
-      "  Discover the best resorts in Western Uttar Pradesh for family vacations, weekend getaways, and celebrations. Explore Devrana Resort’s unique village-themed luxury experience near Delhi NCR.",
-    canonical:
-      "https://www.devrana.in/blog/best-resorts-in-western-uttar-pradesh-for-family-vacations-and-celebrations",
-
-    title:
-      "Best Resorts in Western Uttar Pradesh for Family Vacations and Celebrations",
-    category: "Resorts",
-    date: "2026-03-24",
-    author: "Devrana Team",
-    authorAvatar:
-      "/blogImage/Why-Muzaffarnagar-Is-Emerging-as-a-Top-Destination-for-Luxury-Resort-Stays.jpg.jpeg",
-
-    readingTime: "10 min read",
-    views: 2805,
-    likes: 325,
-    popularScore: 85 * 2 + 1460,
-
-    image:
-      "/blogImage/Best-Resorts-in-Western-Uttar-Pradesh-for-Family-Vacations-and-Celebrations.jpg.jpeg", // Replace with specific blog 2 image if available
-    coverImage:
-      "/blogImage/Best-Resorts-in-Western-Uttar-Pradesh-for-Family-Vacations-and-Celebrations.jpg.jpeg",
-
-    tags: [
-      "Destination Weddings",
-      "Western UP Weddings",
-      "Wedding Planning Tips",
-      "Luxury Resorts Delhi NCR",
-      "Devrana Weddings",
-    ],
-
-    excerpt:
-      "Planning a relaxing break with your family or a grand party away from the chaos of the city? Western Uttar Pradesh has in store a delightful surprise in store for you. From rustic village-themed resorts to luxury-style banquet resorts, Western Uttar Pradesh has it all. ",
-
-    relatedPosts: [3],
-
-    content: `
+    `},{id:13,slug:"best-resorts-in-western-uttar-pradesh-for-family-vacations-and-celebrations",metatitle:" Best Resorts in Western Uttar Pradesh for Family Getaways & Events | Devrana Resort",metadescription:"  Discover the best resorts in Western Uttar Pradesh for family vacations, weekend getaways, and celebrations. Explore Devrana Resort’s unique village-themed luxury experience near Delhi NCR.",canonical:"https://www.devrana.in/blog/best-resorts-in-western-uttar-pradesh-for-family-vacations-and-celebrations",title:"Best Resorts in Western Uttar Pradesh for Family Vacations and Celebrations",category:"Resorts",date:"2026-03-24",author:"Devrana Team",authorAvatar:"/blogImage/Why-Muzaffarnagar-Is-Emerging-as-a-Top-Destination-for-Luxury-Resort-Stays.jpg.jpeg",readingTime:"10 min read",views:2805,likes:325,popularScore:85*2+1460,image:"/blogImage/Best-Resorts-in-Western-Uttar-Pradesh-for-Family-Vacations-and-Celebrations.jpg.jpeg",coverImage:"/blogImage/Best-Resorts-in-Western-Uttar-Pradesh-for-Family-Vacations-and-Celebrations.jpg.jpeg",tags:["Destination Weddings","Western UP Weddings","Wedding Planning Tips","Luxury Resorts Delhi NCR","Devrana Weddings"],excerpt:"Planning a relaxing break with your family or a grand party away from the chaos of the city? Western Uttar Pradesh has in store a delightful surprise in store for you. From rustic village-themed resorts to luxury-style banquet resorts, Western Uttar Pradesh has it all. ",relatedPosts:[3],content:`
     <img src="/blogImage/Best-Resorts-in-Western-Uttar-Pradesh-for-Family-Vacations-and-Celebrations.jpg.jpeg" class="w-full rounded-xl shadow mb-6" />
 
       <p >
@@ -2795,6 +2239,4 @@ These features—such as proximity, location convenience, and comprehensive gath
 
     
 
-    `,
-  },
-];
+    `}];function n({post:t}){return e.jsxs("div",{className:"bg-white rounded-xl overflow-hidden shadow hover:shadow-xl transition",children:[e.jsx("div",{className:"overflow-hidden",children:e.jsx("img",{src:t.image,alt:t.title,className:"w-full object-cover transform hover:scale-105 transition duration-500"})}),e.jsxs("div",{className:"p-4",children:[e.jsx("span",{className:"text-xs bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full",children:t.category}),e.jsx("h2",{className:"text-lg font-bold mt-2 text-gray-800 line-clamp-2",children:t.title}),e.jsxs("div",{className:"flex items-center gap-2 mt-2",children:[e.jsx("p",{className:"text-sm text-gray-500",children:t.author}),e.jsxs("p",{className:"text-sm text-gray-400",children:[t.readTime," • ",t.date]})]}),e.jsx("p",{className:"text-gray-700 mt-2 line-clamp-4",children:t.excerpt}),e.jsx(a,{to:`/blog/${t.slug}`,className:"text-indigo-600 font-semibold mt-4 inline-block",children:"Read More →"})]})]})}export{n as B,i as b};
