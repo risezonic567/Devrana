@@ -1,1 +1,0 @@
-import{j as e}from"./index-9336a612.js";function s(){return e.jsxs("div",{className:"h-[80vh] flex flex-col justify-center items-center text-center",children:[e.jsx("h1",{className:"text-3xl font-bold text-green-600",children:"🎉 Payment Successful!"}),e.jsx("p",{className:"text-lg mt-3",children:"Thank you for booking with Devrana Hotel."})]})}export{s as default};
