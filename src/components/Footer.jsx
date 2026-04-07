@@ -33,7 +33,7 @@ export default function Footer() {
                     <ul className="space-y-3 text-gray-400">
                         <li>📍 Devrana, Delhi-Haridwar Highway, Mansurpur, Muzaffarnagar
                         </li>
-                         <li className="uppercase">📍Laxmi Resort:-<span>Near Railway Crossing Uklana Road,Narwana-126116</span>
+                         <li className="uppercase">📍Devrana Express Narwana:-<span>Near Railway Crossing Uklana Road,Narwana-126116</span>
                         </li>
                         <li>📞 For Franchise: +91 78270 02538</li>
                         <li>📞 +91 7060301700</li>
