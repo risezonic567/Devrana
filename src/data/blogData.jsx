@@ -2713,7 +2713,7 @@ These features—such as proximity, location convenience, and comprehensive gath
     </p>
     <h2 class="text-2xl font-bold mt-7 mb-4">Devrath By Big Bite Resort </h2>
     <p>
-      This resort is located near Meerut and is a popular venue for events.
+      This resort is located near Meerut and is a popular venue for events
     </p>
     <p class="pt-3">
       This resort provides ample space for events, which can be held here. If you are looking for weekend getaways near Meerut, then this is a viable option.
